@@ -102,7 +102,7 @@ export default function Home() {
       <section
         className="pt-32 pb-24 bg-white relative"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=1500&q=80')",
+          backgroundImage: "url('https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=1500&q=80')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
@@ -111,13 +111,10 @@ export default function Home() {
         <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-8 leading-tight drop-shadow-lg">
-              Unlock your athletic potential without{' '}
-              <span className="text-primary-600">
-                sacrificing your growth
-              </span>
+            Where peak performance meets personal growth.
             </h1>
             <p className="text-xl text-white mb-12 max-w-3xl mx-auto leading-relaxed drop-shadow">
-              Achieve more with expert mentorship and proven athletic training for young athletes.
+              At Evolve Academy, we empower young athletes to reach their full potential — by building not just their game, but their mindset, confidence, and growth for the future.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="#register-interest">
