@@ -157,9 +157,11 @@ export default function Home() {
                 strengthen your mindset, and accelerate your development. With undivided attention 
                 and a tailored plan, this is all about you.
               </p>
-              <button className="w-full bg-primary-600 text-white py-3 rounded-lg font-medium hover:bg-primary-700 transition-colors">
-                Learn More
-              </button>
+              <a href="#evolve-one-details">
+                <button className="w-full bg-primary-600 text-white py-3 rounded-lg font-medium hover:bg-primary-700 transition-colors">
+                  Learn More
+                </button>
+              </a>
             </div>
 
             {/* Evolve Squad */}
@@ -177,9 +179,11 @@ export default function Home() {
                 A small-group experience that combines personal growth with the power of a supportive team. 
                 Learn, challenge, and inspire each other while developing the skills and mindset you need to succeed — together.
               </p>
-              <button className="w-full bg-primary-600 text-white py-3 rounded-lg font-medium hover:bg-primary-700 transition-colors">
-                Learn More
-              </button>
+              <a href="#evolve-squad-details">
+                <button className="w-full bg-primary-600 text-white py-3 rounded-lg font-medium hover:bg-primary-700 transition-colors">
+                  Learn More
+                </button>
+              </a>
             </div>
 
             {/* Evolve Pro */}
@@ -198,9 +202,11 @@ export default function Home() {
                 elite-level mentorship and training to help you refine your edge, master your mindset, 
                 and perform at the highest level.
               </p>
-              <button className="w-full bg-primary-600 text-white py-3 rounded-lg font-medium hover:bg-primary-700 transition-colors">
-                Learn More
-              </button>
+              <a href="#evolve-pro-details">
+                <button className="w-full bg-primary-600 text-white py-3 rounded-lg font-medium hover:bg-primary-700 transition-colors">
+                  Learn More
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -544,6 +550,48 @@ export default function Home() {
           </div>
         </div>
       </footer>
+
+      {/* Evolve One Details Section */}
+      <section id="evolve-one-details" className="py-20 bg-gray-50">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl md:text-3xl font-bold text-primary-600 mb-6">Evolve One: In-Depth</h2>
+          <p className="text-gray-700 text-lg mb-4">Evolve One is our flagship 1-to-1 mentorship program. You'll work directly with a dedicated mentor who will help you build a strong foundation, develop a champion's mindset, and create a personalized plan for your growth. This program is ideal for athletes who want focused attention and a tailored approach to their development—on and off the field.</p>
+          <ul className="list-disc pl-6 text-gray-700">
+            <li>Personalized mentorship and support</li>
+            <li>Goal setting and progress tracking</li>
+            <li>Mental performance and resilience training</li>
+            <li>Custom athletic development plan</li>
+          </ul>
+        </div>
+      </section>
+
+      {/* Evolve Squad Details Section */}
+      <section id="evolve-squad-details" className="py-20 bg-white">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl md:text-3xl font-bold text-primary-600 mb-6">Evolve Squad: In-Depth</h2>
+          <p className="text-gray-700 text-lg mb-4">Evolve Squad is a small-group program that combines the benefits of personal growth with the energy and support of a team. You'll learn, challenge, and inspire each other while developing the skills and mindset needed to succeed together. This program is perfect for athletes who thrive in a collaborative environment.</p>
+          <ul className="list-disc pl-6 text-gray-700">
+            <li>Small group mentorship and accountability</li>
+            <li>Team-building and leadership development</li>
+            <li>Peer support and shared challenges</li>
+            <li>Group training and workshops</li>
+          </ul>
+        </div>
+      </section>
+
+      {/* Evolve Pro Details Section */}
+      <section id="evolve-pro-details" className="py-20 bg-gray-50">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl md:text-3xl font-bold text-primary-600 mb-6">Evolve Pro: In-Depth</h2>
+          <p className="text-gray-700 text-lg mb-4">Evolve Pro is designed for high-performing athletes who are ready to take their game to the next level. This advanced program delivers elite-level mentorship and training to help you refine your edge, master your mindset, and perform at the highest level—both physically and mentally.</p>
+          <ul className="list-disc pl-6 text-gray-700">
+            <li>Advanced mentorship from elite coaches</li>
+            <li>Performance analytics and feedback</li>
+            <li>High-level mental and physical training</li>
+            <li>Personalized strategies for peak performance</li>
+          </ul>
+        </div>
+      </section>
     </div>
   )
 }
