@@ -33,7 +33,7 @@ export default function Home() {
             <div className="flex items-center">
               <div className="flex-shrink-0 flex items-center">
                 <img 
-                  src="/logo.svg" 
+                  src="/logo.png" 
                   alt="Evolve Academy" 
                   className="h-10 w-auto"
                 />
@@ -99,26 +99,32 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="pt-32 pb-24 bg-white">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section
+        className="pt-32 pb-24 bg-white relative"
+        style={{
+          backgroundImage: "url('https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=1500&q=80')",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        <div className="absolute inset-0 bg-black/60 pointer-events-none" />
+        <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8 leading-tight">
+            <h1 className="text-4xl md:text-5xl font-bold text-white mb-8 leading-tight drop-shadow-lg">
               Unlock your athletic potential without{' '}
               <span className="text-primary-600">
                 sacrificing your growth
               </span>
             </h1>
-            <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
-              Elevate your performance and personal development together through world-class 
-              1:1 mentorship and elite athletic training programs designed for young athletes.
+            <p className="text-xl text-white mb-12 max-w-3xl mx-auto leading-relaxed drop-shadow">
+              Achieve more with expert mentorship and proven athletic training for young athletes.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-primary-600 text-white px-8 py-4 rounded-lg font-medium text-lg hover:bg-primary-700 transition-colors">
-                Start Your Journey
-              </button>
-              <button className="border border-gray-300 text-gray-700 px-8 py-4 rounded-lg font-medium text-lg hover:bg-gray-50 transition-colors">
-                Learn More
-              </button>
+              <a href="#register-interest">
+                <button className="bg-primary-600 text-white px-8 py-4 rounded-lg font-medium text-lg hover:bg-primary-700 transition-colors">
+                  Start Your Journey
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -493,6 +499,22 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Register Interest Section */}
+      <section id="register-interest" className="py-24 bg-white">
+        <div className="max-w-xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Register Your Interest</h2>
+            <p className="text-lg text-gray-600">
+              To register your interest, please email us at
+              <br />
+              <a href="mailto:info@evolveacademyinternational.com" className="text-primary-600 underline font-medium">
+                info@evolveacademyinternational.com
+              </a>
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -500,7 +522,7 @@ export default function Home() {
             <div>
               <div className="flex items-center mb-6">
                 <img 
-                  src="/logo-white.svg" 
+                  src="/logo.png" 
                   alt="Evolve Academy" 
                   className="h-8 w-auto"
                 />
