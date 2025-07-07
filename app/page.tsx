@@ -43,22 +43,22 @@ export default function Home() {
             {/* Desktop Navigation */}
             <nav className="hidden md:flex space-x-8">
               <a href="#programs" className="text-gray-700 hover:text-primary-600 transition-colors">
-                programs
+                Programs
               </a>
               <a href="#how-it-works" className="text-gray-700 hover:text-primary-600 transition-colors">
-                how it works
+                How It Works
               </a>
               <a href="#testimonials" className="text-gray-700 hover:text-primary-600 transition-colors">
-                testimonials
+                Testimonials
               </a>
               <a href="#faq" className="text-gray-700 hover:text-primary-600 transition-colors">
-                faq
+                FAQ
               </a>
             </nav>
 
             <div className="hidden md:flex items-center space-x-4">
               <button className="bg-primary-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-primary-700 transition-colors">
-                get started
+                Get Started
               </button>
             </div>
 
@@ -77,20 +77,20 @@ export default function Home() {
           <div className="md:hidden bg-white border-t border-gray-200">
             <div className="px-2 pt-2 pb-3 space-y-1">
               <a href="#programs" className="block px-3 py-2 text-gray-700 hover:text-primary-600">
-                programs
+                Programs
               </a>
               <a href="#how-it-works" className="block px-3 py-2 text-gray-700 hover:text-primary-600">
-                how it works
+                How It Works
               </a>
               <a href="#testimonials" className="block px-3 py-2 text-gray-700 hover:text-primary-600">
-                testimonials
+                Testimonials
               </a>
               <a href="#faq" className="block px-3 py-2 text-gray-700 hover:text-primary-600">
-                faq
+                FAQ
               </a>
               <div className="px-3 py-2">
                 <button className="w-full bg-primary-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-primary-700 transition-colors">
-                  get started
+                  Get Started
                 </button>
               </div>
             </div>
