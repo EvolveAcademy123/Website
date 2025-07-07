@@ -583,13 +583,52 @@ export default function Home() {
       <section id="evolve-pro-details" className="py-20 bg-gray-50">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl md:text-3xl font-bold text-primary-600 mb-6">Evolve Pro: In-Depth</h2>
-          <p className="text-gray-700 text-lg mb-4">Evolve Pro is designed for high-performing athletes who are ready to take their game to the next level. This advanced program delivers elite-level mentorship and training to help you refine your edge, master your mindset, and perform at the highest level—both physically and mentally.</p>
-          <ul className="list-disc pl-6 text-gray-700">
-            <li>Advanced mentorship from elite coaches</li>
-            <li>Performance analytics and feedback</li>
-            <li>High-level mental and physical training</li>
-            <li>Personalized strategies for peak performance</li>
-          </ul>
+          <p className="text-gray-700 text-lg mb-4 font-semibold">For athletes ready to lead—on the field and in life.</p>
+          <p className="text-gray-700 text-lg mb-4">Evolve Pro is designed for high-performing young athletes who want to level up their mindset and lead with intention. With strategic coaching and deep mentorship, athletes learn how to manage pressure, stay focused, and unlock their full potential—not just in their sport, but in every area of life.</p>
+          <div className="mb-6">
+            <h3 className="text-xl font-bold text-gray-900 mb-2">Who is the program for?</h3>
+            <ul className="list-disc pl-6 text-gray-700">
+              <li>Young male soccer athletes aged 16-21 who have:</li>
+              <ul className="list-disc pl-8">
+                <li>Represented their country at Youth National level</li>
+                <li>Committed to a Div 1 or Ivy League school</li>
+                <li>MLS contracted</li>
+                <li>Experienced a trial with an elite European club</li>
+              </ul>
+            </ul>
+          </div>
+          <div className="mb-6">
+            <h3 className="text-xl font-bold text-gray-900 mb-2">Program Length</h3>
+            <p className="text-gray-700">10 weeks</p>
+          </div>
+          <div className="mb-6">
+            <h3 className="text-xl font-bold text-gray-900 mb-2">Cost</h3>
+            <p className="text-gray-700">$1250</p>
+          </div>
+          <div className="mb-6">
+            <h3 className="text-xl font-bold text-gray-900 mb-2">How the Program Works</h3>
+            <p className="text-gray-700 mb-2">Using a platform of transformative behavioural and attitudinal change, our mentor will lead the elite athlete through 9 weekly calls lasting around 30 minutes. Each call is then followed by a challenge-orientated task.</p>
+            <p className="text-gray-700 mb-2">Topics will be chosen after the initial Assessment call so that our program is tailor-made to the specific needs and pathway of the athlete. Topics range from:</p>
+            <ul className="list-disc pl-6 text-gray-700">
+              <li>Performance anxiety</li>
+              <li>Routines and mindsets</li>
+              <li>Communication and presenting yourself correctly in the world of elite soccer</li>
+              <li>Strengthening strengths in a context of comparison</li>
+              <li>Excelling within a team environment</li>
+              <li>Dealing with the uncontrollable</li>
+            </ul>
+          </div>
+          <div className="mb-6">
+            <h3 className="text-xl font-bold text-gray-900 mb-2">Our Mentor</h3>
+            <ul className="list-disc pl-6 text-gray-700">
+              <li>UEFA Pro Licence; MSc in Coaching; MSc in Mentoring; SportNI Elite Coach Developer</li>
+              <li>Worked in 40 countries for 25 years – 17 National Associations and professional clubs in 23 countries</li>
+              <li>Delivered through the IFA Elite boys' coach mentoring programme for 5 years</li>
+              <li>Coach mentor for professional/national team coaches currently in 10 countries from Belgium to Zambia</li>
+              <li>Currently delivering the Elite Academy Directors course at the Estonia FA 2022-2025 and educator on UEFA Pro Licence course</li>
+              <li>Ex-youth National team and Irish Premier League player</li>
+            </ul>
+          </div>
         </div>
       </section>
     </div>
