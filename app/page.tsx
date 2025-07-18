@@ -324,7 +324,7 @@ export default function Home() {
               <div className="w-16 h-16 bg-primary-600 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-6">
                 4
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-4">Deliver</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-4">Develop</h3>
               <p className="text-gray-600 leading-relaxed">
                 Begin your personalized development journey with regular sessions, training, and continuous support.
               </p>
