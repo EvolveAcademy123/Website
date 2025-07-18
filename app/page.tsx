@@ -304,7 +304,7 @@ export default function Home() {
               <div className="w-16 h-16 bg-primary-600 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-6">
                 2
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-4">Assessment</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-4">Baseline</h3>
               <p className="text-gray-600 leading-relaxed">
                 Complete a comprehensive assessment to understand your current level, strengths, and areas for growth.
               </p>
@@ -314,7 +314,7 @@ export default function Home() {
               <div className="w-16 h-16 bg-primary-600 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-6">
                 3
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-4">Match</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-4">Connect</h3>
               <p className="text-gray-600 leading-relaxed">
                 Get matched with your dedicated mentor and program based on your goals and preferred learning style.
               </p>
@@ -324,7 +324,7 @@ export default function Home() {
               <div className="w-16 h-16 bg-primary-600 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-6">
                 4
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-4">Develop</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-4">Deliver</h3>
               <p className="text-gray-600 leading-relaxed">
                 Begin your personalized development journey with regular sessions, training, and continuous support.
               </p>
