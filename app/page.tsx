@@ -231,12 +231,10 @@ export default function Home() {
                 <Target size={24} />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-6">
-                You're struggling to reach your potential
+                They want to unlock their full potential
               </h3>
               <p className="text-gray-700 leading-relaxed">
-                You know you have more to give, but you're not sure how to unlock it. You need guidance 
-                from someone who's been there before and can help you breakthrough mental barriers and 
-                develop the mindset of a champion.
+                Talent alone isn’t enough. Many athletes hit a plateau because they lack the mindset, habits, and tools to take their game to the next level. Evolve Academy helps them bridge that gap.
               </p>
             </div>
 
@@ -245,11 +243,10 @@ export default function Home() {
                 <Brain size={24} />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-6">
-                You're facing a major transition
+                They struggle with confidence and consistency
               </h3>
               <p className="text-gray-700 leading-relaxed">
-                Moving to a new team, level, or sport can be overwhelming. You need support navigating 
-                these changes while maintaining your competitive edge and personal growth.
+                Even the most skilled players can feel overwhelmed by pressure or doubt. We teach athletes how to build inner confidence, bounce back from setbacks, and perform with consistency.
               </p>
             </div>
 
@@ -258,11 +255,10 @@ export default function Home() {
                 <Heart size={24} />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-6">
-                You're neglecting your overall development
+                They want to stand out as a leader
               </h3>
               <p className="text-gray-700 leading-relaxed">
-                The harder you train, the more you might neglect other aspects of your growth. 
-                True champions develop both their athletic and personal skills in harmony.
+                Being a great teammate and leader isn’t just about skill — it’s about influence, attitude, and accountability. We help young athletes develop the leadership qualities that coaches and teams value most.
               </p>
             </div>
 
@@ -271,11 +267,10 @@ export default function Home() {
                 <Trophy size={24} />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-6">
-                You're ready to compete at the highest level
+                They’re serious about their future
               </h3>
               <p className="text-gray-700 leading-relaxed">
-                You have the talent and drive, but you need the right guidance and support system 
-                to take your performance to the elite level and compete with the best.
+                Whether aiming for college scholarships, professional opportunities, or simply becoming the best version of themselves, athletes who work with Evolve Academy gain the guidance and discipline to pursue their goals with purpose.
               </p>
             </div>
           </div>
