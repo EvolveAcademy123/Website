@@ -343,49 +343,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Results Section */}
-      <section className="py-24 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-20">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
-              Measurable Results That Last
-            </h2>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-16">
-            <div className="text-center">
-              <div className="text-5xl font-bold text-primary-600 mb-6">94%</div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                Achieve Their Goals
-              </h3>
-              <p className="text-gray-600 leading-relaxed">
-                Of athletes complete their program and achieve their stated performance goals.
-              </p>
-            </div>
-
-            <div className="text-center">
-              <div className="text-5xl font-bold text-primary-600 mb-6">80%</div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                Increase in Confidence
-              </h3>
-              <p className="text-gray-600 leading-relaxed">
-                Athletes report significant improvements in mental toughness and self-confidence.
-              </p>
-            </div>
-
-            <div className="text-center">
-              <div className="text-5xl font-bold text-primary-600 mb-6">90%</div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                Improved Performance
-              </h3>
-              <p className="text-gray-600 leading-relaxed">
-                Athletes see measurable improvements in their sport-specific performance metrics.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Testimonials Section */}
       <section id="testimonials" className="py-24 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
