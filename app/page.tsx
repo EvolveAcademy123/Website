@@ -102,7 +102,7 @@ export default function Home() {
       <section
         className="pt-32 pb-24 bg-white relative"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1500&q=80')",
+          backgroundImage: "url('https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1500&q=80')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
