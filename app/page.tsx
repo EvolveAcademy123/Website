@@ -231,10 +231,10 @@ export default function Home() {
                 <Target size={24} />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-6">
-                They want to unlock their full potential
+                You want to unlock your full potential
               </h3>
               <p className="text-gray-700 leading-relaxed">
-                Talent alone isn’t enough. Many athletes hit a plateau because they lack the mindset, habits, and tools to take their game to the next level. Evolve Academy helps them bridge that gap.
+                Talent alone isn’t enough. Many athletes hit a plateau because they lack the mindset, habits, and tools to take their game to the next level. Evolve Academy helps you bridge that gap.
               </p>
             </div>
 
@@ -243,10 +243,10 @@ export default function Home() {
                 <Brain size={24} />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-6">
-                They struggle with confidence and consistency
+                You struggle with confidence and consistency
               </h3>
               <p className="text-gray-700 leading-relaxed">
-                Even the most skilled players can feel overwhelmed by pressure or doubt. We teach athletes how to build inner confidence, bounce back from setbacks, and perform with consistency.
+                Even the most skilled players can feel overwhelmed by pressure or doubt. We teach you how to build inner confidence, bounce back from setbacks, and perform with consistency.
               </p>
             </div>
 
@@ -255,10 +255,10 @@ export default function Home() {
                 <Heart size={24} />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-6">
-                They want to stand out as a leader
+                You want to stand out as a leader
               </h3>
               <p className="text-gray-700 leading-relaxed">
-                Being a great teammate and leader isn’t just about skill — it’s about influence, attitude, and accountability. We help young athletes develop the leadership qualities that coaches and teams value most.
+                Being a great teammate and leader isn’t just about skill — it’s about influence, attitude, and accountability. We help you develop the leadership qualities that coaches and teams value most.
               </p>
             </div>
 
@@ -267,10 +267,10 @@ export default function Home() {
                 <Trophy size={24} />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-6">
-                They’re serious about their future
+                You’re serious about your future
               </h3>
               <p className="text-gray-700 leading-relaxed">
-                Whether aiming for college scholarships, professional opportunities, or simply becoming the best version of themselves, athletes who work with Evolve Academy gain the guidance and discipline to pursue their goals with purpose.
+                Whether aiming for college scholarships, professional opportunities, or simply becoming the best version of yourself, working with Evolve Academy gives you the guidance and discipline to pursue your goals with purpose.
               </p>
             </div>
           </div>
