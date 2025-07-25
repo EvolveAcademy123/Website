@@ -581,7 +581,7 @@ export default function Home() {
           </div>
           <div className="mb-6">
             <h3 className="text-xl font-bold text-gray-900 mb-2">Tailor-made Programs</h3>
-            <p className="text-gray-700">There are 4 programs within the Evolve One™ programme. These are tailor-made to the specific needs and pathway of youth athletes.</p>
+            <p className="text-gray-700">There are 4 programs within the Evolve One™ program. These are tailor-made to the specific needs and pathway of youth athletes.</p>
           </div>
         </div>
       </section>
@@ -610,7 +610,7 @@ export default function Home() {
           </div>
           <div className="mb-6">
             <h3 className="text-xl font-bold text-gray-900 mb-2">Tailor-made Programs</h3>
-            <p className="text-gray-700">There are 4 Programs within the Evolve Squad™ programme. These are tailor-made to the specific needs and pathway of youth athletes.</p>
+            <p className="text-gray-700">There are 4 Programs within the Evolve Squad™ program. These are tailor-made to the specific needs and pathway of youth athletes.</p>
           </div>
         </div>
       </section>
