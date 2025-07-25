@@ -147,7 +147,7 @@ export default function Home() {
                 <User size={32} />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                🌱 Evolve One
+                🌱 Evolve One™
               </h3>
               <p className="text-gray-600 mb-6 text-lg">
                 <em>Your journey. Your mentor. Your growth.</em>
@@ -170,7 +170,7 @@ export default function Home() {
                 <Users size={32} />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                🤝 Evolve Squad
+                🤝 Evolve Squad™
               </h3>
               <p className="text-gray-600 mb-6 text-lg">
                 <em>Stronger together. Growing as one.</em>
@@ -192,7 +192,7 @@ export default function Home() {
                 <Zap size={32} />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                🚀 Evolve Pro
+                🚀 Evolve Pro™
               </h3>
               <p className="text-gray-600 mb-6 text-lg">
                 <em>Unlock your peak performance.</em>
@@ -360,7 +360,7 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-gray-700 mb-8 leading-relaxed">
-                "The mentorship I received through Evolve One completely transformed my approach to training. 
+                "The mentorship I received through 🌱 Evolve One™ completely transformed my approach to training. 
                 I'm not just a better athlete, I'm a better person."
               </p>
               <div className="border-t pt-6">
@@ -376,7 +376,7 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-gray-700 mb-8 leading-relaxed">
-                "Evolve Squad helped me understand that success isn't just about individual performance. 
+                "🤝 Evolve Squad™ helped me understand that success isn't just about individual performance. 
                 The team dynamic and support system made all the difference."
               </p>
               <div className="border-t pt-6">
@@ -392,7 +392,7 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-gray-700 mb-8 leading-relaxed">
-                "Evolve Pro took my game to the next level. The elite-level coaching and mental training 
+                "🚀 Evolve Pro™ took my game to the next level. The elite-level coaching and mental training 
                 helped me secure my college scholarship."
               </p>
               <div className="border-t pt-6">
@@ -470,9 +470,9 @@ export default function Home() {
             <div>
               <h3 className="font-semibold mb-6">Programs</h3>
               <ul className="space-y-3 text-gray-300">
-                <li><a href="#" className="hover:text-white transition-colors">Evolve One</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Evolve Squad</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Evolve Pro</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">🌱 Evolve One™</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">🤝 Evolve Squad™</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">🚀 Evolve Pro™</a></li>
               </ul>
             </div>
 
@@ -639,7 +639,7 @@ const faqs = [
   },
   {
     question: "How long are the programs?",
-    answer: "Programs typically range from 3-12 months depending on your goals and chosen program. Evolve One and Squad programs are usually 6 months, while Evolve Pro can be customized for longer-term development."
+    answer: "Programs typically range from 3-12 months depending on your goals and chosen program. 🌱 Evolve One™ and 🤝 Evolve Squad™ programs are usually 6 months, while 🚀 Evolve Pro™ can be customized for longer-term development."
   },
   {
     question: "What happens in a typical session?",
