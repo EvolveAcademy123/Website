@@ -404,6 +404,43 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Mentors Section */}
+      <section id="mentors" className="py-24 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-20">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
+              Meet Our Mentors
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+              Our mentors are experienced professionals dedicated to helping young athletes grow on and off the field.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-12">
+            {/* Mentor 1 */}
+            <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center">
+              <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Mentor 1" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Alex Johnson</h3>
+              <p className="text-primary-600 font-medium mb-4">UEFA Pro Licensed Coach</p>
+              <p className="text-gray-700 leading-relaxed">Alex has over 20 years of experience coaching elite youth athletes across Europe and North America. He specializes in mindset development and leadership training.</p>
+            </div>
+            {/* Mentor 2 */}
+            <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center">
+              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Mentor 2" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Samantha Lee</h3>
+              <p className="text-primary-600 font-medium mb-4">Sports Psychologist</p>
+              <p className="text-gray-700 leading-relaxed">Samantha is a certified sports psychologist who helps athletes build confidence, resilience, and a winning mindset. She has worked with national teams and Olympic hopefuls.</p>
+            </div>
+            {/* Mentor 3 */}
+            <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center">
+              <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="Mentor 3" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Michael O'Connor</h3>
+              <p className="text-primary-600 font-medium mb-4">Former Pro Athlete & Mentor</p>
+              <p className="text-gray-700 leading-relaxed">Michael brings firsthand experience from his professional soccer career, mentoring young athletes to excel both on the field and in life.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section id="faq" className="py-24 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
