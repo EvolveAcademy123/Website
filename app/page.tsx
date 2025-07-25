@@ -506,37 +506,74 @@ export default function Home() {
       {/* Evolve One Details Section */}
       <section id="evolve-one-details" className="py-20 bg-gray-50">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl md:text-3xl font-bold text-primary-600 mb-6">Evolve One: In-Depth</h2>
-          <p className="text-gray-700 text-lg mb-4">Evolve One is our flagship 1-to-1 mentorship program. You'll work directly with a dedicated mentor who will help you build a strong foundation, develop a champion's mindset, and create a personalized plan for your growth. This program is ideal for athletes who want focused attention and a tailored approach to their development—on and off the field.</p>
-          <ul className="list-disc pl-6 text-gray-700">
-            <li>Personalized mentorship and support</li>
-            <li>Goal setting and progress tracking</li>
-            <li>Mental performance and resilience training</li>
-            <li>Custom athletic development plan</li>
-          </ul>
+          <h2 className="text-2xl md:text-3xl font-bold text-primary-600 mb-6">🚀 Evolve One™</h2>
+          <p className="text-gray-700 text-lg mb-4 font-semibold">Your journey. Your mentor. Your growth.</p>
+          <p className="text-gray-700 text-lg mb-4">A personalized 1-to-1 mentorship program designed to build your foundation, strengthen your mindset, and accelerate your development. With undivided attention and a tailored plan, this is all about you.</p>
+          <div className="mb-6">
+            <h3 className="text-xl font-bold text-gray-900 mb-2">Who is the program for?</h3>
+            <p className="text-gray-700 mb-2">An in-depth, individualized program for any young athletes between the ages of 14-18 who are serious about developing holistically in their chosen sport. Practice focuses primarily upon the physical, technical and tactical aspects – Evolve One™ is intentionally targeted at the psycho-emotional elements in an enriching experience where athletes engage in a deep and contextualised program with our Evolve mentor.</p>
+          </div>
+          <div className="mb-6">
+            <h3 className="text-xl font-bold text-gray-900 mb-2">How long does the program last for?</h3>
+            <p className="text-gray-700">8 weeks</p>
+          </div>
+          <div className="mb-6">
+            <h3 className="text-xl font-bold text-gray-900 mb-2">What is the cost of each unit of the program?</h3>
+            <p className="text-gray-700">$950</p>
+          </div>
+          <div className="mb-6">
+            <h3 className="text-xl font-bold text-gray-900 mb-2">About the delivery of the program</h3>
+            <p className="text-gray-700 mb-2">Using a platform of transformative behavioural and attitudinal change, our mentor will lead the class of the athlete through the in-depth program involving the following steps:</p>
+            <ul className="list-disc pl-6 text-gray-700">
+              <li>Workbook completion</li>
+              <li>Initial feedback</li>
+              <li>Positive parent-child engagement piece</li>
+              <li>Mentor call</li>
+              <li>Transformative challenge-orientated task</li>
+            </ul>
+          </div>
+          <div className="mb-6">
+            <h3 className="text-xl font-bold text-gray-900 mb-2">Tailor-made Programs</h3>
+            <p className="text-gray-700">There are 4 programs within the Evolve One™ programme. These are tailor-made to the specific needs and pathway of youth athletes.</p>
+          </div>
         </div>
       </section>
 
       {/* Evolve Squad Details Section */}
       <section id="evolve-squad-details" className="py-20 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl md:text-3xl font-bold text-primary-600 mb-6">Evolve Squad: In-Depth</h2>
-          <p className="text-gray-700 text-lg mb-4">Evolve Squad is a small-group program that combines the benefits of personal growth with the energy and support of a team. You'll learn, challenge, and inspire each other while developing the skills and mindset needed to succeed together. This program is perfect for athletes who thrive in a collaborative environment.</p>
-          <ul className="list-disc pl-6 text-gray-700">
-            <li>Small group mentorship and accountability</li>
-            <li>Team-building and leadership development</li>
-            <li>Peer support and shared challenges</li>
-            <li>Group training and workshops</li>
-          </ul>
+          <h2 className="text-2xl md:text-3xl font-bold text-primary-600 mb-6">Evolve Squad™</h2>
+          <p className="text-gray-700 text-lg mb-4 font-semibold">Stronger together. Growing as one.</p>
+          <p className="text-gray-700 text-lg mb-4">A small-group experience that combines personal growth with the power of a supportive team. Learn, challenge, and inspire each other while developing the skills and mindset you need to succeed — together.</p>
+          <div className="mb-6">
+            <h3 className="text-xl font-bold text-gray-900 mb-2">Who is the program for?</h3>
+            <p className="text-gray-700 mb-2">All young athletes between the ages of 14-18 who are serious about developing holistically in their chosen sport. Practice focuses primarily upon the physical, technical and tactical aspects – Evolve Squad™ is targeted at the psycho-emotional elements in an enriching small group experience where athletes learn from one another and our Evolve mentor.</p>
+          </div>
+          <div className="mb-6">
+            <h3 className="text-xl font-bold text-gray-900 mb-2">How long does the program last for?</h3>
+            <p className="text-gray-700">5 classes of 1 hour</p>
+          </div>
+          <div className="mb-6">
+            <h3 className="text-xl font-bold text-gray-900 mb-2">What is the cost of each unit of the program?</h3>
+            <p className="text-gray-700">$350</p>
+          </div>
+          <div className="mb-6">
+            <h3 className="text-xl font-bold text-gray-900 mb-2">About the delivery of the program</h3>
+            <p className="text-gray-700 mb-2">Using a platform of transformative behavioural and attitudinal change, our mentor will lead the class of young athletes through 5 weekly classes lasting around 1 hour. Each class is then followed by a challenge-orientated task.</p>
+          </div>
+          <div className="mb-6">
+            <h3 className="text-xl font-bold text-gray-900 mb-2">Tailor-made Units</h3>
+            <p className="text-gray-700">There are 4 Units within the Evolve Squad™ programme. These are tailor-made to the specific needs and pathway of youth athletes.</p>
+          </div>
         </div>
       </section>
 
       {/* Evolve Pro Details Section */}
       <section id="evolve-pro-details" className="py-20 bg-gray-50">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl md:text-3xl font-bold text-primary-600 mb-6">Evolve Pro: In-Depth</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-primary-600 mb-6">Evolve Pro™: In-Depth</h2>
           <p className="text-gray-700 text-lg mb-4 font-semibold">For athletes ready to lead—on the field and in life.</p>
-          <p className="text-gray-700 text-lg mb-4">Evolve Pro is designed for high-performing young athletes who want to level up their mindset and lead with intention. With strategic coaching and deep mentorship, athletes learn how to manage pressure, stay focused, and unlock their full potential—not just in their sport, but in every area of life.</p>
+          <p className="text-gray-700 text-lg mb-4">Evolve Pro™ is designed for high-performing young athletes who want to level up their mindset and lead with intention. With strategic coaching and deep mentorship, athletes learn how to manage pressure, stay focused, and unlock their full potential—not just in their sport, but in every area of life.</p>
           <div className="mb-6">
             <h3 className="text-xl font-bold text-gray-900 mb-2">Who is the program for?</h3>
             <ul className="list-disc pl-6 text-gray-700">
