@@ -60,9 +60,11 @@ export default function Home() {
             </nav>
 
             <div className="hidden md:flex items-center space-x-4">
-              <button className="bg-primary-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-primary-700 transition-colors">
-                Get Started
-              </button>
+              <a href="#register-interest">
+                <button className="bg-primary-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-primary-700 transition-colors">
+                  Get Started
+                </button>
+              </a>
             </div>
 
             {/* Mobile menu button */}
@@ -95,9 +97,11 @@ export default function Home() {
                 FAQ
               </a>
               <div className="px-3 py-2">
-                <button className="w-full bg-primary-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-primary-700 transition-colors">
-                  Get Started
-                </button>
+                <a href="#register-interest">
+                  <button className="w-full bg-primary-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-primary-700 transition-colors">
+                    Get Started
+                  </button>
+                </a>
               </div>
             </div>
           </div>
