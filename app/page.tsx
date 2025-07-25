@@ -609,8 +609,8 @@ export default function Home() {
             <p className="text-gray-700 mb-2">Using a platform of transformative behavioural and attitudinal change, our mentor will lead the class of young athletes through 5 weekly classes lasting around 1 hour. Each class is then followed by a challenge-orientated task.</p>
           </div>
           <div className="mb-6">
-            <h3 className="text-xl font-bold text-gray-900 mb-2">Tailor-made Units</h3>
-            <p className="text-gray-700">There are 4 Units within the Evolve Squad™ programme. These are tailor-made to the specific needs and pathway of youth athletes.</p>
+            <h3 className="text-xl font-bold text-gray-900 mb-2">Tailor-made Programs</h3>
+            <p className="text-gray-700">There are 4 Programs within the Evolve Squad™ programme. These are tailor-made to the specific needs and pathway of youth athletes.</p>
           </div>
         </div>
       </section>
