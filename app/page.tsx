@@ -51,6 +51,9 @@ export default function Home() {
               <a href="#testimonials" className="text-gray-700 hover:text-primary-600 transition-colors">
                 Testimonials
               </a>
+              <a href="#mentors" className="text-gray-700 hover:text-primary-600 transition-colors">
+                Mentors
+              </a>
               <a href="#faq" className="text-gray-700 hover:text-primary-600 transition-colors">
                 FAQ
               </a>
@@ -84,6 +87,9 @@ export default function Home() {
               </a>
               <a href="#testimonials" className="block px-3 py-2 text-gray-700 hover:text-primary-600">
                 Testimonials
+              </a>
+              <a href="#mentors" className="block px-3 py-2 text-gray-700 hover:text-primary-600">
+                Mentors
               </a>
               <a href="#faq" className="block px-3 py-2 text-gray-700 hover:text-primary-600">
                 FAQ
