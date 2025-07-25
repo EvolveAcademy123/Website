@@ -682,11 +682,11 @@ const faqs = [
   },
   {
     question: "What sports do you cover?",
-    answer: "Our mentors and coaches have experience across a wide range of sports including basketball, football, soccer, track & field, tennis, swimming, and more. We match you with mentors who understand your specific sport."
+    answer: "The sport we currently cover is soccer; we will be launching into other sports in the near future."
   },
   {
     question: "How long are the programs?",
-    answer: "Programs typically range from 3-12 months depending on your goals and chosen program. 🌱 Evolve One™ and 🤝 Evolve Squad™ programs are usually 6 months, while 🚀 Evolve Pro™ can be customized for longer-term development."
+    answer: "The program length depends on the program you choose. Programs are from 5 weeks to 10 weeks."
   },
   {
     question: "What happens in a typical session?",
