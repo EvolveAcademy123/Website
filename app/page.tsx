@@ -432,7 +432,7 @@ export default function Home() {
                 <img src="https://randomuser.me/api/portraits/men/10.jpg" alt="Alan Nixon" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Alan Nixon</h3>
                 <p className="text-primary-600 font-medium mb-4">UEFA Pro License & Global Coach Educator</p>
-                <p className="text-gray-700 leading-relaxed">Alan is a former Irish League footballer turned High School teacher, who stepped away from teaching to become a global Coach Educator. A UEFA Pro Licensed coach, with two Masters degrees in coaching and then mentoring, Alan has now worked frequently in 47 countries over a 25 year period. His unique blend of an elite playing career, with a pre-eminent coach education career blended with excellent academic progress spanning 42 countries allows him a unique perspective on player development.</p>
+                <p className="text-gray-700 leading-relaxed">Alan is a former Irish League footballer turned High School teacher, who stepped away from teaching to become a Global Coach Educator. A UEFA Pro Licensed coach, with two Masters degrees in coaching and then mentoring, Alan has now worked frequently in 47 countries over a 25 year period. His unique blend of an elite playing career, with a pre-eminent coach education career blended with excellent academic progress spanning 42 countries allows him a unique perspective on player development.</p>
               </div>
               {/* Mentor 2: Kurtis Millan */}
               <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center">
