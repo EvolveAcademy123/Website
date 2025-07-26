@@ -425,66 +425,66 @@ export default function Home() {
               Our mentors are experienced professionals dedicated to helping young athletes grow on and off the field.
             </p>
           </div>
-          <div className="overflow-x-auto">
-            <div className="flex md:grid md:grid-cols-3 gap-12 min-w-[900px] md:min-w-0">
+          <div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
               {/* Mentor 1: Alan Nixon */}
-              <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center min-w-[300px] flex-shrink-0">
+              <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center">
                 <img src="https://randomuser.me/api/portraits/men/10.jpg" alt="Alan Nixon" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Alan Nixon</h3>
                 <p className="text-primary-600 font-medium mb-4">UEFA Pro License & Global Coach Educator</p>
                 <p className="text-gray-700 leading-relaxed">Alan is a former Irish League footballer turned High School teacher, who stepped away from teaching to become a global Coach Educator. A UEFA Pro Licensed coach, with two Masters degrees in coaching and then mentoring, Alan has now worked frequently in 47 countries over a 25 year period. His unique blend of an elite playing career, with a pre-eminent coach education career blended with excellent academic progress spanning 42 countries allows him a unique perspective on player development.</p>
               </div>
               {/* Mentor 2: Kurtis Millan */}
-              <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center min-w-[300px] flex-shrink-0">
+              <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center">
                 <img src="https://randomuser.me/api/portraits/men/12.jpg" alt="Kurtis Millan" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Kurtis Millan</h3>
                 <p className="text-primary-600 font-medium mb-4">UEFA A License Coach</p>
                 <p className="text-gray-700 leading-relaxed">Kurtis has over a decade of work across elite youth academies and club leadership roles in Sweden, the USA, and the UK. An experienced UEFA A licensed coach with a background in Sport & Exercise Science, Kurtis has also served as a Technical Director and General Manager, leading coach education. Currently working as an Individual Development Coach with U19 players at Hammarby IF (Allsvenskan), he specialises in player-centred development, performance analysis, and preparing players for the demands of senior football.</p>
               </div>
               {/* Mentor 3: Colin Nixon */}
-              <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center min-w-[300px] flex-shrink-0">
+              <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center">
                 <img src="https://randomuser.me/api/portraits/men/14.jpg" alt="Colin Nixon" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Colin Nixon</h3>
                 <p className="text-primary-600 font-medium mb-4">Former Professional & UEFA A License Coach</p>
                 <p className="text-gray-700 leading-relaxed">Colin is an ex Irish Premier League player, making just under 800 appearances for Glentoran. He currently holds a UEFA A Coaching licence and has managed in both the Irish Premier League and Championship, giving over 30 years' experience at the top end of the game in Northern Ireland. He has also been in charge of various youth academies. His key motivation is to see young players fulfil their potential and become the best version of themselves both on and off the field.</p>
               </div>
               {/* Mentor 4: Mario Pruul */}
-              <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center min-w-[300px] flex-shrink-0">
+              <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center">
                 <img src="https://randomuser.me/api/portraits/men/11.jpg" alt="Mario Pruul" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Mario Pruul</h3>
                 <p className="text-primary-600 font-medium mb-4">Club Director</p>
                 <p className="text-gray-700 leading-relaxed">Mario has been involved in soccer for over 20 years. Having retired from playing at the highest level in Estonia, Mario has served as a club director. Mario is a UEFA A licensed coach and is currently completing the UEFA Football Management course.</p>
               </div>
               {/* Mentor 5: Justin Sheppard */}
-              <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center min-w-[300px] flex-shrink-0">
+              <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center">
                 <img src="https://randomuser.me/api/portraits/men/13.jpg" alt="Justin Sheppard" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Justin Sheppard</h3>
                 <p className="text-primary-600 font-medium mb-4">UEFA A License</p>
                 <p className="text-gray-700 leading-relaxed">In addition to holding a UEFA A Coaching Licence Justin has a BSc in Sport and Exercises obtained from the University of Ulster. Justin is the founder and head coach of JS Soccer Skills which specialises in delivering high quality coaching sessions to youth footballers of all abilities. Justin is also the lead tutor for the Football Management Company delivering the NIFL Scholarship Programme at the National Football Stadium to talented 16-18 year old footballers and is a former Irish FA Primary Schools Coach and Club NI Coach which involved coaching some of the most talented young players in Northern Ireland.</p>
               </div>
               {/* Mentor 6: Christopher Ricardi */}
-              <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center min-w-[300px] flex-shrink-0">
+              <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center">
                 <img src="https://randomuser.me/api/portraits/men/19.jpg" alt="Christopher Ricardi" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Christopher Ricardi</h3>
                 <p className="text-primary-600 font-medium mb-4">Sport Mental Performance Consultant</p>
                 <p className="text-gray-700 leading-relaxed">Chris is an experienced Sport Mental Performance Consultant working with high level youth, Division I collegiate, and professional teams and athletes. He is also a former soccer coach, with experience coaching at youth, and Division I collegiate levels. He has a Master's in Sport and Exercise Psychology, USSF C Coaching License, and UEFA B Coaching License.</p>
               </div>
               {/* Mentor 7: Placeholder */}
-              <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center min-w-[300px] flex-shrink-0">
+              <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center">
                 <img src="https://randomuser.me/api/portraits/men/15.jpg" alt="Mentor 7" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Jessica Smith</h3>
                 <p className="text-primary-600 font-medium mb-4">Performance Coach</p>
                 <p className="text-gray-700 leading-relaxed">Jessica specializes in performance coaching and has helped hundreds of young athletes reach their goals through personalized training plans.</p>
               </div>
               {/* Mentor 8: Placeholder */}
-              <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center min-w-[300px] flex-shrink-0">
+              <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center">
                 <img src="https://randomuser.me/api/portraits/men/16.jpg" alt="Mentor 8" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">David Kim</h3>
                 <p className="text-primary-600 font-medium mb-4">Youth Development Specialist</p>
                 <p className="text-gray-700 leading-relaxed">David is passionate about youth development and has a background in both coaching and education, making him a valuable mentor for young athletes.</p>
               </div>
               {/* Mentor 9: Placeholder */}
-              <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center min-w-[300px] flex-shrink-0">
+              <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center">
                 <img src="https://randomuser.me/api/portraits/men/17.jpg" alt="Mentor 9" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Emily Chen</h3>
                 <p className="text-primary-600 font-medium mb-4">Mental Skills Coach</p>
