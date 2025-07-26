@@ -462,30 +462,37 @@ export default function Home() {
                 <p className="text-primary-600 font-medium mb-4">UEFA A License</p>
                 <p className="text-gray-700 leading-relaxed">In addition to holding a UEFA A Coaching Licence Justin has a BSc in Sport and Exercises obtained from the University of Ulster. Justin is the founder and head coach of JS Soccer Skills which specialises in delivering high quality coaching sessions to youth footballers of all abilities. Justin is also the lead tutor for the Football Management Company delivering the NIFL Scholarship Programme at the National Football Stadium to talented 16-18 year old footballers and is a former Irish FA Primary Schools Coach and Club NI Coach which involved coaching some of the most talented young players in Northern Ireland.</p>
               </div>
-              {/* Mentor 6: Placeholder */}
+              {/* Mentor 6: Christopher Ricardi */}
               <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center min-w-[300px] flex-shrink-0">
-                <img src="https://randomuser.me/api/portraits/men/15.jpg" alt="Mentor 6" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
+                <img src="https://randomuser.me/api/portraits/men/19.jpg" alt="Christopher Ricardi" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Christopher Ricardi</h3>
+                <p className="text-primary-600 font-medium mb-4">Sport Mental Performance Consultant</p>
+                <p className="text-gray-700 leading-relaxed">Chris is an experienced Sport Mental Performance Consultant working with high level youth, Division I collegiate, and professional teams and athletes. He is also a former soccer coach, with experience coaching at youth, and Division I collegiate levels. He has a Master's in Sport and Exercise Psychology, USSF C Coaching License, and UEFA B Coaching License.</p>
+              </div>
+              {/* Mentor 7: Placeholder */}
+              <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center min-w-[300px] flex-shrink-0">
+                <img src="https://randomuser.me/api/portraits/men/15.jpg" alt="Mentor 7" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Jessica Smith</h3>
                 <p className="text-primary-600 font-medium mb-4">Performance Coach</p>
                 <p className="text-gray-700 leading-relaxed">Jessica specializes in performance coaching and has helped hundreds of young athletes reach their goals through personalized training plans.</p>
               </div>
-              {/* Mentor 7: Placeholder */}
+              {/* Mentor 8: Placeholder */}
               <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center min-w-[300px] flex-shrink-0">
-                <img src="https://randomuser.me/api/portraits/men/16.jpg" alt="Mentor 7" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
+                <img src="https://randomuser.me/api/portraits/men/16.jpg" alt="Mentor 8" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">David Kim</h3>
                 <p className="text-primary-600 font-medium mb-4">Youth Development Specialist</p>
                 <p className="text-gray-700 leading-relaxed">David is passionate about youth development and has a background in both coaching and education, making him a valuable mentor for young athletes.</p>
               </div>
-              {/* Mentor 8: Placeholder */}
+              {/* Mentor 9: Placeholder */}
               <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center min-w-[300px] flex-shrink-0">
-                <img src="https://randomuser.me/api/portraits/men/17.jpg" alt="Mentor 8" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
+                <img src="https://randomuser.me/api/portraits/men/17.jpg" alt="Mentor 9" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Emily Chen</h3>
                 <p className="text-primary-600 font-medium mb-4">Mental Skills Coach</p>
                 <p className="text-gray-700 leading-relaxed">Emily helps athletes develop mental toughness and focus, drawing on her experience as a sports psychologist and former collegiate athlete.</p>
               </div>
-              {/* Mentor 9: Placeholder */}
+              {/* Mentor 10: Placeholder */}
               <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center min-w-[300px] flex-shrink-0">
-                <img src="https://randomuser.me/api/portraits/men/18.jpg" alt="Mentor 9" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
+                <img src="https://randomuser.me/api/portraits/men/18.jpg" alt="Mentor 10" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Priya Patel</h3>
                 <p className="text-primary-600 font-medium mb-4">Strength & Conditioning Coach</p>
                 <p className="text-gray-700 leading-relaxed">Priya is a certified strength and conditioning coach who helps athletes build physical resilience and prevent injuries through smart training.</p>
