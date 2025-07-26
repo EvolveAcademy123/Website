@@ -490,13 +490,6 @@ export default function Home() {
                 <p className="text-primary-600 font-medium mb-4">Mental Skills Coach</p>
                 <p className="text-gray-700 leading-relaxed">Emily helps athletes develop mental toughness and focus, drawing on her experience as a sports psychologist and former collegiate athlete.</p>
               </div>
-              {/* Mentor 10: Placeholder */}
-              <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center min-w-[300px] flex-shrink-0">
-                <img src="https://randomuser.me/api/portraits/men/18.jpg" alt="Mentor 10" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Priya Patel</h3>
-                <p className="text-primary-600 font-medium mb-4">Strength & Conditioning Coach</p>
-                <p className="text-gray-700 leading-relaxed">Priya is a certified strength and conditioning coach who helps athletes build physical resilience and prevent injuries through smart training.</p>
-              </div>
             </div>
           </div>
         </div>
