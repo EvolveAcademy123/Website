@@ -457,7 +457,7 @@ export default function Home() {
               </div>
               {/* Mentor 5: Justin Sheppard */}
               <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center">
-                <img src="https://randomuser.me/api/portraits/men/13.jpg" alt="Justin Sheppard" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
+                <img src="/justin-sheppard.jpg" alt="Justin Sheppard" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Justin Sheppard</h3>
                 <p className="text-primary-600 font-medium mb-4">UEFA A License</p>
                 <p className="text-gray-700 leading-relaxed">In addition to holding a UEFA A Coaching Licence Justin has a BSc in Sport and Exercises obtained from the University of Ulster. Justin is the founder and head coach of JS Soccer Skills which specialises in delivering high quality coaching sessions to youth footballers of all abilities. Justin is also the lead tutor for the Football Management Company delivering the NIFL Scholarship Programme at the National Football Stadium to talented 16-18 year old footballers and is a former Irish FA Primary Schools Coach and Club NI Coach which involved coaching some of the most talented young players in Northern Ireland.</p>
