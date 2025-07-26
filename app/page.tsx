@@ -425,27 +425,71 @@ export default function Home() {
               Our mentors are experienced professionals dedicated to helping young athletes grow on and off the field.
             </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-12">
-            {/* Mentor 1 */}
-            <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center">
-              <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Mentor 1" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Alex Johnson</h3>
-              <p className="text-primary-600 font-medium mb-4">UEFA Pro Licensed Coach</p>
-              <p className="text-gray-700 leading-relaxed">Alex has over 20 years of experience coaching elite youth athletes across Europe and North America. He specializes in mindset development and leadership training.</p>
-            </div>
-            {/* Mentor 2 */}
-            <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center">
-              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Mentor 2" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Samantha Lee</h3>
-              <p className="text-primary-600 font-medium mb-4">Sports Psychologist</p>
-              <p className="text-gray-700 leading-relaxed">Samantha is a certified sports psychologist who helps athletes build confidence, resilience, and a winning mindset. She has worked with national teams and Olympic hopefuls.</p>
-            </div>
-            {/* Mentor 3 */}
-            <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center">
-              <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="Mentor 3" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Michael O'Connor</h3>
-              <p className="text-primary-600 font-medium mb-4">Former Pro Athlete & Mentor</p>
-              <p className="text-gray-700 leading-relaxed">Michael brings firsthand experience from his professional soccer career, mentoring young athletes to excel both on the field and in life.</p>
+          <div className="overflow-x-auto">
+            <div className="flex md:grid md:grid-cols-3 gap-12 min-w-[900px] md:min-w-0">
+              {/* Mentor 1 */}
+              <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center min-w-[300px] flex-shrink-0">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Mentor 1" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Alex Johnson</h3>
+                <p className="text-primary-600 font-medium mb-4">UEFA Pro Licensed Coach</p>
+                <p className="text-gray-700 leading-relaxed">Alex has over 20 years of experience coaching elite youth athletes across Europe and North America. He specializes in mindset development and leadership training.</p>
+              </div>
+              {/* Mentor 2 */}
+              <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center min-w-[300px] flex-shrink-0">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Mentor 2" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Samantha Lee</h3>
+                <p className="text-primary-600 font-medium mb-4">Sports Psychologist</p>
+                <p className="text-gray-700 leading-relaxed">Samantha is a certified sports psychologist who helps athletes build confidence, resilience, and a winning mindset. She has worked with national teams and Olympic hopefuls.</p>
+              </div>
+              {/* Mentor 3 */}
+              <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center min-w-[300px] flex-shrink-0">
+                <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="Mentor 3" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Michael O'Connor</h3>
+                <p className="text-primary-600 font-medium mb-4">Former Pro Athlete & Mentor</p>
+                <p className="text-gray-700 leading-relaxed">Michael brings firsthand experience from his professional soccer career, mentoring young athletes to excel both on the field and in life.</p>
+              </div>
+              {/* Mentor 4 */}
+              <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center min-w-[300px] flex-shrink-0">
+                <img src="https://randomuser.me/api/portraits/women/55.jpg" alt="Mentor 4" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Jessica Smith</h3>
+                <p className="text-primary-600 font-medium mb-4">Performance Coach</p>
+                <p className="text-gray-700 leading-relaxed">Jessica specializes in performance coaching and has helped hundreds of young athletes reach their goals through personalized training plans.</p>
+              </div>
+              {/* Mentor 5 */}
+              <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center min-w-[300px] flex-shrink-0">
+                <img src="https://randomuser.me/api/portraits/men/77.jpg" alt="Mentor 5" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
+                <h3 className="text-xl font-bold text-gray-900 mb-2">David Kim</h3>
+                <p className="text-primary-600 font-medium mb-4">Youth Development Specialist</p>
+                <p className="text-gray-700 leading-relaxed">David is passionate about youth development and has a background in both coaching and education, making him a valuable mentor for young athletes.</p>
+              </div>
+              {/* Mentor 6 */}
+              <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center min-w-[300px] flex-shrink-0">
+                <img src="https://randomuser.me/api/portraits/women/66.jpg" alt="Mentor 6" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Emily Chen</h3>
+                <p className="text-primary-600 font-medium mb-4">Mental Skills Coach</p>
+                <p className="text-gray-700 leading-relaxed">Emily helps athletes develop mental toughness and focus, drawing on her experience as a sports psychologist and former collegiate athlete.</p>
+              </div>
+              {/* Mentor 7 */}
+              <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center min-w-[300px] flex-shrink-0">
+                <img src="https://randomuser.me/api/portraits/men/88.jpg" alt="Mentor 7" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Carlos Rivera</h3>
+                <p className="text-primary-600 font-medium mb-4">Technical Director</p>
+                <p className="text-gray-700 leading-relaxed">Carlos is a technical director with a keen eye for talent and a passion for helping athletes refine their technical skills and game understanding.</p>
+              </div>
+              {/* Mentor 8 */}
+              <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center min-w-[300px] flex-shrink-0">
+                <img src="https://randomuser.me/api/portraits/women/77.jpg" alt="Mentor 8" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Priya Patel</h3>
+                <p className="text-primary-600 font-medium mb-4">Strength & Conditioning Coach</p>
+                <p className="text-gray-700 leading-relaxed">Priya is a certified strength and conditioning coach who helps athletes build physical resilience and prevent injuries through smart training.</p>
+              </div>
+              {/* Mentor 9 */}
+              <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center min-w-[300px] flex-shrink-0">
+                <img src="https://randomuser.me/api/portraits/men/99.jpg" alt="Mentor 9" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Liam Murphy</h3>
+                <p className="text-primary-600 font-medium mb-4">Leadership Coach</p>
+                <p className="text-gray-700 leading-relaxed">Liam specializes in leadership development and has mentored young athletes to become confident leaders on and off the field.</p>
+              </div>
             </div>
           </div>
         </div>
