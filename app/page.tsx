@@ -464,7 +464,7 @@ export default function Home() {
               </div>
               {/* Mentor 6: Christopher Ricardi */}
               <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center">
-                <img src="https://randomuser.me/api/portraits/men/19.jpg" alt="Christopher Ricardi" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
+                <img src="/christopher-ricardi.jpg.png" alt="Christopher Ricardi" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Christopher Ricardi</h3>
                 <p className="text-primary-600 font-medium mb-4">Sport Mental Performance Consultant</p>
                 <p className="text-gray-700 leading-relaxed">Chris is an experienced Sport Mental Performance Consultant working with high level youth, Division I collegiate, and professional teams and athletes. He is also a former soccer coach, with experience coaching at youth, and Division I collegiate levels. He has a Master's in Sport and Exercise Psychology, USSF C Coaching License, and UEFA B Coaching License.</p>
