@@ -556,7 +556,7 @@ export default function Home() {
             <div>
               <div className="flex items-center mb-6">
                 <img 
-                  src="/logo.png" 
+                  src="/logo-white.svg" 
                   alt="Evolve Academy" 
                   className="h-8 w-auto"
                 />
