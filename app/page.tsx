@@ -444,7 +444,7 @@ export default function Home() {
               </div>
               {/* Mentor 2: Kurtis Millan */}
               <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center">
-                <img src="https://randomuser.me/api/portraits/men/12.jpg" alt="Kurtis Millan" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
+                <img src="/kurtis-milan.jpg.png" alt="Kurtis Millan" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Kurtis Millan</h3>
                 <p className="text-primary-600 font-medium mb-4">UEFA A License Coach</p>
                 <p className="text-gray-700 leading-relaxed">Kurtis has over a decade of work across elite youth academies and club leadership roles in Sweden, the USA, and the UK. An experienced UEFA A licensed coach with a background in Sport & Exercise Science, Kurtis has also served as a Technical Director and General Manager, leading coach education. Currently working as an Individual Development Coach with U19 players at Hammarby IF (Allsvenskan), he specialises in player-centred development, performance analysis, and preparing players for the demands of senior football.</p>
