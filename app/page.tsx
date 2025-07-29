@@ -378,8 +378,8 @@ export default function Home() {
                 </div>
               </div>
               <div className="text-center">
-                <p className="font-semibold text-gray-900 mb-1">Sarah M.</p>
-                <p className="text-gray-600 text-sm">Track & Field, Division I</p>
+                <p className="font-semibold text-gray-900 mb-1">Cristiano Oliveria</p>
+                <p className="text-gray-600 text-sm">New England Revolution</p>
               </div>
             </div>
 
@@ -396,8 +396,8 @@ export default function Home() {
                 </div>
               </div>
               <div className="text-center">
-                <p className="font-semibold text-gray-900 mb-1">Marcus J.</p>
-                <p className="text-gray-600 text-sm">Basketball, High School</p>
+                <p className="font-semibold text-gray-900 mb-1">Logan Moniz</p>
+                <p className="text-gray-600 text-sm">Boston Bolts</p>
               </div>
             </div>
 
@@ -414,8 +414,8 @@ export default function Home() {
                 </div>
               </div>
               <div className="text-center">
-                <p className="font-semibold text-gray-900 mb-1">Alex R.</p>
-                <p className="text-gray-600 text-sm">Soccer, College Recruit</p>
+                <p className="font-semibold text-gray-900 mb-1">Lorenzo Grimaldi</p>
+                <p className="text-gray-600 text-sm">Newton North High</p>
               </div>
             </div>
           </div>
