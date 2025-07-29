@@ -479,7 +479,7 @@ export default function Home() {
               </div>
               {/* Mentor 7: Placeholder */}
               <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center">
-                <img src="/johnny-tuffey.jpg.png" alt="Johnny Tuffey" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" style={{objectPosition: '50% 70%'}} />
+                <img src="/johnny-tuffey.jpg.png" alt="Johnny Tuffey" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" style={{objectPosition: '50% 80%'}} />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Johnny Tuffey</h3>
                 <p className="text-primary-600 font-medium mb-4">Performance Coach</p>
                 <p className="text-gray-700 leading-relaxed">Johnny specializes in performance coaching and has helped hundreds of young athletes reach their goals through personalized training plans.</p>
@@ -556,7 +556,7 @@ export default function Home() {
             <div>
               <div className="flex items-center mb-6">
                 <img 
-                  src="/logo-white.svg" 
+                  src="/Evolve-Academy-Logo-with-tree-transparent-white.png" 
                   alt="Evolve Academy" 
                   className="h-8 w-auto"
                 />
