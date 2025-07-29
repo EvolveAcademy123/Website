@@ -776,7 +776,7 @@ export default function Home() {
       {/* Evolve Pro Details Section */}
       <section id="evolve-pro-details" className="py-20 bg-gray-50">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl md:text-3xl font-bold text-primary-600 mb-6">Evolve Pro™: In-Depth</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-primary-600 mb-6">🚀 Evolve Pro™</h2>
           <p className="text-gray-700 text-lg mb-4 font-semibold">For athletes ready to lead—on the field and in life.</p>
           <p className="text-gray-700 text-lg mb-4">Evolve Pro™ is designed for high-performing young athletes who want to level up their mindset and lead with intention. With strategic coaching and deep mentorship, athletes learn how to manage pressure, stay focused, and unlock their full potential—not just in their sport, but in every area of life.</p>
           <div className="mb-6">
