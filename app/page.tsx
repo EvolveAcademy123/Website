@@ -696,6 +696,8 @@ export default function Home() {
                 <li><a href="#" className="hover:text-white transition-colors">Success Stories</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">FAQs</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Support</a></li>
+                <li><a href="/terms" className="hover:text-white transition-colors">Terms & Conditions</a></li>
+                <li><a href="/privacy" className="hover:text-white transition-colors">Privacy Policy</a></li>
               </ul>
             </div>
           </div>
