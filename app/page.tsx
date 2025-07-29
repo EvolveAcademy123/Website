@@ -589,13 +589,13 @@ export default function Home() {
                 className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center cursor-pointer transition-all duration-300 hover:shadow-lg"
                 onClick={() => toggleMentor(9)}
               >
-                <img src="https://randomuser.me/api/portraits/men/17.jpg" alt="Mentor 9" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
+                <img src="/mark-austin.jpg.png" alt="Mark Austin" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Mark Austin</h3>
-                <p className="text-primary-600 font-medium mb-4">Mental Skills Coach</p>
+                <p className="text-primary-600 font-medium mb-4">Experienced Coach & Performance Analyst</p>
                 <p className="text-gray-700 leading-relaxed">
                   {expandedMentor === 9 
-                    ? "Mark helps athletes develop mental toughness and focus, drawing on his experience as a sports psychologist and former collegiate athlete."
-                    : "Mark helps athletes develop mental toughness and focus, drawing on his experience as a sports psychologist..."
+                    ? "Mark is an experienced coach with over 20 years of coaching within the UK and Ireland, he has worked at Grassroots clubs and Academy clubs. He is currently working within the women's game in Northern Ireland, working with Camlough Rovers as co-Manager. He specialises in performance analysis and technical and tactical awareness. With a background in Sports Science and Business, Mark has run and owned businesses, which has given him a deep rooted experience of man management, ability to motivate and player/staff development which he uses in his coaching style. His coaching philosophy is based on empathy, compassion and a desire to inspire all players he comes into contact with."
+                    : "Mark is an experienced coach with over 20 years of coaching within the UK and Ireland, he has worked at Grassroots clubs and Academy clubs..."
                   }
                 </p>
                 {expandedMentor !== 9 && (
