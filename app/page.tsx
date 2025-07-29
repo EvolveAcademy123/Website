@@ -32,11 +32,13 @@ export default function Home() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0 flex items-center">
-                <img 
-                  src="/logo.png" 
-                  alt="Evolve Academy" 
-                  className="h-10 w-auto"
-                />
+                <a href="/">
+                  <img 
+                    src="/logo.png" 
+                    alt="Evolve Academy" 
+                    className="h-10 w-auto cursor-pointer"
+                  />
+                </a>
               </div>
             </div>
             
