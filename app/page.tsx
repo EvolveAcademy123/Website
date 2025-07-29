@@ -365,51 +365,57 @@ export default function Home() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-12">
-            <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200">
-              <div className="flex items-center mb-6">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
-                ))}
+            {/* Video Testimonial 1 */}
+            <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+              <div className="aspect-video bg-gray-200 rounded-lg mb-6 flex items-center justify-center">
+                <div className="text-center">
+                  <div className="w-16 h-16 bg-primary-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                  <p className="text-gray-600">Video Testimonial</p>
+                </div>
               </div>
-              <p className="text-gray-700 mb-8 leading-relaxed">
-                "The mentorship I received through 🌱 Evolve One™ completely transformed my approach to training. 
-                I'm not just a better athlete, I'm a better person."
-              </p>
-              <div className="border-t pt-6">
-                <p className="font-semibold text-gray-900">Sarah M.</p>
-                <p className="text-gray-600">Track & Field, Division I</p>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200">
-              <div className="flex items-center mb-6">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
-                ))}
-              </div>
-              <p className="text-gray-700 mb-8 leading-relaxed">
-                "🤝 Evolve Squad™ helped me understand that success isn't just about individual performance. 
-                The team dynamic and support system made all the difference."
-              </p>
-              <div className="border-t pt-6">
-                <p className="font-semibold text-gray-900">Marcus J.</p>
-                <p className="text-gray-600">Basketball, High School</p>
+              <div className="text-center">
+                <p className="font-semibold text-gray-900 mb-1">Sarah M.</p>
+                <p className="text-gray-600 text-sm">Track & Field, Division I</p>
               </div>
             </div>
 
-            <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200">
-              <div className="flex items-center mb-6">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
-                ))}
+            {/* Video Testimonial 2 */}
+            <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+              <div className="aspect-video bg-gray-200 rounded-lg mb-6 flex items-center justify-center">
+                <div className="text-center">
+                  <div className="w-16 h-16 bg-primary-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                  <p className="text-gray-600">Video Testimonial</p>
+                </div>
               </div>
-              <p className="text-gray-700 mb-8 leading-relaxed">
-                "🚀 Evolve Pro™ took my game to the next level. The elite-level coaching and mental training 
-                helped me secure my college scholarship."
-              </p>
-              <div className="border-t pt-6">
-                <p className="font-semibold text-gray-900">Alex R.</p>
-                <p className="text-gray-600">Soccer, College Recruit</p>
+              <div className="text-center">
+                <p className="font-semibold text-gray-900 mb-1">Marcus J.</p>
+                <p className="text-gray-600 text-sm">Basketball, High School</p>
+              </div>
+            </div>
+
+            {/* Video Testimonial 3 */}
+            <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+              <div className="aspect-video bg-gray-200 rounded-lg mb-6 flex items-center justify-center">
+                <div className="text-center">
+                  <div className="w-16 h-16 bg-primary-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                  <p className="text-gray-600">Video Testimonial</p>
+                </div>
+              </div>
+              <div className="text-center">
+                <p className="font-semibold text-gray-900 mb-1">Alex R.</p>
+                <p className="text-gray-600 text-sm">Soccer, College Recruit</p>
               </div>
             </div>
           </div>
