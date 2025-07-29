@@ -555,7 +555,7 @@ export default function Home() {
               >
                 <img src="/johnny-tuffey.jpg.png" alt="Johnny Tuffey" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Johnny Tuffey</h3>
-                <p className="text-primary-600 font-medium mb-4">Performance Coach</p>
+                <p className="text-primary-600 font-medium mb-4">Professional Player and Crusader Academy Director</p>
                 <p className="text-gray-700 leading-relaxed">
                   {expandedMentor === 7 
                     ? "Johnny specializes in performance coaching and has helped hundreds of young athletes reach their goals through personalized training plans."
