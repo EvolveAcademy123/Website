@@ -429,7 +429,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
               {/* Mentor 1: Alan Nixon */}
               <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center">
-                <img src="https://randomuser.me/api/portraits/men/10.jpg" alt="Alan Nixon" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
+                <img src="/alan-nixon.jpg" alt="Alan Nixon" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Alan Nixon</h3>
                 <p className="text-primary-600 font-medium mb-4">UEFA Pro License & Global Coach Educator</p>
                 <p className="text-gray-700 leading-relaxed">Alan is a former Irish League footballer turned High School teacher, who stepped away from teaching to become a Global Coach Educator. A UEFA Pro Licensed coach, with two Masters degrees in coaching and then mentoring, Alan has now worked frequently in 47 countries over a 25 year period. His unique blend of an elite playing career, with a pre-eminent coach education career blended with excellent academic progress spanning 42 countries allows him a unique perspective on player development.</p>
@@ -443,14 +443,14 @@ export default function Home() {
               </div>
               {/* Mentor 3: Colin Nixon */}
               <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center">
-                <img src="https://randomuser.me/api/portraits/men/14.jpg" alt="Colin Nixon" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
+                <img src="/colin-nixon.jpg" alt="Colin Nixon" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Colin Nixon</h3>
                 <p className="text-primary-600 font-medium mb-4">Former Professional & UEFA A License Coach</p>
                 <p className="text-gray-700 leading-relaxed">Colin is an ex Irish Premier League player, making just under 800 appearances for Glentoran. He currently holds a UEFA A Coaching licence and has managed in both the Irish Premier League and Championship, giving over 30 years' experience at the top end of the game in Northern Ireland. He has also been in charge of various youth academies. His key motivation is to see young players fulfil their potential and become the best version of themselves both on and off the field.</p>
               </div>
               {/* Mentor 4: Mario Pruul */}
               <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center">
-                <img src="https://randomuser.me/api/portraits/men/11.jpg" alt="Mario Pruul" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
+                <img src="/mario-pruul.jpg" alt="Mario Pruul" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Mario Pruul</h3>
                 <p className="text-primary-600 font-medium mb-4">Club Director</p>
                 <p className="text-gray-700 leading-relaxed">Mario has been involved in soccer for over 20 years. Having retired from playing at the highest level in Estonia, Mario has served as a club director. Mario is a UEFA A licensed coach and is currently completing the UEFA Football Management course.</p>
@@ -471,24 +471,24 @@ export default function Home() {
               </div>
               {/* Mentor 7: Placeholder */}
               <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center">
-                <img src="https://randomuser.me/api/portraits/men/15.jpg" alt="Mentor 7" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Jessica Smith</h3>
+                <img src="/johnny-tuffey.jpg.png" alt="Johnny Tuffey" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Johnny Tuffey</h3>
                 <p className="text-primary-600 font-medium mb-4">Performance Coach</p>
-                <p className="text-gray-700 leading-relaxed">Jessica specializes in performance coaching and has helped hundreds of young athletes reach their goals through personalized training plans.</p>
+                <p className="text-gray-700 leading-relaxed">Johnny specializes in performance coaching and has helped hundreds of young athletes reach their goals through personalized training plans.</p>
               </div>
               {/* Mentor 8: Placeholder */}
               <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center">
                 <img src="https://randomuser.me/api/portraits/men/16.jpg" alt="Mentor 8" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
-                <h3 className="text-xl font-bold text-gray-900 mb-2">David Kim</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Kevin Keegan</h3>
                 <p className="text-primary-600 font-medium mb-4">Youth Development Specialist</p>
-                <p className="text-gray-700 leading-relaxed">David is passionate about youth development and has a background in both coaching and education, making him a valuable mentor for young athletes.</p>
+                <p className="text-gray-700 leading-relaxed">Kevin is passionate about youth development and has a background in both coaching and education, making him a valuable mentor for young athletes.</p>
               </div>
               {/* Mentor 9: Placeholder */}
               <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center">
                 <img src="https://randomuser.me/api/portraits/men/17.jpg" alt="Mentor 9" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Emily Chen</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Mark Austin</h3>
                 <p className="text-primary-600 font-medium mb-4">Mental Skills Coach</p>
-                <p className="text-gray-700 leading-relaxed">Emily helps athletes develop mental toughness and focus, drawing on her experience as a sports psychologist and former collegiate athlete.</p>
+                <p className="text-gray-700 leading-relaxed">Mark helps athletes develop mental toughness and focus, drawing on his experience as a sports psychologist and former collegiate athlete.</p>
               </div>
             </div>
           </div>
