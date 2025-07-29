@@ -452,7 +452,7 @@ export default function Home() {
               </div>
               {/* Mentor 4: Mario Pruul */}
               <div className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center">
-                <img src="/mario-pruul.jpg" alt="Mario Pruul" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" style={{objectPosition: '50% 30%'}} />
+                <img src="/mario-pruul.jpg" alt="Mario Pruul" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" style={{objectPosition: '50% 15%'}} />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Mario Pruul</h3>
                 <p className="text-primary-600 font-medium mb-4">Club Director</p>
                 <p className="text-gray-700 leading-relaxed">Mario has been involved in soccer for over 20 years. Having retired from playing at the highest level in Estonia, Mario has served as a club director. Mario is a UEFA A licensed coach and is currently completing the UEFA Football Management course.</p>
