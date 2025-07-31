@@ -741,7 +741,7 @@ export default function Home() {
             <p className="text-gray-700">8 weeks</p>
           </div>
           <div className="mb-6">
-            <h3 className="text-xl font-bold text-gray-900 mb-2">What is the cost of each unit of the program?</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-2">How much is a program?</h3>
             <p className="text-gray-700">$950</p>
           </div>
           <div className="mb-6">
@@ -777,7 +777,7 @@ export default function Home() {
             <p className="text-gray-700">5 classes of 1 hour</p>
           </div>
           <div className="mb-6">
-            <h3 className="text-xl font-bold text-gray-900 mb-2">What is the cost of each unit of the program?</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-2">How much is a program?</h3>
             <p className="text-gray-700">$350</p>
           </div>
           <div className="mb-6">
