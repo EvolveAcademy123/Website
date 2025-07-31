@@ -602,6 +602,24 @@ export default function Home() {
                   <p className="text-primary-600 text-sm mt-2">Click to read more</p>
                 )}
               </div>
+              {/* Mentor 10: Piotr 'Papi' Paprocki */}
+              <div 
+                className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center cursor-pointer transition-all duration-300 hover:shadow-lg"
+                onClick={() => toggleMentor(10)}
+              >
+                <img src="/piotr-paprocki.jpg" alt="Piotr 'Papi' Paprocki" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Piotr 'Papi' Paprocki</h3>
+                <p className="text-primary-600 font-medium mb-4">Former Professional Basketball Player & Leadership Coach</p>
+                <p className="text-gray-700 leading-relaxed">
+                  {expandedMentor === 10 
+                    ? "Piotr is a former professional basketball player and U.S. scholarship athlete with over 16 years of experience as a team-building and performance coach. He has worked with national youth teams and professional basketball and football teams across Poland, Belgium, and the United States. Currently, he co-leads an organization in Poland dedicated to helping men in the professional world become more effective leaders through the principles of servant leadership."
+                    : "Piotr is a former professional basketball player and U.S. scholarship athlete with over 16 years of experience as a team-building and performance coach..."
+                  }
+                </p>
+                {expandedMentor !== 10 && (
+                  <p className="text-primary-600 text-sm mt-2">Click to read more</p>
+                )}
+              </div>
             </div>
           </div>
         </div>
