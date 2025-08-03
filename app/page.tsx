@@ -671,61 +671,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-16">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-4 gap-12">
-            <div>
-              <div className="flex items-center mb-6">
-                <img 
-                  src="/Evolve-Academy-Logo-with-tree-transparent-white.png" 
-                  alt="Evolve Academy" 
-                  className="h-8 w-auto"
-                />
-              </div>
-              <p className="text-gray-300 mb-4 leading-relaxed">
-                Unlock your athletic potential without sacrificing your personal growth.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="font-semibold mb-6">Programs</h3>
-              <ul className="space-y-3 text-gray-300">
-                <li><a href="#" className="hover:text-white transition-colors">🌱 Evolve One™</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">🤝 Evolve Squad™</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">🚀 Evolve Pro™</a></li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="font-semibold mb-6">Company</h3>
-              <ul className="space-y-3 text-gray-300">
-                <li><a href="#" className="hover:text-white transition-colors">About</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Mentors</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Careers</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Contact</a></li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="font-semibold mb-6">Resources</h3>
-              <ul className="space-y-3 text-gray-300">
-                <li><a href="#" className="hover:text-white transition-colors">Blog</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Success Stories</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">FAQs</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Support</a></li>
-                <li><a href="/terms" className="hover:text-white transition-colors">Terms & Conditions</a></li>
-                <li><a href="/privacy" className="hover:text-white transition-colors">Privacy Policy</a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Evolve Academy International. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
-
       {/* Evolve One Details Section */}
       <section id="evolve-one-details" className="py-20 bg-gray-50">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -843,6 +788,61 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Footer */}
+      <footer className="bg-gray-900 text-white py-16">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid md:grid-cols-4 gap-12">
+            <div>
+              <div className="flex items-center mb-6">
+                <img 
+                  src="/Evolve-Academy-Logo-with-tree-transparent-white.png" 
+                  alt="Evolve Academy" 
+                  className="h-8 w-auto"
+                />
+              </div>
+              <p className="text-gray-300 mb-4 leading-relaxed">
+                Unlock your athletic potential without sacrificing your personal growth.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-semibold mb-6">Programs</h3>
+              <ul className="space-y-3 text-gray-300">
+                <li><a href="#" className="hover:text-white transition-colors">🌱 Evolve One™</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">🤝 Evolve Squad™</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">🚀 Evolve Pro™</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="font-semibold mb-6">Company</h3>
+              <ul className="space-y-3 text-gray-300">
+                <li><a href="#" className="hover:text-white transition-colors">About</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Mentors</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Careers</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Contact</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="font-semibold mb-6">Resources</h3>
+              <ul className="space-y-3 text-gray-300">
+                <li><a href="#" className="hover:text-white transition-colors">Blog</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Success Stories</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">FAQs</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Support</a></li>
+                <li><a href="/terms" className="hover:text-white transition-colors">Terms & Conditions</a></li>
+                <li><a href="/privacy" className="hover:text-white transition-colors">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+            <p>&copy; 2024 Evolve Academy International. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
     </div>
   )
 }
