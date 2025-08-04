@@ -764,7 +764,7 @@ export default function Home() {
           </div>
           <div className="mb-6">
             <h3 className="text-xl font-bold text-gray-900 mb-2">How the Program Works</h3>
-            <p className="text-gray-700 mb-2">Using a platform of transformative behavioural and attitudinal change, our mentor will lead the elite athlete through 9 weekly calls lasting around 30 minutes. Each call is then followed by a challenge-orientated task.</p>
+            <p className="text-gray-700 mb-2">Using a platform of transformative behavioural and attitudinal change, our mentor will lead the elite athlete through 10 weekly calls. Each call is then followed by a challenge-orientated task.</p>
             <p className="text-gray-700 mb-2">Topics will be chosen after the initial Assessment call so that our program is tailor-made to the specific needs and pathway of the athlete. Topics range from:</p>
             <ul className="list-disc pl-6 text-gray-700">
               <li>Performance anxiety</li>
