@@ -427,6 +427,146 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Evolve Squad Class Section */}
+      <section id="evolve-squad-class" className="py-24 bg-gray-50">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
+              🤝 Evolve Squad™ Class
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Join our weekly small-group sessions where athletes learn, challenge, and inspire each other while developing essential skills and mindset.
+            </p>
+          </div>
+
+          <div className="bg-white rounded-2xl p-8 md:p-12 shadow-lg border border-gray-200 max-w-4xl mx-auto">
+            <div className="text-center mb-8">
+              <div className="w-20 h-20 bg-primary-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Weekly Group Development Sessions</h3>
+              <p className="text-lg text-gray-600 mb-6">
+                Small-group experience combining personal growth with the power of a supportive team
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8 mb-8">
+              <div>
+                <h4 className="text-lg font-semibold text-gray-900 mb-4">Class Details</h4>
+                <ul className="space-y-3 text-gray-700">
+                  <li className="flex items-center">
+                    <div className="w-2 h-2 bg-primary-600 rounded-full mr-3"></div>
+                    <span><strong>When:</strong> Starting Monday</span>
+                  </li>
+                  <li className="flex items-center">
+                    <div className="w-2 h-2 bg-primary-600 rounded-full mr-3"></div>
+                    <span><strong>Program:</strong> 🤝 Evolve Squad™</span>
+                  </li>
+                  <li className="flex items-center">
+                    <div className="w-2 h-2 bg-primary-600 rounded-full mr-3"></div>
+                    <span><strong>Duration:</strong> 5 weekly classes of 1 hour each</span>
+                  </li>
+                  <li className="flex items-center">
+                    <div className="w-2 h-2 bg-primary-600 rounded-full mr-3"></div>
+                    <span><strong>Group Size:</strong> Small group (6-8 athletes)</span>
+                  </li>
+                  <li className="flex items-center">
+                    <div className="w-2 h-2 bg-primary-600 rounded-full mr-3"></div>
+                    <span><strong>Age Group:</strong> 14-18 years</span>
+                  </li>
+                  <li className="flex items-center">
+                    <div className="w-2 h-2 bg-primary-600 rounded-full mr-3"></div>
+                    <span><strong>Investment:</strong> $350</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <h4 className="text-lg font-semibold text-gray-900 mb-4">Led by Alan Nixon</h4>
+                <div className="flex items-center mb-4">
+                  <img src="/alan-nixon.jpg" alt="Alan Nixon" className="w-16 h-16 rounded-full object-cover mr-4" />
+                  <div>
+                    <p className="font-medium text-gray-900">Alan Nixon</p>
+                    <p className="text-sm text-primary-600">UEFA Pro License & Global Coach Educator</p>
+                  </div>
+                </div>
+                <p className="text-gray-700 text-sm leading-relaxed mb-4">
+                  Alan brings 25+ years of global coaching experience across 47 countries, with expertise in player development and mentoring at the highest levels.
+                </p>
+                <div className="bg-primary-50 rounded-lg p-3">
+                  <p className="text-primary-800 text-sm font-medium">
+                    "Stronger together. Growing as one."
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gray-50 rounded-xl p-6 mb-8">
+              <h4 className="text-lg font-semibold text-gray-900 mb-3">What You'll Experience</h4>
+              <div className="grid md:grid-cols-2 gap-4">
+                <ul className="space-y-2 text-gray-700">
+                  <li className="flex items-center">
+                    <svg className="w-4 h-4 text-primary-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                    Psycho-emotional development focus
+                  </li>
+                  <li className="flex items-center">
+                    <svg className="w-4 h-4 text-primary-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                    Peer learning and support
+                  </li>
+                  <li className="flex items-center">
+                    <svg className="w-4 h-4 text-primary-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                    Challenge-oriented tasks
+                  </li>
+                </ul>
+                <ul className="space-y-2 text-gray-700">
+                  <li className="flex items-center">
+                    <svg className="w-4 h-4 text-primary-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                    Holistic athletic development
+                  </li>
+                  <li className="flex items-center">
+                    <svg className="w-4 h-4 text-primary-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                    Transformative mindset work
+                  </li>
+                  <li className="flex items-center">
+                    <svg className="w-4 h-4 text-primary-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                    Tailor-made program content
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="text-center">
+              <a 
+                href="#register-interest" 
+                className="inline-block bg-primary-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-primary-700 transition-colors mr-4"
+              >
+                Join Monday Class
+              </a>
+              <a 
+                href="#evolve-squad-details" 
+                className="inline-block border-2 border-primary-600 text-primary-600 px-8 py-4 rounded-lg font-semibold hover:bg-primary-50 transition-colors"
+              >
+                Learn More About Evolve Squad™
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Mentors Section */}
       <section id="mentors" className="py-24 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
