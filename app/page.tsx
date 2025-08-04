@@ -558,8 +558,8 @@ export default function Home() {
                 <p className="text-primary-600 font-medium mb-4">Professional Player and Crusaders Academy Director</p>
                 <p className="text-gray-700 leading-relaxed">
                   {expandedMentor === 7 
-                    ? "Johnny specializes in performance coaching and has helped hundreds of young athletes reach their goals through personalized training plans."
-                    : "Johnny specializes in performance coaching and has helped hundreds of young athletes..."
+                    ? "Jonny's professional playing career has spanned over 20 years, having played in England and Scotland, as well as continuing to play in the Irish Premiership with Crusaders FC. Jonny has gained valuable playing experience at various international underage teams as well as at the senior international level. Jonny is a UEFA A licensed coach and is currently managing Crusaders Strikers' first team in the Northern Irish Women's Premier League. Jonny's coaching experience also includes serving as the Goalkeeping coach for the Northern Ireland Senior International Women's team and as the Goalkeeping coach for the Northern Ireland boys' NPP."
+                    : "Jonny's professional playing career has spanned over 20 years, having played in England and Scotland, as well as continuing to play in the Irish Premiership with Crusaders FC..."
                   }
                 </p>
                 {expandedMentor !== 7 && (
