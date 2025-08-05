@@ -383,7 +383,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="text-center">
-                <p className="font-semibold text-gray-900 mb-1">Cristiano Oliveria</p>
+                <p className="font-semibold text-gray-900 mb-1">Cristiano Oliveira</p>
                 <p className="text-gray-600 text-sm">New England Revolution</p>
               </div>
             </div>
