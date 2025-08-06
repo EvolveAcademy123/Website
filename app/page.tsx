@@ -402,7 +402,7 @@ export default function Home() {
               </div>
               <div className="text-center">
                 <p className="font-semibold text-gray-900 mb-1">Logan Moniz</p>
-                <p className="text-gray-600 text-sm">Boston Bolts</p>
+                <p className="text-gray-600 text-sm">Duke University Commit</p>
               </div>
             </div>
 
@@ -419,8 +419,8 @@ export default function Home() {
                 </div>
               </div>
               <div className="text-center">
-                <p className="font-semibold text-gray-900 mb-1">Lorenzo Grimaldi</p>
-                <p className="text-gray-600 text-sm">Newton North High</p>
+                <p className="font-semibold text-gray-900 mb-1">Julian Martinez</p>
+                <p className="text-gray-600 text-sm">Boston Bolts</p>
               </div>
             </div>
           </div>
