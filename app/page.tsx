@@ -571,13 +571,13 @@ export default function Home() {
                 className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center cursor-pointer transition-all duration-300 hover:shadow-lg"
                 onClick={() => toggleMentor(8)}
               >
-                <img src="https://randomuser.me/api/portraits/men/16.jpg" alt="Mentor 8" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
+                <img src="/kevin-keegan.jpg" alt="Kevin Keegan" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Kevin Keegan</h3>
                 <p className="text-primary-600 font-medium mb-4">Youth Development Specialist</p>
                 <p className="text-gray-700 leading-relaxed">
                   {expandedMentor === 8 
-                    ? "Kevin is passionate about youth development and has a background in both coaching and education, making him a valuable mentor for young athletes."
-                    : "Kevin is passionate about youth development and has a background in both coaching and education..."
+                    ? "Kevin brings a wealth of knowledge and experience as a athlete, mentor and coach. Kevin is an ex-Irish league player with a career lasting over 20 years. He has experience in Mentorship having worked for the Irish Football Associations Ladies program for a number of years and is the current first team coach with AFC Craigavon."
+                    : "Kevin brings a wealth of knowledge and experience as a athlete, mentor and coach. Kevin is an ex-Irish league player with a career lasting over 20 years..."
                   }
                 </p>
                 {expandedMentor !== 8 && (
