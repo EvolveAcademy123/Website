@@ -571,7 +571,7 @@ export default function Home() {
                 className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center cursor-pointer transition-all duration-300 hover:shadow-lg"
                 onClick={() => toggleMentor(8)}
               >
-                <img src="/kevin-keegan.jpg" alt="Kevin Keegan" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
+                <img src="/kevin-keegan.jpg.png" alt="Kevin Keegan" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Kevin Keegan</h3>
                 <p className="text-primary-600 font-medium mb-4">Former Professional Player</p>
                 <p className="text-gray-700 leading-relaxed">
