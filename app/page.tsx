@@ -710,7 +710,7 @@ export default function Home() {
       {/* Evolve Squad Details Section */}
       <section id="evolve-squad-details" className="py-20 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl md:text-3xl font-bold text-primary-600 mb-6">Evolve Squad™</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-primary-600 mb-6">🤝 Evolve Squad™</h2>
           <p className="text-gray-700 text-lg mb-4 font-semibold">Stronger together. Growing as one.</p>
           <p className="text-gray-700 text-lg mb-4">A small-group experience that combines personal growth with the power of a supportive team. Learn, challenge, and inspire each other while developing the skills and mindset you need to succeed — together.</p>
           <div className="mb-6">
