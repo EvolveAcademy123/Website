@@ -573,7 +573,7 @@ export default function Home() {
               >
                 <img src="/kevin-keegan.jpg" alt="Kevin Keegan" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Kevin Keegan</h3>
-                <p className="text-primary-600 font-medium mb-4">Youth Development Specialist</p>
+                <p className="text-primary-600 font-medium mb-4">Former Professional Player</p>
                 <p className="text-gray-700 leading-relaxed">
                   {expandedMentor === 8 
                     ? "Kevin brings a wealth of knowledge and experience as a athlete, mentor and coach. Kevin is an ex-Irish league player with a career lasting over 20 years. He has experience in Mentorship having worked for the Irish Football Associations Ladies program for a number of years and is the current first team coach with AFC Craigavon."
