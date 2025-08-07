@@ -553,8 +553,8 @@ export default function Home() {
                 className="bg-white rounded-xl p-10 shadow-sm border border-gray-200 text-center cursor-pointer transition-all duration-300 hover:shadow-lg"
                 onClick={() => toggleMentor(7)}
               >
-                <img src="/johnny-tuffey.jpg.png" alt="Johnny Tuffey" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Johnny Tuffey</h3>
+                <img src="/johnny-tuffey.jpg.png" alt="Jonny Tuffey" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Jonny Tuffey</h3>
                 <p className="text-primary-600 font-medium mb-4">Professional Player and Crusaders Academy Director</p>
                 <p className="text-gray-700 leading-relaxed">
                   {expandedMentor === 7 
