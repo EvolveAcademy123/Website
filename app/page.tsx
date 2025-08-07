@@ -447,7 +447,7 @@ export default function Home() {
               >
                 <img src="/alan-nixon.jpg" alt="Alan Nixon" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Alan Nixon</h3>
-                <p className="text-primary-600 font-medium mb-4">UEFA Pro License & Global Coach Educator</p>
+                <p className="text-primary-600 font-medium mb-4">UEFA Pro Licensed & Global Coach Educator</p>
                 <p className="text-gray-700 leading-relaxed">
                   {expandedMentor === 1 
                     ? "Alan is a former Irish League footballer turned High School teacher, who stepped away from teaching to become a Global Coach Educator. A UEFA Pro Licensed coach, with two Masters degrees in coaching and then mentoring, Alan has now worked frequently in 47 countries over a 25 year period. His unique blend of an elite playing career, with a pre-eminent coach education career blended with excellent academic progress spanning 42 countries allows him a unique perspective on player development."
@@ -465,10 +465,10 @@ export default function Home() {
               >
                 <img src="/kurtis-milan.jpg.png" alt="Kurtis Millan" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Kurtis Millan</h3>
-                <p className="text-primary-600 font-medium mb-4">UEFA A License Coach</p>
+                <p className="text-primary-600 font-medium mb-4">UEFA A Licensed Coach</p>
                 <p className="text-gray-700 leading-relaxed">
                   {expandedMentor === 2 
-                    ? "Kurtis has over a decade of work across elite youth academies and club leadership roles in Sweden, the USA, and the UK. An experienced UEFA A licensed coach with a background in Sport & Exercise Science, Kurtis has also served as a Technical Director and General Manager, leading coach education. Currently working as an Individual Development Coach with U19 players at Hammarby IF (Allsvenskan), he specialises in player-centred development, performance analysis, and preparing players for the demands of senior football."
+                    ? "Kurtis has over a decade of work across elite youth academies and club leadership roles in Sweden, the USA, and the UK. An experienced UEFA A Licensed coach with a background in Sport & Exercise Science, Kurtis has also served as a Technical Director and General Manager, leading coach education. Currently working as an Individual Development Coach with U19 players at Hammarby IF (Allsvenskan), he specializes in player-centred development, performance analysis, and preparing players for the demands of senior football."
                     : "Kurtis has over a decade of work across elite youth academies and club leadership roles in Sweden, the USA, and the UK..."
                   }
                 </p>
@@ -483,10 +483,10 @@ export default function Home() {
               >
                 <img src="/colin-nixon.jpg" alt="Colin Nixon" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Colin Nixon</h3>
-                <p className="text-primary-600 font-medium mb-4">Former Professional & UEFA A License Coach</p>
+                <p className="text-primary-600 font-medium mb-4">Former Professional & UEFA A Licensed Coach</p>
                 <p className="text-gray-700 leading-relaxed">
                   {expandedMentor === 3 
-                    ? "Colin is an ex Irish Premier League player, making just under 800 appearances for Glentoran. He currently holds a UEFA A Coaching licence and has managed in both the Irish Premier League and Championship, giving over 30 years' experience at the top end of the game in Northern Ireland. He has also been in charge of various youth academies. His key motivation is to see young players fulfil their potential and become the best version of themselves both on and off the field."
+                    ? "Colin is an ex Irish Premier League player, making just under 800 appearances for Glentoran. He currently holds a UEFA A Coaching License and has managed in both the Irish Premier League and Championship, giving over 30 years' experience at the top end of the game in Northern Ireland. He has also been in charge of various youth academies. His key motivation is to see young players fulfil their potential and become the best version of themselves both on and off the field."
                     : "Colin is an ex Irish Premier League player, making just under 800 appearances for Glentoran..."
                   }
                 </p>
@@ -501,10 +501,10 @@ export default function Home() {
               >
                 <img src="/mario-pruul.jpg" alt="Mario Pruul" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" style={{objectPosition: '50% 15%'}} />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Mario Pruul</h3>
-                <p className="text-primary-600 font-medium mb-4">Club Director & UEFA A License Coach</p>
+                <p className="text-primary-600 font-medium mb-4">Club Director & UEFA A Licensed Coach</p>
                 <p className="text-gray-700 leading-relaxed">
                   {expandedMentor === 4 
-                    ? "Mario has been involved in soccer for over 20 years. Having retired from playing at the highest level in Estonia, Mario has served as a club director. Mario is a UEFA A licensed coach and is currently completing the UEFA Football Management course."
+                    ? "Mario has been involved in soccer for over 20 years. Having retired from playing at the highest level in Estonia, Mario has served as a club director. Mario is a UEFA A Licensed coach and is currently completing the UEFA Football Management course."
                     : "Mario has been involved in soccer for over 20 years. Having retired from playing at the highest level in Estonia..."
                   }
                 </p>
@@ -519,11 +519,11 @@ export default function Home() {
               >
                 <img src="/justin-sheppard.jpg" alt="Justin Sheppard" className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Justin Sheppard</h3>
-                <p className="text-primary-600 font-medium mb-4">UEFA A License</p>
+                <p className="text-primary-600 font-medium mb-4">UEFA A Licensed</p>
                 <p className="text-gray-700 leading-relaxed">
                   {expandedMentor === 5 
-                    ? "In addition to holding a UEFA A Coaching Licence Justin has a BSc in Sport and Exercises obtained from the University of Ulster. Justin is the founder and head coach of JS Soccer Skills which specialises in delivering high quality coaching sessions to youth footballers of all abilities. Justin is also the lead tutor for the Football Management Company delivering the NIFL Scholarship Programme at the National Football Stadium to talented 16-18 year old footballers and is a former Irish FA Primary Schools Coach and Club NI Coach which involved coaching some of the most talented young players in Northern Ireland."
-                    : "In addition to holding a UEFA A Coaching Licence Justin has a BSc in Sport and Exercises obtained from the University of Ulster..."
+                    ? "In addition to holding a UEFA A Coaching License Justin has a BSc in Sport and Exercises obtained from the University of Ulster. Justin is the founder and head coach of JS Soccer Skills which specializes in delivering high quality coaching sessions to youth footballers of all abilities. Justin is also the lead tutor for the Football Management Company delivering the NIFL Scholarship Programme at the National Football Stadium to talented 16-18 year old footballers and is a former Irish FA Primary Schools Coach and Club NI Coach which involved coaching some of the most talented young players in Northern Ireland."
+                    : "In addition to holding a UEFA A Coaching License Justin has a BSc in Sport and Exercises obtained from the University of Ulster..."
                   }
                 </p>
                 {expandedMentor !== 5 && (
@@ -558,7 +558,7 @@ export default function Home() {
                 <p className="text-primary-600 font-medium mb-4">Professional Player and Crusaders Academy Director</p>
                 <p className="text-gray-700 leading-relaxed">
                   {expandedMentor === 7 
-                    ? "Jonny's professional playing career has spanned over 20 years, having played in England and Scotland, as well as continuing to play in the Irish Premiership with Crusaders FC. Jonny has gained valuable playing experience at various international underage teams as well as at the senior international level. Jonny is a UEFA A licensed coach and is currently managing Crusaders Strikers' first team in the Northern Irish Women's Premier League. Jonny's coaching experience also includes serving as the Goalkeeping coach for the Northern Ireland Senior International Women's team and as the Goalkeeping coach for the Northern Ireland boys' NPP."
+                    ? "Jonny's professional playing career has spanned over 20 years, having played in England and Scotland, as well as continuing to play in the Irish Premiership with Crusaders FC. Jonny has gained valuable playing experience at various international underage teams as well as at the senior international level. Jonny is a UEFA A Licensed coach and is currently managing Crusaders Strikers' first team in the Northern Irish Women's Premier League. Jonny's coaching experience also includes serving as the Goalkeeping coach for the Northern Ireland Senior International Women's team and as the Goalkeeping coach for the Northern Ireland boys' NPP."
                     : "Jonny's professional playing career has spanned over 20 years, having played in England and Scotland, as well as continuing to play in the Irish Premiership with Crusaders FC..."
                   }
                 </p>
@@ -576,8 +576,8 @@ export default function Home() {
                 <p className="text-primary-600 font-medium mb-4">Former Professional Player</p>
                 <p className="text-gray-700 leading-relaxed">
                   {expandedMentor === 8 
-                    ? "Kevin brings a wealth of knowledge and experience as a athlete, mentor and coach. Kevin is an ex-Irish league player with a career lasting over 20 years. He has experience in Mentorship having worked for the Irish Football Associations Ladies program for a number of years and is the current first team coach with AFC Craigavon."
-                    : "Kevin brings a wealth of knowledge and experience as a athlete, mentor and coach. Kevin is an ex-Irish league player with a career lasting over 20 years..."
+                    ? "Kevin brings a wealth of knowledge and experience as an athlete, mentor and coach. Kevin is an ex-Irish league player with a career lasting over 20 years. He has experience in Mentorship having worked for the Irish Football Associations Ladies program for a number of years and is the current first team coach with AFC Craigavon."
+                    : "Kevin brings a wealth of knowledge and experience as an athlete, mentor and coach. Kevin is an ex-Irish league player with a career lasting over 20 years..."
                   }
                 </p>
                 {expandedMentor !== 8 && (
@@ -594,7 +594,7 @@ export default function Home() {
                 <p className="text-primary-600 font-medium mb-4">Experienced Coach & Performance Analyst</p>
                 <p className="text-gray-700 leading-relaxed">
                   {expandedMentor === 9 
-                    ? "Mark is an experienced coach with over 20 years of coaching within the UK and Ireland, he has worked at Grassroots clubs and Academy clubs. He is currently working within the women's game in Northern Ireland, working with Camlough Rovers as co-Manager. He specialises in performance analysis and technical and tactical awareness. With a background in Sports Science and Business, Mark has run and owned businesses, which has given him a deep rooted experience of man management, ability to motivate and player/staff development which he uses in his coaching style. His coaching philosophy is based on empathy, compassion and a desire to inspire all players he comes into contact with."
+                    ? "Mark is an experienced coach with over 20 years of coaching within the UK and Ireland, he has worked at Grassroots clubs and Academy clubs. He is currently working within the women's game in Northern Ireland, working with Camlough Rovers as co-Manager. He specializes in performance analysis and technical and tactical awareness. With a background in Sports Science and Business, Mark has run and owned businesses, which has given him a deep rooted experience of man management, ability to motivate and player/staff development which he uses in his coaching style. His coaching philosophy is based on empathy, compassion and a desire to inspire all players he comes into contact with."
                     : "Mark is an experienced coach with over 20 years of coaching within the UK and Ireland, he has worked at Grassroots clubs and Academy clubs..."
                   }
                 </p>
@@ -778,11 +778,11 @@ export default function Home() {
           <div className="mb-6">
             <h3 className="text-xl font-bold text-gray-900 mb-2">Our Mentor</h3>
             <ul className="list-disc pl-6 text-gray-700">
-              <li>UEFA Pro Licence; MSc in Coaching; MSc in Mentoring; SportNI Elite Coach Developer</li>
+              <li>UEFA Pro License; MSc in Coaching; MSc in Mentoring; SportNI Elite Coach Developer</li>
               <li>Worked in 40 countries for 25 years – 17 National Associations and professional clubs in 23 countries</li>
               <li>Delivered through the IFA Elite boys' coach mentoring programme for 5 years</li>
               <li>Coach mentor for professional/national team coaches currently in 10 countries from Belgium to Zambia</li>
-              <li>Currently delivering the Elite Academy Directors course at the Estonia FA 2022-2025 and educator on UEFA Pro Licence course</li>
+              <li>Currently delivering the Elite Academy Directors course at the Estonia FA 2022-2025 and educator on UEFA Pro License course</li>
               <li>Ex-youth National team and Irish Premier League player</li>
             </ul>
           </div>
