@@ -20,6 +20,8 @@ export default function Home() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [expandedMentor, setExpandedMentor] = useState<number | null>(null)
+  const [videoModalOpen, setVideoModalOpen] = useState(false)
+  const [selectedVideo, setSelectedVideo] = useState<string | null>(null)
 
   const toggleFaq = (index: number) => {
     setOpenFaq(openFaq === index ? null : index)
@@ -27,6 +29,23 @@ export default function Home() {
 
   const toggleMentor = (index: number) => {
     setExpandedMentor(expandedMentor === index ? null : index)
+  }
+
+  const openVideoModal = (videoSrc: string) => {
+    setSelectedVideo(videoSrc)
+    setVideoModalOpen(true)
+  }
+
+  const closeVideoModal = () => {
+    setVideoModalOpen(false)
+    setSelectedVideo(null)
+  }
+
+  // Video mapping for testimonials
+  const videoMapping: { [key: string]: string } = {
+    'Cristiano Oliveira': '/cristiano-optimised.mp4',
+    'Logan Moniz': '/logan-optimised.mp4',
+    'Julian Martinez': '/julian-optimised.mp4'
   }
 
   return (
@@ -371,15 +390,25 @@ export default function Home() {
 
           <div className="grid md:grid-cols-3 gap-12">
             {/* Video Testimonial 1 */}
-            <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-              <div className="aspect-video bg-gray-200 rounded-lg mb-6 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-primary-600 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div 
+              className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 cursor-pointer transition-all duration-300 hover:shadow-lg hover:scale-105"
+              onClick={() => openVideoModal(videoMapping['Cristiano Oliveira'])}
+            >
+              <div className="aspect-video bg-gray-200 rounded-lg mb-6 relative overflow-hidden group">
+                <img 
+                  src="/cristiano-thumbnail.png" 
+                  alt="Cristiano Oliveira testimonial thumbnail"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center group-hover:bg-opacity-40 transition-all duration-300">
+                  <div className="w-16 h-16 bg-primary-600 bg-opacity-90 rounded-full flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
                     <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <p className="text-gray-600">Video Testimonial</p>
+                </div>
+                <div className="absolute bottom-4 left-4 right-4 text-center">
+                  <p className="text-white text-sm font-medium drop-shadow-lg">Click to watch testimonial</p>
                 </div>
               </div>
               <div className="text-center">
@@ -389,15 +418,25 @@ export default function Home() {
             </div>
 
             {/* Video Testimonial 2 */}
-            <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-              <div className="aspect-video bg-gray-200 rounded-lg mb-6 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-primary-600 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div 
+              className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 cursor-pointer transition-all duration-300 hover:shadow-lg hover:scale-105"
+              onClick={() => openVideoModal(videoMapping['Logan Moniz'])}
+            >
+              <div className="aspect-video bg-gray-200 rounded-lg mb-6 relative overflow-hidden group">
+                <img 
+                  src="/logan-thumbnail.png" 
+                  alt="Logan Moniz testimonial thumbnail"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center group-hover:bg-opacity-40 transition-all duration-300">
+                  <div className="w-16 h-16 bg-primary-600 bg-opacity-90 rounded-full flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
                     <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <p className="text-gray-600">Video Testimonial</p>
+                </div>
+                <div className="absolute bottom-4 left-4 right-4 text-center">
+                  <p className="text-white text-sm font-medium drop-shadow-lg">Click to watch testimonial</p>
                 </div>
               </div>
               <div className="text-center">
@@ -407,15 +446,25 @@ export default function Home() {
             </div>
 
             {/* Video Testimonial 3 */}
-            <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-              <div className="aspect-video bg-gray-200 rounded-lg mb-6 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-primary-600 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div 
+              className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 cursor-pointer transition-all duration-300 hover:shadow-lg hover:scale-105"
+              onClick={() => openVideoModal(videoMapping['Julian Martinez'])}
+            >
+              <div className="aspect-video bg-gray-200 rounded-lg mb-6 relative overflow-hidden group">
+                <img 
+                  src="/julian-thumbnail.png" 
+                  alt="Julian Martinez testimonial thumbnail"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center group-hover:bg-opacity-40 transition-all duration-300">
+                  <div className="w-16 h-16 bg-primary-600 bg-opacity-90 rounded-full flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
                     <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <p className="text-gray-600">Video Testimonial</p>
+                </div>
+                <div className="absolute bottom-4 left-4 right-4 text-center">
+                  <p className="text-white text-sm font-medium drop-shadow-lg">Click to watch testimonial</p>
                 </div>
               </div>
               <div className="text-center">
@@ -843,6 +892,44 @@ export default function Home() {
           </div>
         </div>
       </footer>
+
+      {/* Video Modal */}
+      {videoModalOpen && (
+        <div 
+          className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4"
+          onClick={closeVideoModal}
+        >
+          <div 
+            className="relative bg-white rounded-lg max-w-4xl w-full max-h-[90vh] overflow-hidden"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Close button */}
+            <button
+              onClick={closeVideoModal}
+              className="absolute top-4 right-4 z-10 bg-black bg-opacity-50 text-white rounded-full p-2 hover:bg-opacity-75 transition-all duration-200"
+            >
+              <X size={24} />
+            </button>
+            
+            {/* Video container */}
+            <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+              {selectedVideo && (
+                <video
+                  className="absolute inset-0 w-full h-full object-contain"
+                  controls
+                  autoPlay
+                  onError={(e) => {
+                    console.error('Video failed to load:', e);
+                  }}
+                >
+                  <source src={selectedVideo} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   )
 }
