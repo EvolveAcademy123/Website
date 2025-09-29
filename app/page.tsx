@@ -240,9 +240,9 @@ export default function Home() {
                 and perform at the highest level.
               </p>
               <a href="#evolve-pro-details">
-                <button className="w-full bg-primary-600 text-white py-3 rounded-lg font-medium hover:bg-primary-700 transition-colors">
-                  Learn More
-                </button>
+              <button className="w-full bg-primary-600 text-white py-3 rounded-lg font-medium hover:bg-primary-700 transition-colors">
+                Learn More
+              </button>
               </a>
             </div>
 
@@ -435,7 +435,7 @@ export default function Home() {
                   <p className="text-white text-sm font-medium drop-shadow-lg">Click to watch testimonial</p>
                 </div>
               </div>
-              <div className="text-center">
+            <div className="text-center">
                 <p className="font-semibold text-gray-900 mb-1">Cristiano Oliveira</p>
                 <p className="text-gray-600 text-sm">New England Revolution</p>
               </div>
@@ -463,7 +463,7 @@ export default function Home() {
                   <p className="text-white text-sm font-medium drop-shadow-lg">Click to watch testimonial</p>
                 </div>
               </div>
-              <div className="text-center">
+            <div className="text-center">
                 <p className="font-semibold text-gray-900 mb-1">Logan Moniz</p>
                 <p className="text-gray-600 text-sm">Duke University Commit</p>
               </div>
@@ -491,7 +491,7 @@ export default function Home() {
                   <p className="text-white text-sm font-medium drop-shadow-lg">Click to watch testimonial</p>
                 </div>
               </div>
-              <div className="text-center">
+            <div className="text-center">
                 <p className="font-semibold text-gray-900 mb-1">Julian Martinez</p>
                 <p className="text-gray-600 text-sm">Boston Bolts</p>
               </div>
@@ -511,10 +511,13 @@ export default function Home() {
               Our mentors are experienced professionals dedicated to helping young athletes grow on and off the field.
             </p>
           </div>
-          
+
           {/* Mentor Dropdown */}
           <div className="max-w-4xl mx-auto">
-            <div className="space-y-4">
+            {/* Professional Mentors Section */}
+            <div className="mb-16">
+              <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">Professional Mentors</h3>
+              <div className="space-y-4">
               {/* Mentor 1: Alan Nixon */}
               <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
                 <div 
@@ -526,7 +529,7 @@ export default function Home() {
                     <div className="text-left">
                       <h3 className="text-xl font-bold text-gray-900">Alan Nixon</h3>
                       <p className="text-primary-600 font-medium">UEFA Pro Licensed & Global Coach Educator</p>
-                    </div>
+              </div>
                   </div>
                   <div className="flex items-center">
                     {expandedMentor === 1 ? <ChevronUp size={24} className="text-gray-500" /> : <ChevronDown size={24} className="text-gray-500" />}
@@ -537,9 +540,9 @@ export default function Home() {
                     <p className="text-gray-700 leading-relaxed pt-4">
                       Alan is a former Irish League footballer turned High School teacher, who stepped away from teaching to become a Global Coach Educator. A UEFA Pro Licensed coach, with two Masters degrees in coaching and then mentoring, Alan has now worked frequently in 47 countries over a 25 year period. His unique blend of an elite playing career, with a pre-eminent coach education career blended with excellent academic progress spanning 42 countries allows him a unique perspective on player development.
                     </p>
-                  </div>
-                )}
               </div>
+                )}
+            </div>
               {/* Mentor 2: Kurtis Millan */}
               <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
                 <div 
@@ -551,7 +554,7 @@ export default function Home() {
                     <div className="text-left">
                       <h3 className="text-xl font-bold text-gray-900">Kurtis Millan</h3>
                       <p className="text-primary-600 font-medium">UEFA A Licensed Coach</p>
-                    </div>
+              </div>
                   </div>
                   <div className="flex items-center">
                     {expandedMentor === 2 ? <ChevronUp size={24} className="text-gray-500" /> : <ChevronDown size={24} className="text-gray-500" />}
@@ -764,6 +767,45 @@ export default function Home() {
                     </p>
                   </div>
                 )}
+              </div>
+              </div>
+            </div>
+
+            {/* Collegiate Mentors Section */}
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">Collegiate Mentors</h3>
+              <p className="text-gray-600 mb-8 text-center max-w-2xl mx-auto">
+                Current and recent collegiate athletes who've successfully navigated the path from high school to college athletics.
+              </p>
+              <div className="space-y-4">
+                {/* Example Collegiate Mentor Template - Replace with actual mentors */}
+                <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+                  <div className="p-6 cursor-pointer transition-all duration-300 hover:bg-gray-50 flex items-center justify-between">
+                    <div className="flex items-center space-x-4 flex-1">
+                      <img src="/RickyEvolve.png" alt="Ricky Rollo" className="w-16 h-16 rounded-full object-contain" />
+                      <div className="text-left flex-1">
+                        <h3 className="text-xl font-bold text-gray-900">Ricky Rollo</h3>
+                        <p className="text-primary-600 font-medium">Current Student-Athlete</p>
+                        <p className="text-gray-500 text-sm">Soccer • 2026 • Physics and Mathematics</p>
+                      </div>
+                      <div className="flex items-center space-x-4">
+                        <img src="/harvard.png" alt="Harvard Logo" className="h-20 w-auto" />
+                        <ChevronDown size={24} className="text-gray-500" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Placeholder for additional collegiate mentors */}
+                <div className="bg-gray-50 rounded-xl shadow-sm border-2 border-dashed border-gray-300 p-8 text-center">
+                  <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center text-primary-600 mx-auto mb-4">
+                    <GraduationCap size={32} />
+                  </div>
+                  <h4 className="text-lg font-semibold text-gray-700 mb-2">More Collegiate Athletes Coming Soon</h4>
+                  <p className="text-gray-500">
+                    We're actively recruiting current collegiate athletes from top programs to mentor high school students.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
