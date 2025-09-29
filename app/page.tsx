@@ -23,6 +23,9 @@ export default function Home() {
   const [expandedMentor, setExpandedMentor] = useState<number | null>(null)
   const [videoModalOpen, setVideoModalOpen] = useState(false)
   const [selectedVideo, setSelectedVideo] = useState<string | null>(null)
+  const [mentorsSectionOpen, setMentorsSectionOpen] = useState(true)
+  const [professionalMentorsOpen, setProfessionalMentorsOpen] = useState(false)
+  const [collegiateMentorsOpen, setCollegiateMentorsOpen] = useState(false)
 
   const toggleFaq = (index: number) => {
     setOpenFaq(openFaq === index ? null : index)
@@ -40,6 +43,18 @@ export default function Home() {
   const closeVideoModal = () => {
     setVideoModalOpen(false)
     setSelectedVideo(null)
+  }
+
+  const toggleMentorsSection = () => {
+    setMentorsSectionOpen(!mentorsSectionOpen)
+  }
+
+  const toggleProfessionalMentors = () => {
+    setProfessionalMentorsOpen(!professionalMentorsOpen)
+  }
+
+  const toggleCollegiateMentors = () => {
+    setCollegiateMentorsOpen(!collegiateMentorsOpen)
   }
 
   // Video mapping for testimonials
@@ -504,314 +519,349 @@ export default function Home() {
       <section id="mentors" className="py-24 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
-              Meet Our Mentors
-            </h2>
+            <div className="flex items-center justify-center mb-8">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mr-4">
+                Meet Our Mentors
+              </h2>
+            </div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               Our mentors are experienced professionals dedicated to helping young athletes grow on and off the field.
             </p>
           </div>
 
           {/* Mentor Dropdown */}
-          <div className="max-w-4xl mx-auto">
-            {/* Professional Mentors Section */}
-            <div className="mb-16">
-              <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">Professional Mentors</h3>
-              <div className="space-y-4">
-              {/* Mentor 1: Alan Nixon */}
-              <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
-                <div 
-                  className="p-6 cursor-pointer transition-all duration-300 hover:bg-gray-50 flex items-center justify-between"
-                  onClick={() => toggleMentor(1)}
-                >
-                  <div className="flex items-center space-x-4">
-                    <img src="/alan-nixon.jpg" alt="Alan Nixon" className="w-16 h-16 rounded-full object-cover" />
-                    <div className="text-left">
-                      <h3 className="text-xl font-bold text-gray-900">Alan Nixon</h3>
-                      <p className="text-primary-600 font-medium">UEFA Pro Licensed & Global Coach Educator</p>
-              </div>
-                  </div>
-                  <div className="flex items-center">
-                    {expandedMentor === 1 ? <ChevronUp size={24} className="text-gray-500" /> : <ChevronDown size={24} className="text-gray-500" />}
-                  </div>
+          {mentorsSectionOpen && (
+            <div className="max-w-4xl mx-auto">
+              {/* Professional Mentors Section */}
+              <div className="mb-16">
+                <div className="flex items-center justify-center mb-4">
+                  <h3 className="text-2xl font-bold text-gray-900 mr-4">Professional Mentors</h3>
+                  <button
+                    onClick={toggleProfessionalMentors}
+                    className="p-2 hover:bg-gray-100 rounded-full transition-colors"
+                  >
+                    {professionalMentorsOpen ? <ChevronUp size={20} className="text-gray-600" /> : <ChevronDown size={20} className="text-gray-600" />}
+                  </button>
                 </div>
-                {expandedMentor === 1 && (
-                  <div className="px-6 pb-6 border-t border-gray-100">
-                    <p className="text-gray-700 leading-relaxed pt-4">
-                      Alan is a former Irish League footballer turned High School teacher, who stepped away from teaching to become a Global Coach Educator. A UEFA Pro Licensed coach, with two Masters degrees in coaching and then mentoring, Alan has now worked frequently in 47 countries over a 25 year period. His unique blend of an elite playing career, with a pre-eminent coach education career blended with excellent academic progress spanning 42 countries allows him a unique perspective on player development.
-                    </p>
-              </div>
-                )}
-            </div>
-              {/* Mentor 2: Kurtis Millan */}
-              <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
-                <div 
-                  className="p-6 cursor-pointer transition-all duration-300 hover:bg-gray-50 flex items-center justify-between"
-                  onClick={() => toggleMentor(2)}
-                >
-                  <div className="flex items-center space-x-4">
-                    <img src="/kurtis-milan.jpg.png" alt="Kurtis Millan" className="w-16 h-16 rounded-full object-cover" />
-                    <div className="text-left">
-                      <h3 className="text-xl font-bold text-gray-900">Kurtis Millan</h3>
-                      <p className="text-primary-600 font-medium">UEFA A Licensed Coach</p>
-              </div>
-                  </div>
-                  <div className="flex items-center">
-                    {expandedMentor === 2 ? <ChevronUp size={24} className="text-gray-500" /> : <ChevronDown size={24} className="text-gray-500" />}
-                  </div>
-                </div>
-                {expandedMentor === 2 && (
-                  <div className="px-6 pb-6 border-t border-gray-100">
-                    <p className="text-gray-700 leading-relaxed pt-4">
-                      Kurtis has over a decade of work across elite youth academies and club leadership roles in Sweden, the USA, and the UK. An experienced UEFA A Licensed coach with a background in Sport & Exercise Science, Kurtis has also served as a Technical Director and General Manager, leading coach education. Currently working as an Individual Development Coach with U19 players at Hammarby IF (Allsvenskan), he specializes in player-centred development, performance analysis, and preparing players for the demands of senior football.
-                    </p>
-                  </div>
-                )}
-              </div>
-              {/* Mentor 3: Colin Nixon */}
-              <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
-                <div 
-                  className="p-6 cursor-pointer transition-all duration-300 hover:bg-gray-50 flex items-center justify-between"
-                  onClick={() => toggleMentor(3)}
-                >
-                  <div className="flex items-center space-x-4">
-                    <img src="/colin-nixon.jpg" alt="Colin Nixon" className="w-16 h-16 rounded-full object-cover" />
-                    <div className="text-left">
-                      <h3 className="text-xl font-bold text-gray-900">Colin Nixon</h3>
-                      <p className="text-primary-600 font-medium">Former Professional & UEFA A Licensed Coach</p>
-                    </div>
-                  </div>
-                  <div className="flex items-center">
-                    {expandedMentor === 3 ? <ChevronUp size={24} className="text-gray-500" /> : <ChevronDown size={24} className="text-gray-500" />}
-                  </div>
-                </div>
-                {expandedMentor === 3 && (
-                  <div className="px-6 pb-6 border-t border-gray-100">
-                    <p className="text-gray-700 leading-relaxed pt-4">
-                      Colin is an ex Irish Premier League player, making just under 800 appearances for Glentoran. He currently holds a UEFA A Coaching License and has managed in both the Irish Premier League and Championship, giving over 30 years' experience at the top end of the game in Northern Ireland. He has also been in charge of various youth academies. His key motivation is to see young players fulfil their potential and become the best version of themselves both on and off the field.
-                    </p>
-                  </div>
-                )}
-              </div>
-              {/* Mentor 4: Mario Pruul */}
-              <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
-                <div 
-                  className="p-6 cursor-pointer transition-all duration-300 hover:bg-gray-50 flex items-center justify-between"
-                  onClick={() => toggleMentor(4)}
-                >
-                  <div className="flex items-center space-x-4">
-                    <img src="/mario-pruul.jpg" alt="Mario Pruul" className="w-16 h-16 rounded-full object-cover" style={{objectPosition: '50% 15%'}} />
-                    <div className="text-left">
-                      <h3 className="text-xl font-bold text-gray-900">Mario Pruul</h3>
-                      <p className="text-primary-600 font-medium">Club Director & UEFA A Licensed Coach</p>
-                    </div>
-                  </div>
-                  <div className="flex items-center">
-                    {expandedMentor === 4 ? <ChevronUp size={24} className="text-gray-500" /> : <ChevronDown size={24} className="text-gray-500" />}
-                  </div>
-                </div>
-                {expandedMentor === 4 && (
-                  <div className="px-6 pb-6 border-t border-gray-100">
-                    <p className="text-gray-700 leading-relaxed pt-4">
-                      Mario has been involved in soccer for over 20 years. Having retired from playing at the highest level in Estonia, Mario has served as a club director. Mario is a UEFA A Licensed coach and is currently completing the UEFA Football Management course.
-                    </p>
-                  </div>
-                )}
-              </div>
-              {/* Mentor 5: Justin Sheppard */}
-              <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
-                <div 
-                  className="p-6 cursor-pointer transition-all duration-300 hover:bg-gray-50 flex items-center justify-between"
-                  onClick={() => toggleMentor(5)}
-                >
-                  <div className="flex items-center space-x-4">
-                    <img src="/justin-sheppard.jpg" alt="Justin Sheppard" className="w-16 h-16 rounded-full object-cover" />
-                    <div className="text-left">
-                      <h3 className="text-xl font-bold text-gray-900">Justin Sheppard</h3>
-                      <p className="text-primary-600 font-medium">UEFA A Licensed</p>
-                    </div>
-                  </div>
-                  <div className="flex items-center">
-                    {expandedMentor === 5 ? <ChevronUp size={24} className="text-gray-500" /> : <ChevronDown size={24} className="text-gray-500" />}
-                  </div>
-                </div>
-                {expandedMentor === 5 && (
-                  <div className="px-6 pb-6 border-t border-gray-100">
-                    <p className="text-gray-700 leading-relaxed pt-4">
-                      In addition to holding a UEFA A Coaching License Justin has a BSc in Sport and Exercises obtained from the University of Ulster. Justin is the founder and head coach of JS Soccer Skills which specializes in delivering high quality coaching sessions to youth footballers of all abilities. Justin is also the lead tutor for the Football Management Company delivering the NIFL Scholarship Programme at the National Football Stadium to talented 16-18 year old footballers and is a former Irish FA Primary Schools Coach and Club NI Coach which involved coaching some of the most talented young players in Northern Ireland.
-                    </p>
-                  </div>
-                )}
-              </div>
-              {/* Mentor 6: Christopher Ricardi */}
-              <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
-                <div 
-                  className="p-6 cursor-pointer transition-all duration-300 hover:bg-gray-50 flex items-center justify-between"
-                  onClick={() => toggleMentor(6)}
-                >
-                  <div className="flex items-center space-x-4">
-                    <img src="/christopher-ricardi.jpg.png" alt="Christopher Ricardi" className="w-16 h-16 rounded-full object-cover" />
-                    <div className="text-left">
-                      <h3 className="text-xl font-bold text-gray-900">Christopher Ricardi</h3>
-                      <p className="text-primary-600 font-medium">Sport Mental Performance Consultant</p>
-                    </div>
-                  </div>
-                  <div className="flex items-center">
-                    {expandedMentor === 6 ? <ChevronUp size={24} className="text-gray-500" /> : <ChevronDown size={24} className="text-gray-500" />}
-                  </div>
-                </div>
-                {expandedMentor === 6 && (
-                  <div className="px-6 pb-6 border-t border-gray-100">
-                    <p className="text-gray-700 leading-relaxed pt-4">
-                      Chris is an experienced Sport Mental Performance Consultant working with high level youth, Division I collegiate, and professional teams and athletes. He is also a former soccer coach, with experience coaching at youth, and Division I collegiate levels. He has a Master's in Sport and Exercise Psychology, USSF C Coaching License, and UEFA B Coaching License.
-                    </p>
-                  </div>
-                )}
-              </div>
-              {/* Mentor 7: Jonny Tuffey */}
-              <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
-                <div 
-                  className="p-6 cursor-pointer transition-all duration-300 hover:bg-gray-50 flex items-center justify-between"
-                  onClick={() => toggleMentor(7)}
-                >
-                  <div className="flex items-center space-x-4">
-                    <img src="/johnny-tuffey.jpg.png" alt="Jonny Tuffey" className="w-16 h-16 rounded-full object-cover" />
-                    <div className="text-left">
-                      <h3 className="text-xl font-bold text-gray-900">Jonny Tuffey</h3>
-                      <p className="text-primary-600 font-medium">Professional Player and Crusaders Academy Director</p>
-                    </div>
-                  </div>
-                  <div className="flex items-center">
-                    {expandedMentor === 7 ? <ChevronUp size={24} className="text-gray-500" /> : <ChevronDown size={24} className="text-gray-500" />}
-                  </div>
-                </div>
-                {expandedMentor === 7 && (
-                  <div className="px-6 pb-6 border-t border-gray-100">
-                    <p className="text-gray-700 leading-relaxed pt-4">
-                      Jonny's professional playing career has spanned over 20 years, having played in England and Scotland, as well as continuing to play in the Irish Premiership with Crusaders FC. Jonny has gained valuable playing experience at various international underage teams as well as at the senior international level. Jonny is a UEFA A Licensed coach and is currently managing Crusaders Strikers' first team in the Northern Irish Women's Premier League. Jonny's coaching experience also includes serving as the Goalkeeping coach for the Northern Ireland Senior International Women's team and as the Goalkeeping coach for the Northern Ireland boys' NPP.
-                    </p>
-                  </div>
-                )}
-              </div>
-              {/* Mentor 8: Kevin Keegan */}
-              <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
-                <div 
-                  className="p-6 cursor-pointer transition-all duration-300 hover:bg-gray-50 flex items-center justify-between"
-                  onClick={() => toggleMentor(8)}
-                >
-                  <div className="flex items-center space-x-4">
-                    <img src="/kevin-keegan.jpg.png" alt="Kevin Keegan" className="w-16 h-16 rounded-full object-cover" />
-                    <div className="text-left">
-                      <h3 className="text-xl font-bold text-gray-900">Kevin Keegan</h3>
-                      <p className="text-primary-600 font-medium">Former Professional Player</p>
-                    </div>
-                  </div>
-                  <div className="flex items-center">
-                    {expandedMentor === 8 ? <ChevronUp size={24} className="text-gray-500" /> : <ChevronDown size={24} className="text-gray-500" />}
-                  </div>
-                </div>
-                {expandedMentor === 8 && (
-                  <div className="px-6 pb-6 border-t border-gray-100">
-                    <p className="text-gray-700 leading-relaxed pt-4">
-                      Kevin brings a wealth of knowledge and experience as an athlete, mentor and coach. Kevin is an ex-Irish league player with a career lasting over 20 years. He has experience in Mentorship having worked for the Irish Football Associations Ladies program for a number of years and is the current first team coach with AFC Craigavon.
-                    </p>
-                  </div>
-                )}
-              </div>
-              {/* Mentor 9: Mark Austin */}
-              <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
-                <div 
-                  className="p-6 cursor-pointer transition-all duration-300 hover:bg-gray-50 flex items-center justify-between"
-                  onClick={() => toggleMentor(9)}
-                >
-                  <div className="flex items-center space-x-4">
-                    <img src="/mark-austin.jpg.png" alt="Mark Austin" className="w-16 h-16 rounded-full object-cover" />
-                    <div className="text-left">
-                      <h3 className="text-xl font-bold text-gray-900">Mark Austin</h3>
-                      <p className="text-primary-600 font-medium">Experienced Coach & Performance Analyst</p>
-                    </div>
-                  </div>
-                  <div className="flex items-center">
-                    {expandedMentor === 9 ? <ChevronUp size={24} className="text-gray-500" /> : <ChevronDown size={24} className="text-gray-500" />}
-                  </div>
-                </div>
-                {expandedMentor === 9 && (
-                  <div className="px-6 pb-6 border-t border-gray-100">
-                    <p className="text-gray-700 leading-relaxed pt-4">
-                      Mark is an experienced coach with over 20 years of coaching within the UK and Ireland, he has worked at Grassroots clubs and Academy clubs. He is currently working within the women's game in Northern Ireland, working with Camlough Rovers as co-Manager. He specializes in performance analysis and technical and tactical awareness. With a background in Sports Science and Business, Mark has run and owned businesses, which has given him a deep rooted experience of man management, ability to motivate and player/staff development which he uses in his coaching style. His coaching philosophy is based on empathy, compassion and a desire to inspire all players he comes into contact with.
-                    </p>
-                  </div>
-                )}
-              </div>
-              {/* Mentor 10: Piotr 'Papi' Paprocki */}
-              <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
-                <div 
-                  className="p-6 cursor-pointer transition-all duration-300 hover:bg-gray-50 flex items-center justify-between"
-                  onClick={() => toggleMentor(10)}
-                >
-                  <div className="flex items-center space-x-4">
-                    <img src="/piotr-paprocki.jpg" alt="Piotr 'Papi' Paprocki" className="w-16 h-16 rounded-full object-cover" />
-                    <div className="text-left">
-                      <h3 className="text-xl font-bold text-gray-900">Piotr 'Papi' Paprocki</h3>
-                      <p className="text-primary-600 font-medium">Former Professional Basketball Player & Leadership Coach</p>
-                    </div>
-                  </div>
-                  <div className="flex items-center">
-                    {expandedMentor === 10 ? <ChevronUp size={24} className="text-gray-500" /> : <ChevronDown size={24} className="text-gray-500" />}
-                  </div>
-                </div>
-                {expandedMentor === 10 && (
-                  <div className="px-6 pb-6 border-t border-gray-100">
-                    <p className="text-gray-700 leading-relaxed pt-4">
-                      Piotr is a former professional basketball player and U.S. scholarship athlete with over 16 years of experience as a team-building and performance coach. He has worked with national youth teams and professional basketball and football teams across Poland, Belgium, and the United States. Currently, he co-leads an organization in Poland dedicated to helping men in the professional world become more effective leaders through the principles of servant leadership.
-                    </p>
-                  </div>
-                )}
-              </div>
-              </div>
-            </div>
-
-            {/* Collegiate Mentors Section */}
-            <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">Collegiate Mentors</h3>
-              <p className="text-gray-600 mb-8 text-center max-w-2xl mx-auto">
-                Current and recent collegiate athletes who've successfully navigated the path from high school to college athletics.
-              </p>
-              <div className="space-y-4">
-                {/* Example Collegiate Mentor Template - Replace with actual mentors */}
-                <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
-                  <div className="p-6 cursor-pointer transition-all duration-300 hover:bg-gray-50 flex items-center justify-between">
-                    <div className="flex items-center space-x-4 flex-1">
-                      <img src="/RickyEvolve.png" alt="Ricky Rollo" className="w-16 h-16 rounded-full object-contain" />
-                      <div className="text-left flex-1">
-                        <h3 className="text-xl font-bold text-gray-900">Ricky Rollo</h3>
-                        <p className="text-primary-600 font-medium">Current Student-Athlete</p>
-                        <p className="text-gray-500 text-sm">Soccer • 2026 • Physics and Mathematics</p>
+                <p className="text-gray-600 mb-8 text-center max-w-2xl mx-auto">
+                  Experienced professionals with UEFA licenses, international coaching experience, and proven track records in developing elite athletes.
+                </p>
+                {professionalMentorsOpen && (
+                  <div className="space-y-4">
+                    {/* Mentor 1: Alan Nixon */}
+                    <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+                      <div 
+                        className="p-6 cursor-pointer transition-all duration-300 hover:bg-gray-50 flex items-center justify-between"
+                        onClick={() => toggleMentor(1)}
+                      >
+                        <div className="flex items-center space-x-4">
+                          <img src="/alan-nixon.jpg" alt="Alan Nixon" className="w-16 h-16 rounded-full object-cover" />
+                          <div className="text-left">
+                            <h3 className="text-xl font-bold text-gray-900">Alan Nixon</h3>
+                            <p className="text-primary-600 font-medium">UEFA Pro Licensed & Global Coach Educator</p>
+                          </div>
+                        </div>
+                        <div className="flex items-center">
+                          {expandedMentor === 1 ? <ChevronUp size={24} className="text-gray-500" /> : <ChevronDown size={24} className="text-gray-500" />}
+                        </div>
                       </div>
-                      <div className="flex items-center space-x-4">
-                        <img src="/harvard.png" alt="Harvard Logo" className="h-20 w-auto" />
-                        <ChevronDown size={24} className="text-gray-500" />
+                      {expandedMentor === 1 && (
+                        <div className="px-6 pb-6 border-t border-gray-100">
+                          <p className="text-gray-700 leading-relaxed pt-4">
+                            Alan is a former Irish League footballer turned High School teacher, who stepped away from teaching to become a Global Coach Educator. A UEFA Pro Licensed coach, with two Masters degrees in coaching and then mentoring, Alan has now worked frequently in 47 countries over a 25 year period. His unique blend of an elite playing career, with a pre-eminent coach education career blended with excellent academic progress spanning 42 countries allows him a unique perspective on player development.
+                          </p>
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Mentor 2: Kurtis Millan */}
+                    <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+                      <div 
+                        className="p-6 cursor-pointer transition-all duration-300 hover:bg-gray-50 flex items-center justify-between"
+                        onClick={() => toggleMentor(2)}
+                      >
+                        <div className="flex items-center space-x-4">
+                          <img src="/kurtis-milan.jpg.png" alt="Kurtis Millan" className="w-16 h-16 rounded-full object-cover" />
+                          <div className="text-left">
+                            <h3 className="text-xl font-bold text-gray-900">Kurtis Millan</h3>
+                            <p className="text-primary-600 font-medium">UEFA A Licensed Coach</p>
+                          </div>
+                        </div>
+                        <div className="flex items-center">
+                          {expandedMentor === 2 ? <ChevronUp size={24} className="text-gray-500" /> : <ChevronDown size={24} className="text-gray-500" />}
+                        </div>
                       </div>
+                      {expandedMentor === 2 && (
+                        <div className="px-6 pb-6 border-t border-gray-100">
+                          <p className="text-gray-700 leading-relaxed pt-4">
+                            Kurtis has over a decade of work across elite youth academies and club leadership roles in Sweden, the USA, and the UK. An experienced UEFA A Licensed coach with a background in Sport & Exercise Science, Kurtis has also served as a Technical Director and General Manager, leading coach education. Currently working as an Individual Development Coach with U19 players at Hammarby IF (Allsvenskan), he specializes in player-centred development, performance analysis, and preparing players for the demands of senior football.
+                          </p>
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Mentor 3: Colin Nixon */}
+                    <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+                      <div 
+                        className="p-6 cursor-pointer transition-all duration-300 hover:bg-gray-50 flex items-center justify-between"
+                        onClick={() => toggleMentor(3)}
+                      >
+                        <div className="flex items-center space-x-4">
+                          <img src="/colin-nixon.jpg" alt="Colin Nixon" className="w-16 h-16 rounded-full object-cover" />
+                          <div className="text-left">
+                            <h3 className="text-xl font-bold text-gray-900">Colin Nixon</h3>
+                            <p className="text-primary-600 font-medium">Former Professional & UEFA A Licensed Coach</p>
+                          </div>
+                        </div>
+                        <div className="flex items-center">
+                          {expandedMentor === 3 ? <ChevronUp size={24} className="text-gray-500" /> : <ChevronDown size={24} className="text-gray-500" />}
+                        </div>
+                      </div>
+                      {expandedMentor === 3 && (
+                        <div className="px-6 pb-6 border-t border-gray-100">
+                          <p className="text-gray-700 leading-relaxed pt-4">
+                            Colin is an ex Irish Premier League player, making just under 800 appearances for Glentoran. He currently holds a UEFA A Coaching License and has managed in both the Irish Premier League and Championship, giving over 30 years' experience at the top end of the game in Northern Ireland. He has also been in charge of various youth academies. His key motivation is to see young players fulfil their potential and become the best version of themselves both on and off the field.
+                          </p>
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Mentor 4: Mario Pruul */}
+                    <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+                      <div 
+                        className="p-6 cursor-pointer transition-all duration-300 hover:bg-gray-50 flex items-center justify-between"
+                        onClick={() => toggleMentor(4)}
+                      >
+                        <div className="flex items-center space-x-4">
+                          <img src="/mario-pruul.jpg" alt="Mario Pruul" className="w-16 h-16 rounded-full object-cover" style={{objectPosition: '50% 15%'}} />
+                          <div className="text-left">
+                            <h3 className="text-xl font-bold text-gray-900">Mario Pruul</h3>
+                            <p className="text-primary-600 font-medium">Club Director & UEFA A Licensed Coach</p>
+                          </div>
+                        </div>
+                        <div className="flex items-center">
+                          {expandedMentor === 4 ? <ChevronUp size={24} className="text-gray-500" /> : <ChevronDown size={24} className="text-gray-500" />}
+                        </div>
+                      </div>
+                      {expandedMentor === 4 && (
+                        <div className="px-6 pb-6 border-t border-gray-100">
+                          <p className="text-gray-700 leading-relaxed pt-4">
+                            Mario has been involved in soccer for over 20 years. Having retired from playing at the highest level in Estonia, Mario has served as a club director. Mario is a UEFA A Licensed coach and is currently completing the UEFA Football Management course.
+                          </p>
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Mentor 5: Justin Sheppard */}
+                    <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+                      <div 
+                        className="p-6 cursor-pointer transition-all duration-300 hover:bg-gray-50 flex items-center justify-between"
+                        onClick={() => toggleMentor(5)}
+                      >
+                        <div className="flex items-center space-x-4">
+                          <img src="/justin-sheppard.jpg" alt="Justin Sheppard" className="w-16 h-16 rounded-full object-cover" />
+                          <div className="text-left">
+                            <h3 className="text-xl font-bold text-gray-900">Justin Sheppard</h3>
+                            <p className="text-primary-600 font-medium">UEFA A Licensed</p>
+                          </div>
+                        </div>
+                        <div className="flex items-center">
+                          {expandedMentor === 5 ? <ChevronUp size={24} className="text-gray-500" /> : <ChevronDown size={24} className="text-gray-500" />}
+                        </div>
+                      </div>
+                      {expandedMentor === 5 && (
+                        <div className="px-6 pb-6 border-t border-gray-100">
+                          <p className="text-gray-700 leading-relaxed pt-4">
+                            In addition to holding a UEFA A Coaching License Justin has a BSc in Sport and Exercises obtained from the University of Ulster. Justin is the founder and head coach of JS Soccer Skills which specializes in delivering high quality coaching sessions to youth footballers of all abilities. Justin is also the lead tutor for the Football Management Company delivering the NIFL Scholarship Programme at the National Football Stadium to talented 16-18 year old footballers and is a former Irish FA Primary Schools Coach and Club NI Coach which involved coaching some of the most talented young players in Northern Ireland.
+                          </p>
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Mentor 6: Christopher Ricardi */}
+                    <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+                      <div 
+                        className="p-6 cursor-pointer transition-all duration-300 hover:bg-gray-50 flex items-center justify-between"
+                        onClick={() => toggleMentor(6)}
+                      >
+                        <div className="flex items-center space-x-4">
+                          <img src="/christopher-ricardi.jpg.png" alt="Christopher Ricardi" className="w-16 h-16 rounded-full object-cover" />
+                          <div className="text-left">
+                            <h3 className="text-xl font-bold text-gray-900">Christopher Ricardi</h3>
+                            <p className="text-primary-600 font-medium">Sport Mental Performance Consultant</p>
+                          </div>
+                        </div>
+                        <div className="flex items-center">
+                          {expandedMentor === 6 ? <ChevronUp size={24} className="text-gray-500" /> : <ChevronDown size={24} className="text-gray-500" />}
+                        </div>
+                      </div>
+                      {expandedMentor === 6 && (
+                        <div className="px-6 pb-6 border-t border-gray-100">
+                          <p className="text-gray-700 leading-relaxed pt-4">
+                            Chris is an experienced Sport Mental Performance Consultant working with high level youth, Division I collegiate, and professional teams and athletes. He is also a former soccer coach, with experience coaching at youth, and Division I collegiate levels. He has a Master's in Sport and Exercise Psychology, USSF C Coaching License, and UEFA B Coaching License.
+                          </p>
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Mentor 7: Jonny Tuffey */}
+                    <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+                      <div 
+                        className="p-6 cursor-pointer transition-all duration-300 hover:bg-gray-50 flex items-center justify-between"
+                        onClick={() => toggleMentor(7)}
+                      >
+                        <div className="flex items-center space-x-4">
+                          <img src="/johnny-tuffey.jpg.png" alt="Jonny Tuffey" className="w-16 h-16 rounded-full object-cover" />
+                          <div className="text-left">
+                            <h3 className="text-xl font-bold text-gray-900">Jonny Tuffey</h3>
+                            <p className="text-primary-600 font-medium">Professional Player and Crusaders Academy Director</p>
+                          </div>
+                        </div>
+                        <div className="flex items-center">
+                          {expandedMentor === 7 ? <ChevronUp size={24} className="text-gray-500" /> : <ChevronDown size={24} className="text-gray-500" />}
+                        </div>
+                      </div>
+                      {expandedMentor === 7 && (
+                        <div className="px-6 pb-6 border-t border-gray-100">
+                          <p className="text-gray-700 leading-relaxed pt-4">
+                            Jonny's professional playing career has spanned over 20 years, having played in England and Scotland, as well as continuing to play in the Irish Premiership with Crusaders FC. Jonny has gained valuable playing experience at various international underage teams as well as at the senior international level. Jonny is a UEFA A Licensed coach and is currently managing Crusaders Strikers' first team in the Northern Irish Women's Premier League. Jonny's coaching experience also includes serving as the Goalkeeping coach for the Northern Ireland Senior International Women's team and as the Goalkeeping coach for the Northern Ireland boys' NPP.
+                          </p>
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Mentor 8: Kevin Keegan */}
+                    <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+                      <div 
+                        className="p-6 cursor-pointer transition-all duration-300 hover:bg-gray-50 flex items-center justify-between"
+                        onClick={() => toggleMentor(8)}
+                      >
+                        <div className="flex items-center space-x-4">
+                          <img src="/kevin-keegan.jpg.png" alt="Kevin Keegan" className="w-16 h-16 rounded-full object-cover" />
+                          <div className="text-left">
+                            <h3 className="text-xl font-bold text-gray-900">Kevin Keegan</h3>
+                            <p className="text-primary-600 font-medium">Former Professional Player</p>
+                          </div>
+                        </div>
+                        <div className="flex items-center">
+                          {expandedMentor === 8 ? <ChevronUp size={24} className="text-gray-500" /> : <ChevronDown size={24} className="text-gray-500" />}
+                        </div>
+                      </div>
+                      {expandedMentor === 8 && (
+                        <div className="px-6 pb-6 border-t border-gray-100">
+                          <p className="text-gray-700 leading-relaxed pt-4">
+                            Kevin brings a wealth of knowledge and experience as an athlete, mentor and coach. Kevin is an ex-Irish league player with a career lasting over 20 years. He has experience in Mentorship having worked for the Irish Football Associations Ladies program for a number of years and is the current first team coach with AFC Craigavon.
+                          </p>
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Mentor 9: Mark Austin */}
+                    <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+                      <div 
+                        className="p-6 cursor-pointer transition-all duration-300 hover:bg-gray-50 flex items-center justify-between"
+                        onClick={() => toggleMentor(9)}
+                      >
+                        <div className="flex items-center space-x-4">
+                          <img src="/mark-austin.jpg.png" alt="Mark Austin" className="w-16 h-16 rounded-full object-cover" />
+                          <div className="text-left">
+                            <h3 className="text-xl font-bold text-gray-900">Mark Austin</h3>
+                            <p className="text-primary-600 font-medium">Experienced Coach & Performance Analyst</p>
+                          </div>
+                        </div>
+                        <div className="flex items-center">
+                          {expandedMentor === 9 ? <ChevronUp size={24} className="text-gray-500" /> : <ChevronDown size={24} className="text-gray-500" />}
+                        </div>
+                      </div>
+                      {expandedMentor === 9 && (
+                        <div className="px-6 pb-6 border-t border-gray-100">
+                          <p className="text-gray-700 leading-relaxed pt-4">
+                            Mark is an experienced coach with over 20 years of coaching within the UK and Ireland, he has worked at Grassroots clubs and Academy clubs. He is currently working within the women's game in Northern Ireland, working with Camlough Rovers as co-Manager. He specializes in performance analysis and technical and tactical awareness. With a background in Sports Science and Business, Mark has run and owned businesses, which has given him a deep rooted experience of man management, ability to motivate and player/staff development which he uses in his coaching style. His coaching philosophy is based on empathy, compassion and a desire to inspire all players he comes into contact with.
+                          </p>
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Mentor 10: Piotr 'Papi' Paprocki */}
+                    <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+                      <div 
+                        className="p-6 cursor-pointer transition-all duration-300 hover:bg-gray-50 flex items-center justify-between"
+                        onClick={() => toggleMentor(10)}
+                      >
+                        <div className="flex items-center space-x-4">
+                          <img src="/piotr-paprocki.jpg" alt="Piotr 'Papi' Paprocki" className="w-16 h-16 rounded-full object-cover" />
+                          <div className="text-left">
+                            <h3 className="text-xl font-bold text-gray-900">Piotr 'Papi' Paprocki</h3>
+                            <p className="text-primary-600 font-medium">Former Professional Basketball Player & Leadership Coach</p>
+                          </div>
+                        </div>
+                        <div className="flex items-center">
+                          {expandedMentor === 10 ? <ChevronUp size={24} className="text-gray-500" /> : <ChevronDown size={24} className="text-gray-500" />}
+                        </div>
+                      </div>
+                      {expandedMentor === 10 && (
+                        <div className="px-6 pb-6 border-t border-gray-100">
+                          <p className="text-gray-700 leading-relaxed pt-4">
+                            Piotr is a former professional basketball player and U.S. scholarship athlete with over 16 years of experience as a team-building and performance coach. He has worked with national youth teams and professional basketball and football teams across Poland, Belgium, and the United States. Currently, he co-leads an organization in Poland dedicated to helping men in the professional world become more effective leaders through the principles of servant leadership.
+                          </p>
+                        </div>
+                      )}
                     </div>
                   </div>
-                </div>
+                )}
+              </div>
 
-                {/* Placeholder for additional collegiate mentors */}
-                <div className="bg-gray-50 rounded-xl shadow-sm border-2 border-dashed border-gray-300 p-8 text-center">
-                  <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center text-primary-600 mx-auto mb-4">
-                    <GraduationCap size={32} />
-                  </div>
-                  <h4 className="text-lg font-semibold text-gray-700 mb-2">More Collegiate Athletes Coming Soon</h4>
-                  <p className="text-gray-500">
-                    We're actively recruiting current collegiate athletes from top programs to mentor high school students.
-                  </p>
+              {/* Collegiate Mentors Section */}
+              <div>
+                <div className="flex items-center justify-center mb-4">
+                  <h3 className="text-2xl font-bold text-gray-900 mr-4">Collegiate Mentors</h3>
+                  <button
+                    onClick={toggleCollegiateMentors}
+                    className="p-2 hover:bg-gray-100 rounded-full transition-colors"
+                  >
+                    {collegiateMentorsOpen ? <ChevronUp size={20} className="text-gray-600" /> : <ChevronDown size={20} className="text-gray-600" />}
+                  </button>
                 </div>
+                <p className="text-gray-600 mb-8 text-center max-w-2xl mx-auto">
+                  Current and recent collegiate athletes who've successfully navigated the path from high school to college athletics.
+                </p>
+                {collegiateMentorsOpen && (
+                  <div className="space-y-4">
+                    {/* Ricky Rollo */}
+                    <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+                      <div className="p-6 cursor-pointer transition-all duration-300 hover:bg-gray-50 flex items-center justify-between">
+                        <div className="flex items-center space-x-4 flex-1">
+                          <img src="/RickyEvolve.png" alt="Ricky Rollo" className="w-16 h-16 rounded-full object-contain" />
+                          <div className="text-left flex-1">
+                            <h3 className="text-xl font-bold text-gray-900">Ricky Rollo</h3>
+                            <p className="text-primary-600 font-medium">Current Student-Athlete</p>
+                            <p className="text-gray-500 text-sm">Soccer • 2026 • Physics and Mathematics</p>
+                          </div>
+                          <div className="flex items-center space-x-4">
+                            <img src="/harvard.png" alt="Harvard Logo" className="h-20 w-auto" />
+                            <ChevronDown size={24} className="text-gray-500" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Placeholder for additional collegiate mentors */}
+                    <div className="bg-gray-50 rounded-xl shadow-sm border-2 border-dashed border-gray-300 p-8 text-center">
+                      <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center text-primary-600 mx-auto mb-4">
+                        <GraduationCap size={32} />
+                      </div>
+                      <h4 className="text-lg font-semibold text-gray-700 mb-2">More Collegiate Athletes Coming Soon</h4>
+                      <p className="text-gray-500">
+                        We're actively recruiting current collegiate athletes from top programs to mentor high school students.
+                      </p>
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
-          </div>
+          )}
         </div>
       </section>
-
       {/* FAQ Section */}
       <section id="faq" className="py-24 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
