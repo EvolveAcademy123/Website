@@ -522,7 +522,7 @@ export default function Home() {
             <div className="flex items-center justify-center mb-8">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mr-4">
                 Meet Our Mentors
-              </h2>
+            </h2>
             </div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               Our mentors are experienced professionals dedicated to helping young athletes grow on and off the field.
@@ -542,7 +542,7 @@ export default function Home() {
                   >
                     {professionalMentorsOpen ? <ChevronUp size={20} className="text-gray-600" /> : <ChevronDown size={20} className="text-gray-600" />}
                   </button>
-                </div>
+              </div>
                 <p className="text-gray-600 mb-8 text-center max-w-2xl mx-auto">
                   Experienced professionals with UEFA licenses, international coaching experience, and proven track records in developing elite athletes.
                 </p>
@@ -559,7 +559,7 @@ export default function Home() {
                           <div className="text-left">
                             <h3 className="text-xl font-bold text-gray-900">Alan Nixon</h3>
                             <p className="text-primary-600 font-medium">UEFA Pro Licensed & Global Coach Educator</p>
-                          </div>
+              </div>
                         </div>
                         <div className="flex items-center">
                           {expandedMentor === 1 ? <ChevronUp size={24} className="text-gray-500" /> : <ChevronDown size={24} className="text-gray-500" />}
@@ -572,7 +572,7 @@ export default function Home() {
                           </p>
                         </div>
                       )}
-                    </div>
+            </div>
 
                     {/* Mentor 2: Kurtis Millan */}
                     <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
@@ -585,7 +585,7 @@ export default function Home() {
                           <div className="text-left">
                             <h3 className="text-xl font-bold text-gray-900">Kurtis Millan</h3>
                             <p className="text-primary-600 font-medium">UEFA A Licensed Coach</p>
-                          </div>
+              </div>
                         </div>
                         <div className="flex items-center">
                           {expandedMentor === 2 ? <ChevronUp size={24} className="text-gray-500" /> : <ChevronDown size={24} className="text-gray-500" />}
@@ -596,9 +596,9 @@ export default function Home() {
                           <p className="text-gray-700 leading-relaxed pt-4">
                             Kurtis has over a decade of work across elite youth academies and club leadership roles in Sweden, the USA, and the UK. An experienced UEFA A Licensed coach with a background in Sport & Exercise Science, Kurtis has also served as a Technical Director and General Manager, leading coach education. Currently working as an Individual Development Coach with U19 players at Hammarby IF (Allsvenskan), he specializes in player-centred development, performance analysis, and preparing players for the demands of senior football.
                           </p>
-                        </div>
+              </div>
                       )}
-                    </div>
+            </div>
 
                     {/* Mentor 3: Colin Nixon */}
                     <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
@@ -611,7 +611,7 @@ export default function Home() {
                           <div className="text-left">
                             <h3 className="text-xl font-bold text-gray-900">Colin Nixon</h3>
                             <p className="text-primary-600 font-medium">Former Professional & UEFA A Licensed Coach</p>
-                          </div>
+              </div>
                         </div>
                         <div className="flex items-center">
                           {expandedMentor === 3 ? <ChevronUp size={24} className="text-gray-500" /> : <ChevronDown size={24} className="text-gray-500" />}
@@ -622,9 +622,9 @@ export default function Home() {
                           <p className="text-gray-700 leading-relaxed pt-4">
                             Colin is an ex Irish Premier League player, making just under 800 appearances for Glentoran. He currently holds a UEFA A Coaching License and has managed in both the Irish Premier League and Championship, giving over 30 years' experience at the top end of the game in Northern Ireland. He has also been in charge of various youth academies. His key motivation is to see young players fulfil their potential and become the best version of themselves both on and off the field.
                           </p>
-                        </div>
+              </div>
                       )}
-                    </div>
+            </div>
 
                     {/* Mentor 4: Mario Pruul */}
                     <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
@@ -637,8 +637,8 @@ export default function Home() {
                           <div className="text-left">
                             <h3 className="text-xl font-bold text-gray-900">Mario Pruul</h3>
                             <p className="text-primary-600 font-medium">Club Director & UEFA A Licensed Coach</p>
-                          </div>
-                        </div>
+          </div>
+        </div>
                         <div className="flex items-center">
                           {expandedMentor === 4 ? <ChevronUp size={24} className="text-gray-500" /> : <ChevronDown size={24} className="text-gray-500" />}
                         </div>
@@ -894,16 +894,43 @@ export default function Home() {
 
       {/* Register Interest Section */}
       <section id="register-interest" className="py-24 bg-white">
-        <div className="max-w-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Register Your Interest</h2>
-            <p className="text-lg text-gray-600">
-              To register your interest, please email us at
-              <br />
-              <a href="mailto:info@evolveacademyinternational.com" className="text-primary-600 underline font-medium">
-                info@evolveacademyinternational.com
-              </a>
+            <p className="text-lg text-gray-600 mb-8">
+              Fill out the form below to register your interest in our programs.
             </p>
+          </div>
+          
+          {/* Google Form Embed */}
+          <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+            <iframe 
+              src="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform?embedded=true" 
+              width="100%" 
+              height={1450} 
+              frameBorder="0" 
+              marginHeight={0} 
+              marginWidth={0}
+              className="rounded-lg"
+              title="Register Your Interest Form"
+            >
+              Loading…
+            </iframe>
+          </div>
+          
+          {/* Fallback for iframe issues */}
+          <div className="mt-6 text-center">
+            <p className="text-sm text-gray-500 mb-4">
+              Having trouble viewing the form?
+            </p>
+            <a 
+              href="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary-600 hover:bg-primary-700 transition-colors"
+            >
+              Open Form in New Tab
+            </a>
           </div>
         </div>
       </section>
