@@ -1064,12 +1064,12 @@ export default function Home() {
             <p className="text-gray-700 mb-2">High school athletes aged 14-18 who are serious about playing at the collegiate level and want to learn from those who have already made the transition successfully.</p>
           </div>
           <div className="mb-6">
-            <h3 className="text-xl font-bold text-gray-900 mb-2">Program Length</h3>
-            <p className="text-gray-700">6 weeks</p>
+            <h3 className="text-xl font-bold text-gray-900 mb-2">Time</h3>
+            <p className="text-gray-700">Depends on package chosen</p>
           </div>
           <div className="mb-6">
             <h3 className="text-xl font-bold text-gray-900 mb-2">Cost</h3>
-            <p className="text-gray-700">$450</p>
+            <p className="text-gray-700">Depends on package chosen</p>
           </div>
           <div className="mb-6">
             <h3 className="text-xl font-bold text-gray-900 mb-2">How the Program Works</h3>
