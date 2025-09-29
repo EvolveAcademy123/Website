@@ -1072,26 +1072,19 @@ export default function Home() {
             <p className="text-gray-700">Depends on package chosen</p>
           </div>
           <div className="mb-6">
-            <h3 className="text-xl font-bold text-gray-900 mb-2">How the Program Works</h3>
-            <p className="text-gray-700 mb-2">Through weekly group sessions and one-on-one mentorship calls, you'll connect with current collegiate athletes who share their experiences and provide guidance on:</p>
-            <ul className="list-disc pl-6 text-gray-700">
-              <li>College recruitment process and timeline</li>
-              <li>Balancing academics and athletics</li>
-              <li>College life as a student-athlete</li>
-              <li>Preparing for the transition from high school to college</li>
-              <li>Building relationships with coaches and teammates</li>
-              <li>Time management and study strategies</li>
-            </ul>
-          </div>
-          <div className="mb-6">
-            <h3 className="text-xl font-bold text-gray-900 mb-2">What You'll Get</h3>
-            <ul className="list-disc pl-6 text-gray-700">
-              <li>Direct access to current collegiate athletes from various sports</li>
-              <li>Weekly group sessions with peers facing similar challenges</li>
-              <li>One-on-one mentorship calls with collegiate athletes</li>
-              <li>Resource library with college preparation materials</li>
-              <li>Networking opportunities with other high school athletes</li>
-              <li>Ongoing support throughout your college preparation journey</li>
+            <h3 className="text-xl font-bold text-gray-900 mb-2">About the delivery of the program</h3>
+            <p className="text-gray-700 leading-relaxed mb-4">
+              Using a platform focused on mentorship and lived experience, current collegiate athletes guide high school student-athletes through structured sessions lasting around 1 hour each. Each session blends real insights into the recruiting process and college life with interactive discussion.
+            </p>
+            <p className="text-gray-700 leading-relaxed mb-3">
+              The program focuses on areas such as:
+            </p>
+            <ul className="list-disc pl-6 text-gray-700 space-y-1">
+              <li>Recruitment & College Pathway</li>
+              <li>Life as a College Athlete</li>
+              <li>Performance & Preparation</li>
+              <li>Character & Personal Growth</li>
+              <li>Parent-Side Guidance</li>
             </ul>
           </div>
         </div>
