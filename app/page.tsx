@@ -939,28 +939,6 @@ export default function Home() {
       <section id="evolve-one-details" className="py-20 bg-gray-50">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl md:text-3xl font-bold text-primary-600 mb-6">🚀 Evolve One™</h2>
-          
-          {/* Class Announcement */}
-          <div className="bg-primary-600 text-white rounded-lg p-6 mb-8 shadow-lg">
-            <div className="flex items-center justify-center mb-3">
-              <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-              </svg>
-              <h3 className="text-xl font-bold">Next Class Starting Soon!</h3>
-            </div>
-            <p className="text-center text-lg mb-2">
-              <strong>New Evolve One™ class starting Monday</strong>
-            </p>
-            <p className="text-center text-white/90">
-              5-week program • Limited spots available
-            </p>
-            <div className="mt-4 text-center">
-              <a href="#register-interest" className="inline-block bg-white text-primary-600 px-6 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-                Register Your Interest
-              </a>
-            </div>
-          </div>
-          
           <p className="text-gray-700 text-lg mb-4 font-semibold">Your journey. Your mentor. Your growth.</p>
           <p className="text-gray-700 text-lg mb-4">A personalized 1-to-1 mentorship program designed to build your foundation, strengthen your mindset, and accelerate your development. With undivided attention and a tailored plan, this is all about you.</p>
           <div className="mb-6">
