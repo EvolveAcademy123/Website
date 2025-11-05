@@ -183,24 +183,32 @@ export default function Home() {
       <section className="py-12 bg-primary-600">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-lg p-8 shadow-xl">
-            <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+            <div className="flex flex-col lg:flex-row items-start lg:items-center gap-6">
+              {/* Mentor Image and Info */}
               <div className="flex items-center gap-4 flex-1">
                 <div className="flex-shrink-0">
-                  <svg className="w-12 h-12 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                  </svg>
+                  <img src="/alan-nixon.jpg" alt="Alan Nixon" className="w-24 h-24 rounded-full object-cover border-4 border-primary-100" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">New Program with Alan Nixon Starting Monday!</h3>
-                  <p className="text-gray-700 text-lg">
-                    Join Alan Nixon for a 6-week mentorship program. Spaces are limited.
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">New Program with Alan Nixon</h3>
+                  <p className="text-primary-600 font-semibold mb-2">UEFA Pro Licensed & Global Coach Educator</p>
+                  <div className="flex items-center gap-2 text-gray-600 mb-3">
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
+                    <span className="font-medium">Starting Monday • 6-week program</span>
+                  </div>
+                  <p className="text-gray-700">
+                    A personalized mentorship program with one of the world's most experienced coach educators. Learn from Alan's 25+ years of experience working in 47 countries, with a unique blend of elite playing career, coaching expertise, and academic excellence.
                   </p>
                 </div>
               </div>
-              <div className="flex-shrink-0">
-                <a href="#register-interest" className="inline-block bg-primary-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors text-lg">
+              {/* CTA Button */}
+              <div className="flex-shrink-0 w-full lg:w-auto">
+                <a href="#register-interest" className="inline-block w-full lg:w-auto text-center bg-primary-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors text-lg">
                   Register Now
                 </a>
+                <p className="text-sm text-gray-500 mt-2 text-center lg:text-left">Spaces are limited</p>
               </div>
             </div>
           </div>
