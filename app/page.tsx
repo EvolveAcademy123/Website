@@ -856,7 +856,7 @@ export default function Home() {
               {/* Collegiate Mentor 1: Ricky Rollo */}
               <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden flex flex-col">
                 <div className="p-6 flex flex-col items-center text-center flex-1">
-                  <img src="/RickyEvolve.png" alt="Ricky Rollo" className="w-32 h-32 rounded-full object-contain mb-4" />
+                  <img src="/RickyEvolve.png" alt="Ricky Rollo" className="w-32 h-32 rounded-full object-cover mb-4" />
                   <h3 className="text-lg font-bold text-gray-900 mb-1">Ricky Rollo</h3>
                   <p className="text-primary-600 font-medium text-sm mb-2">Current Student-Athlete</p>
                   <p className="text-gray-600 text-sm mb-2">Soccer</p>
@@ -996,7 +996,7 @@ export default function Home() {
               {/* Collegiate Mentor 6: Maxim Makar */}
               <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden flex flex-col">
                 <div className="p-6 flex flex-col items-center text-center flex-1">
-                  <img src="/maxim-makar.jpg" alt="Maxim Makar" className="w-32 h-32 rounded-full object-cover mb-4" />
+                  <img src="/maxim-makar.jpg.png" alt="Maxim Makar" className="w-32 h-32 rounded-full object-cover mb-4" />
                   <h3 className="text-lg font-bold text-gray-900 mb-1">Maxim Makar</h3>
                   <p className="text-primary-600 font-medium text-sm mb-2">Current Student-Athlete</p>
                   <p className="text-gray-600 text-sm mb-2">Soccer</p>
