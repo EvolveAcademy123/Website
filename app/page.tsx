@@ -1126,6 +1126,77 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Meet Your Mentors Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Meet Your Mentors</h2>
+            <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+              Your mentor played your position, at your level, 12-36 months ago.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
+            {/* Mentor Card 1: Ricky Rollo */}
+            <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden flex flex-col">
+              <div className="p-6 flex flex-col items-center text-center flex-1">
+                <img src="/RickyEvolve.png" alt="Ricky Rollo" className="w-32 h-32 rounded-full object-contain mb-4" />
+                <h3 className="text-lg font-bold text-gray-900 mb-1">Ricky Rollo</h3>
+                <p className="text-primary-600 font-medium text-sm mb-2">Current Student-Athlete</p>
+                <p className="text-gray-600 text-sm mb-2">Soccer</p>
+                <p className="text-gray-500 text-xs mb-4">Class of 2026</p>
+                <div className="mb-4">
+                  <img src="/harvard.png" alt="Harvard" className="h-12 w-auto mx-auto" />
+                </div>
+                <p className="text-gray-700 text-sm mb-4 flex-1">
+                  Physics and Mathematics major. Current student-athlete who successfully navigated the recruitment process.
+                </p>
+                <a 
+                  href="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform?usp=pp_url&entry.XXXXX=Ricky%20Rollo" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="w-full mt-auto"
+                  title="To prefill the form: Get the entry field ID from Google Forms (3 dots > Get pre-filled link), then replace XXXXX with the actual entry ID"
+                >
+                  <button className="w-full bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors">
+                    Match me with this mentor
+                  </button>
+                </a>
+              </div>
+            </div>
+
+            {/* Placeholder for additional mentors - can be duplicated */}
+            {/* 
+            <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden flex flex-col">
+              <div className="p-6 flex flex-col items-center text-center flex-1">
+                <img src="/mentor-image.jpg" alt="Mentor Name" className="w-32 h-32 rounded-full object-cover mb-4" />
+                <h3 className="text-lg font-bold text-gray-900 mb-1">Mentor Name</h3>
+                <p className="text-primary-600 font-medium text-sm mb-2">Current/Recent Student-Athlete</p>
+                <p className="text-gray-600 text-sm mb-2">Sport</p>
+                <p className="text-gray-500 text-xs mb-4">Class of YYYY</p>
+                <div className="mb-4">
+                  <img src="/college-logo.png" alt="College" className="h-12 w-auto mx-auto" />
+                </div>
+                <p className="text-gray-700 text-sm mb-4 flex-1">
+                  Brief bio about the mentor and their experience.
+                </p>
+                <a 
+                  href="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform?usp=pp_url&entry.XXXXX=Mentor%20Name" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="w-full mt-auto"
+                >
+                  <button className="w-full bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors">
+                    Match me with this mentor
+                  </button>
+                </a>
+              </div>
+            </div>
+            */}
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
