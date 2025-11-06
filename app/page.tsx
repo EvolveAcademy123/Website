@@ -848,7 +848,7 @@ export default function Home() {
                 </button>
               </div>
               <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-                Your mentor played your position, at your level, 12-36 months ago.
+                Mentors who walked your exact path — and will show you exactly how they did it.
               </p>
             </div>
             {collegiateMentorsOpen && (
@@ -869,6 +869,122 @@ export default function Home() {
                   </p>
                   <a 
                     href="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform?usp=pp_url&entry.XXXXX=Ricky%20Rollo" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="w-full mt-auto"
+                  >
+                    <button className="w-full bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors">
+                      Match me with this mentor
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              {/* Collegiate Mentor 2: Placeholder */}
+              <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden flex flex-col">
+                <div className="p-6 flex flex-col items-center text-center flex-1">
+                  <div className="w-32 h-32 rounded-full bg-gray-200 mb-4 flex items-center justify-center">
+                    <User size={48} className="text-gray-400" />
+                  </div>
+                  <h3 className="text-lg font-bold text-gray-900 mb-1">Alex Johnson</h3>
+                  <p className="text-primary-600 font-medium text-sm mb-2">Current Student-Athlete</p>
+                  <p className="text-gray-600 text-sm mb-2">Basketball</p>
+                  <p className="text-gray-500 text-xs mb-4">Class of 2025</p>
+                  <div className="mb-4">
+                    <p className="text-gray-700 font-semibold text-sm">Duke University</p>
+                  </div>
+                  <p className="text-gray-700 text-sm mb-4 flex-1">
+                    Business Administration major. Division I athlete with experience in the recruitment process and balancing academics with athletics.
+                  </p>
+                  <a 
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform?usp=pp_url&entry.XXXXX=Alex%20Johnson" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="w-full mt-auto"
+                  >
+                    <button className="w-full bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors">
+                      Match me with this mentor
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              {/* Collegiate Mentor 3: Placeholder */}
+              <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden flex flex-col">
+                <div className="p-6 flex flex-col items-center text-center flex-1">
+                  <div className="w-32 h-32 rounded-full bg-gray-200 mb-4 flex items-center justify-center">
+                    <User size={48} className="text-gray-400" />
+                  </div>
+                  <h3 className="text-lg font-bold text-gray-900 mb-1">Sarah Martinez</h3>
+                  <p className="text-primary-600 font-medium text-sm mb-2">Current Student-Athlete</p>
+                  <p className="text-gray-600 text-sm mb-2">Tennis</p>
+                  <p className="text-gray-500 text-xs mb-4">Class of 2027</p>
+                  <div className="mb-4">
+                    <p className="text-gray-700 font-semibold text-sm">Stanford University</p>
+                  </div>
+                  <p className="text-gray-700 text-sm mb-4 flex-1">
+                    Computer Science major. Elite athlete who successfully transitioned from high school to Division I competition.
+                  </p>
+                  <a 
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform?usp=pp_url&entry.XXXXX=Sarah%20Martinez" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="w-full mt-auto"
+                  >
+                    <button className="w-full bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors">
+                      Match me with this mentor
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              {/* Collegiate Mentor 4: Placeholder */}
+              <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden flex flex-col">
+                <div className="p-6 flex flex-col items-center text-center flex-1">
+                  <div className="w-32 h-32 rounded-full bg-gray-200 mb-4 flex items-center justify-center">
+                    <User size={48} className="text-gray-400" />
+                  </div>
+                  <h3 className="text-lg font-bold text-gray-900 mb-1">Jordan Williams</h3>
+                  <p className="text-primary-600 font-medium text-sm mb-2">Current Student-Athlete</p>
+                  <p className="text-gray-600 text-sm mb-2">Football</p>
+                  <p className="text-gray-500 text-xs mb-4">Class of 2026</p>
+                  <div className="mb-4">
+                    <p className="text-gray-700 font-semibold text-sm">University of Michigan</p>
+                  </div>
+                  <p className="text-gray-700 text-sm mb-4 flex-1">
+                    Sports Management major. Power 5 conference athlete with insights into the recruiting process and college athletics.
+                  </p>
+                  <a 
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform?usp=pp_url&entry.XXXXX=Jordan%20Williams" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="w-full mt-auto"
+                  >
+                    <button className="w-full bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors">
+                      Match me with this mentor
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              {/* Collegiate Mentor 5: Placeholder */}
+              <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden flex flex-col">
+                <div className="p-6 flex flex-col items-center text-center flex-1">
+                  <div className="w-32 h-32 rounded-full bg-gray-200 mb-4 flex items-center justify-center">
+                    <User size={48} className="text-gray-400" />
+                  </div>
+                  <h3 className="text-lg font-bold text-gray-900 mb-1">Maya Patel</h3>
+                  <p className="text-primary-600 font-medium text-sm mb-2">Current Student-Athlete</p>
+                  <p className="text-gray-600 text-sm mb-2">Swimming</p>
+                  <p className="text-gray-500 text-xs mb-4">Class of 2025</p>
+                  <div className="mb-4">
+                    <p className="text-gray-700 font-semibold text-sm">UC Berkeley</p>
+                  </div>
+                  <p className="text-gray-700 text-sm mb-4 flex-1">
+                    Biology major. Division I swimmer who balanced rigorous academics with competitive athletics at a top public university.
+                  </p>
+                  <a 
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform?usp=pp_url&entry.XXXXX=Maya%20Patel" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="w-full mt-auto"
