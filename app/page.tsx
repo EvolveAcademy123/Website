@@ -1025,6 +1025,64 @@ export default function Home() {
                   </a>
                 </div>
               </div>
+
+              {/* Collegiate Mentor 7: Placeholder - MIT */}
+              <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden flex flex-col">
+                <div className="p-6 flex flex-col items-center text-center flex-1">
+                  <div className="w-32 h-32 rounded-full bg-gray-200 mb-4 flex items-center justify-center">
+                    <User size={48} className="text-gray-400" />
+                  </div>
+                  <h3 className="text-lg font-bold text-gray-900 mb-1">Placeholder Name</h3>
+                  <p className="text-primary-600 font-medium text-sm mb-2">Current Student-Athlete</p>
+                  <p className="text-gray-600 text-sm mb-2">Soccer</p>
+                  <p className="text-gray-500 text-xs mb-4">Class of 2026</p>
+                  <div className="mb-4">
+                    <p className="text-gray-700 font-semibold text-sm">MIT</p>
+                  </div>
+                  <p className="text-gray-700 text-sm mb-4 flex-1">
+                    Current student-athlete who successfully navigated the recruitment process and transitioned to Division III soccer.
+                  </p>
+                  <a 
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform?usp=pp_url&entry.XXXXX=MIT%20Mentor" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="w-full mt-auto"
+                  >
+                    <button className="w-full bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors">
+                      Match me with this mentor
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              {/* Collegiate Mentor 8: Placeholder - Duke */}
+              <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden flex flex-col">
+                <div className="p-6 flex flex-col items-center text-center flex-1">
+                  <div className="w-32 h-32 rounded-full bg-gray-200 mb-4 flex items-center justify-center">
+                    <User size={48} className="text-gray-400" />
+                  </div>
+                  <h3 className="text-lg font-bold text-gray-900 mb-1">Placeholder Name</h3>
+                  <p className="text-primary-600 font-medium text-sm mb-2">Current Student-Athlete</p>
+                  <p className="text-gray-600 text-sm mb-2">Soccer</p>
+                  <p className="text-gray-500 text-xs mb-4">Class of 2026</p>
+                  <div className="mb-4">
+                    <p className="text-gray-700 font-semibold text-sm">Duke University</p>
+                  </div>
+                  <p className="text-gray-700 text-sm mb-4 flex-1">
+                    Current student-athlete who successfully navigated the recruitment process and transitioned to Division I soccer.
+                  </p>
+                  <a 
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform?usp=pp_url&entry.XXXXX=Duke%20Mentor" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="w-full mt-auto"
+                  >
+                    <button className="w-full bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors">
+                      Match me with this mentor
+                    </button>
+                  </a>
+                </div>
+              </div>
             </div>
             )}
           </div>
