@@ -1,6 +1,7 @@
 'use client'
 
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
+import Script from 'next/script'
 import { 
   User, 
   Users, 
@@ -44,6 +45,43 @@ export default function Home() {
     'Logan Moniz': '/logan-optimised.mp4',
     'Julian Martinez': '/julian-optimised.mp4'
   }
+
+  // Initialize Typeform embed
+  const initializeTypeform = () => {
+    if (typeof window !== 'undefined' && (window as any).createTypeformEmbed) {
+      const quiz = document.getElementById('quizApp');
+      if (quiz && !quiz.hasChildNodes()) {
+        const createTypeformEmbed = (window as any).createTypeformEmbed;
+        createTypeformEmbed(quiz, 'gM4z7p9k', {
+          hiddenFields: { source: 'evolve-website' },
+          onSubmit: (data: any) => {
+            const answers = data.response.answers;
+            // Auto-redirect to thank-you with match
+            const name = answers.find((a: any) => a.field.ref === 'name')?.text || '';
+            const level = answers.find((a: any) => a.field.ref === 'level')?.choice?.label || '';
+            const position = answers.find((a: any) => a.field.ref === 'position')?.choice?.label || '';
+            const mentorMatch: { [key: string]: string } = {
+              'D1 Power 5': 'Noah Thompson',
+              'D1 Mid-Major': 'Mia Rodriguez',
+              'D2 Full Ride': 'Sofia Morales',
+              'D3 Academic': 'Ethan Kim',
+              'NAIA Money': 'Aisha Patel',
+              'JUCO → D1': 'Jayden Carter',
+              'Late Bloomer': 'Chloe Bennett',
+              'Ivy/High Academic': 'Liam O\'Connor'
+            };
+            const matchedMentor = mentorMatch[level] || 'Mia Rodriguez';
+            
+            window.location.href = `https://evolveacademyinternational.com/thank-you?mentor=${matchedMentor}&name=${encodeURIComponent(name)}&package=core&discount=20`;
+          }
+        });
+      }
+    }
+  };
+
+  useEffect(() => {
+    initializeTypeform();
+  }, []);
 
   return (
     <div className="min-h-screen bg-white">
@@ -572,8 +610,8 @@ export default function Home() {
                       Match me with this mentor
                     </button>
                   </a>
-                </div>
               </div>
+            </div>
 
               {/* Professional Mentor 2: Kurtis Millan */}
               <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden flex flex-col">
@@ -1042,6 +1080,20 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Quiz Section */}
+      <section className="py-16 text-center text-white" style={{background: '#0f172a'}}>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-black mb-5">
+            Find Your Perfect College Mentor in 45 Seconds
+          </h2>
+          <p className="text-lg md:text-xl mb-10 opacity-90">
+            Answer 6 quick questions → get matched + 20% off your package
+          </p>
+          
+          <div id="quizApp" className="max-w-2xl mx-auto"></div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -1135,6 +1187,15 @@ export default function Home() {
           </div>
         </div>
       )}
+
+      {/* Typeform Embed Script */}
+      <Script
+        src="https://cdn.jsdelivr.net/npm/@typeform/embed@2/build/dist/embed.js"
+        strategy="lazyOnload"
+        onLoad={() => {
+          initializeTypeform();
+        }}
+      />
     </div>
   )
 }
