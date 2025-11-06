@@ -23,9 +23,19 @@ export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [videoModalOpen, setVideoModalOpen] = useState(false)
   const [selectedVideo, setSelectedVideo] = useState<string | null>(null)
+  const [professionalMentorsOpen, setProfessionalMentorsOpen] = useState(false)
+  const [collegiateMentorsOpen, setCollegiateMentorsOpen] = useState(false)
 
   const toggleFaq = (index: number) => {
     setOpenFaq(openFaq === index ? null : index)
+  }
+
+  const toggleProfessionalMentors = () => {
+    setProfessionalMentorsOpen(!professionalMentorsOpen)
+  }
+
+  const toggleCollegiateMentors = () => {
+    setCollegiateMentorsOpen(!collegiateMentorsOpen)
   }
 
   const openVideoModal = (videoSrc: string) => {
@@ -585,12 +595,22 @@ export default function Home() {
           {/* Professional Mentors Section */}
           <div className="mb-20">
             <div className="text-center mb-12">
-              <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Professional Mentors</h3>
+              <div className="flex items-center justify-center gap-4 mb-4">
+                <h3 className="text-2xl md:text-3xl font-bold text-gray-900">Professional Mentors</h3>
+                <button
+                  onClick={toggleProfessionalMentors}
+                  className="p-2 hover:bg-gray-100 rounded-full transition-colors"
+                  aria-label="Toggle Professional Mentors"
+                >
+                  {professionalMentorsOpen ? <ChevronUp size={24} className="text-gray-600" /> : <ChevronDown size={24} className="text-gray-600" />}
+                </button>
+              </div>
               <p className="text-xl text-gray-700 max-w-3xl mx-auto">
                 Experienced professionals with UEFA licenses, international coaching experience, and proven track records in developing elite athletes.
               </p>
-              </div>
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
+            </div>
+            {professionalMentorsOpen && (
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
               {/* Professional Mentor 1: Alan Nixon */}
               <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden flex flex-col">
                 <div className="p-6 flex flex-col items-center text-center flex-1">
@@ -811,17 +831,28 @@ export default function Home() {
                 </div>
               </div>
             </div>
+            )}
           </div>
 
           {/* Collegiate Mentors Section */}
           <div>
             <div className="text-center mb-12">
-              <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Collegiate Mentors</h3>
+              <div className="flex items-center justify-center gap-4 mb-4">
+                <h3 className="text-2xl md:text-3xl font-bold text-gray-900">Collegiate Mentors</h3>
+                <button
+                  onClick={toggleCollegiateMentors}
+                  className="p-2 hover:bg-gray-100 rounded-full transition-colors"
+                  aria-label="Toggle Collegiate Mentors"
+                >
+                  {collegiateMentorsOpen ? <ChevronUp size={24} className="text-gray-600" /> : <ChevronDown size={24} className="text-gray-600" />}
+                </button>
+              </div>
               <p className="text-xl text-gray-700 max-w-3xl mx-auto">
                 Your mentor played your position, at your level, 12-36 months ago.
               </p>
             </div>
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
+            {collegiateMentorsOpen && (
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
               {/* Collegiate Mentor 1: Ricky Rollo */}
               <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden flex flex-col">
                 <div className="p-6 flex flex-col items-center text-center flex-1">
@@ -849,6 +880,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
+            )}
           </div>
         </div>
       </section>
