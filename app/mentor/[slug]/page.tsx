@@ -48,10 +48,10 @@ export default function MentorPage({ params }: MentorPageProps) {
 
           <div className="mt-10 bg-white rounded-3xl shadow-lg border border-gray-100 p-8 md:p-12 flex flex-col lg:flex-row items-start gap-8">
             <div className="flex flex-col items-center text-center lg:text-left lg:items-start gap-4 flex-shrink-0">
-              <div className="w-32 h-32 rounded-full overflow-hidden bg-gray-100 flex items-center justify-center">
+              <div className="w-40 h-40 rounded-full overflow-hidden bg-gray-100 flex items-center justify-center">
                 {mentor.image ? (
                   // eslint-disable-next-line @next/next/no-img-element
-                  <img src={mentor.image} alt={mentor.name} className="w-full h-full object-contain" />
+                  <img src={mentor.image} alt={mentor.name} className="w-full h-full object-cover" />
                 ) : (
                   <div className="w-full h-full flex items-center justify-center text-gray-400 text-sm font-medium">
                     Headshot coming soon
@@ -67,13 +67,13 @@ export default function MentorPage({ params }: MentorPageProps) {
                 </p>
               </div>
 
-              <div className="w-full">
+              <div className="w-full flex flex-col items-center text-center">
                 {mentor.universityLogo ? (
                   // eslint-disable-next-line @next/next/no-img-element
                   <img
                     src={mentor.universityLogo}
                     alt={mentor.university}
-                    className="h-14 w-auto mx-auto lg:mx-0 mb-3"
+                    className="h-14 w-auto mb-3"
                   />
                 ) : null}
                 <p className="text-gray-700 font-semibold text-sm">
