@@ -894,6 +894,7 @@ export default function Home() {
                   <p className="text-gray-600 text-sm mb-2">Soccer</p>
                   <p className="text-gray-500 text-xs mb-4">Class of 2026</p>
                   <div className="mb-4">
+                    <img src="/Columbialogo.jpg.png" alt="Columbia" className="h-12 w-auto mx-auto mb-2" />
                     <p className="text-gray-700 font-semibold text-sm">Columbia University</p>
                   </div>
                   <p className="text-gray-700 text-sm mb-4 flex-1">
@@ -923,6 +924,7 @@ export default function Home() {
                   <p className="text-gray-600 text-sm mb-2">Soccer</p>
                   <p className="text-gray-500 text-xs mb-4">Class of 2026</p>
                   <div className="mb-4">
+                    <img src="/umassbostonlogo.jpg.png" alt="UMass" className="h-12 w-auto mx-auto mb-2" />
                     <p className="text-gray-700 font-semibold text-sm">UMass Lowell</p>
                   </div>
                   <p className="text-gray-700 text-sm mb-4 flex-1">
@@ -952,6 +954,7 @@ export default function Home() {
                   <p className="text-gray-600 text-sm mb-2">Soccer</p>
                   <p className="text-gray-500 text-xs mb-4">Class of 2026</p>
                   <div className="mb-4">
+                    <img src="/fordhamlogo.jpg.png" alt="Fordham" className="h-12 w-auto mx-auto mb-2" />
                     <p className="text-gray-700 font-semibold text-sm">Fordham University</p>
                   </div>
                   <p className="text-gray-700 text-sm mb-4 flex-1">
@@ -981,6 +984,7 @@ export default function Home() {
                   <p className="text-gray-600 text-sm mb-2">Soccer</p>
                   <p className="text-gray-500 text-xs mb-4">Class of 2026</p>
                   <div className="mb-4">
+                    <img src="/villanovalogo.jpg.png" alt="Villanova" className="h-12 w-auto mx-auto mb-2" />
                     <p className="text-gray-700 font-semibold text-sm">Villanova University</p>
                   </div>
                   <p className="text-gray-700 text-sm mb-4 flex-1">
@@ -1010,6 +1014,7 @@ export default function Home() {
                   <p className="text-gray-600 text-sm mb-2">Soccer</p>
                   <p className="text-gray-500 text-xs mb-4">Class of 2026</p>
                   <div className="mb-4">
+                    <img src="/umassbostonlogo.jpg.png" alt="UMass" className="h-12 w-auto mx-auto mb-2" />
                     <p className="text-gray-700 font-semibold text-sm">UMass Lowell</p>
                   </div>
                   <p className="text-gray-700 text-sm mb-4 flex-1">
