@@ -875,7 +875,7 @@ export default function Home() {
                     href="/mentor/ricky-rollo"
                     className="mt-auto inline-flex w-full items-center justify-center bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors"
                   >
-                    Learn more about Ricky Rollo
+                    Learn more about Ricky
                   </Link>
                 </div>
               </div>
@@ -901,7 +901,7 @@ export default function Home() {
                     href="/mentor/amir-yahalom"
                     className="mt-auto inline-flex w-full items-center justify-center bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors"
                   >
-                    Learn more about Amir Yahalom
+                    Learn more about Amir
                   </Link>
                 </div>
               </div>
@@ -927,7 +927,7 @@ export default function Home() {
                     href="/mentor/george-nouaime"
                     className="mt-auto inline-flex w-full items-center justify-center bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors"
                   >
-                    Learn more about George Nouaime
+                    Learn more about George
                   </Link>
                 </div>
               </div>
@@ -953,7 +953,7 @@ export default function Home() {
                     href="/mentor/nick-mesquita"
                     className="mt-auto inline-flex w-full items-center justify-center bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors"
                   >
-                    Learn more about Nick Mesquita
+                    Learn more about Nick
                   </Link>
                 </div>
               </div>
@@ -979,7 +979,7 @@ export default function Home() {
                     href="/mentor/zach-miles"
                     className="mt-auto inline-flex w-full items-center justify-center bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors"
                   >
-                    Learn more about Zach Miles
+                    Learn more about Zach
                   </Link>
                 </div>
               </div>
@@ -1005,7 +1005,7 @@ export default function Home() {
                     href="/mentor/maxim-makar"
                     className="mt-auto inline-flex w-full items-center justify-center bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors"
                   >
-                    Learn more about Maxim Makar
+                    Learn more about Maxim
                   </Link>
                 </div>
               </div>
@@ -1030,7 +1030,7 @@ export default function Home() {
                     href="/mentor/mit-mentor"
                     className="mt-auto inline-flex w-full items-center justify-center bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors"
                   >
-                    Learn more about Placeholder Name
+                    Learn more about Placeholder
                   </Link>
                 </div>
               </div>
@@ -1055,7 +1055,7 @@ export default function Home() {
                     href="/mentor/duke-mentor"
                     className="mt-auto inline-flex w-full items-center justify-center bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors"
                   >
-                    Learn more about Placeholder Name
+                    Learn more about Placeholder
                   </Link>
                 </div>
               </div>
