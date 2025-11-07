@@ -868,9 +868,7 @@ export default function Home() {
                     <img src="/harvard.png" alt="Harvard" className="h-12 w-auto mx-auto mb-2" />
                     <p className="text-gray-700 font-semibold text-sm">Harvard University</p>
                   </div>
-                  <p className="text-gray-700 text-sm mb-4 flex-1">
-                    Physics and Mathematics major. Current student-athlete who successfully navigated the recruitment process.
-                  </p>
+                  <div className="flex-1" />
                   <Link 
                     href="/mentor/ricky-rollo"
                     className="mt-auto inline-flex w-full items-center justify-center bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors"
@@ -894,9 +892,7 @@ export default function Home() {
                     <img src="/Columbialogo.jpg.png" alt="Columbia" className="h-12 w-auto mx-auto mb-2" />
                     <p className="text-gray-700 font-semibold text-sm">Columbia University</p>
                   </div>
-                  <p className="text-gray-700 text-sm mb-4 flex-1">
-                    Current student-athlete who successfully navigated the recruitment process and transitioned to Division I soccer.
-                  </p>
+                  <div className="flex-1" />
                   <Link 
                     href="/mentor/amir-yahalom"
                     className="mt-auto inline-flex w-full items-center justify-center bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors"
@@ -920,9 +916,7 @@ export default function Home() {
                     <img src="/umassbostonlogo.jpg.png" alt="UMass" className="h-12 w-auto mx-auto mb-2" />
                     <p className="text-gray-700 font-semibold text-sm">UMass Lowell</p>
                   </div>
-                  <p className="text-gray-700 text-sm mb-4 flex-1">
-                    Current student-athlete who successfully navigated the recruitment process and transitioned to Division I soccer.
-                  </p>
+                  <div className="flex-1" />
                   <Link 
                     href="/mentor/george-nouaime"
                     className="mt-auto inline-flex w-full items-center justify-center bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors"
@@ -946,9 +940,7 @@ export default function Home() {
                     <img src="/fordhamlogo.jpg.png" alt="Fordham" className="h-12 w-auto mx-auto mb-2" />
                     <p className="text-gray-700 font-semibold text-sm">Fordham University</p>
                   </div>
-                  <p className="text-gray-700 text-sm mb-4 flex-1">
-                    Current student-athlete who successfully navigated the recruitment process and transitioned to Division I soccer.
-                  </p>
+                  <div className="flex-1" />
                   <Link 
                     href="/mentor/nick-mesquita"
                     className="mt-auto inline-flex w-full items-center justify-center bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors"
@@ -972,9 +964,7 @@ export default function Home() {
                     <img src="/villanovalogo.jpg.png" alt="Villanova" className="h-12 w-auto mx-auto mb-2" />
                     <p className="text-gray-700 font-semibold text-sm">Villanova University</p>
                   </div>
-                  <p className="text-gray-700 text-sm mb-4 flex-1">
-                    Current student-athlete who successfully navigated the recruitment process and transitioned to Division I soccer.
-                  </p>
+                  <div className="flex-1" />
                   <Link 
                     href="/mentor/zach-miles"
                     className="mt-auto inline-flex w-full items-center justify-center bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors"
@@ -998,9 +988,7 @@ export default function Home() {
                     <img src="/umassbostonlogo.jpg.png" alt="UMass" className="h-12 w-auto mx-auto mb-2" />
                     <p className="text-gray-700 font-semibold text-sm">UMass Lowell</p>
                   </div>
-                  <p className="text-gray-700 text-sm mb-4 flex-1">
-                    Current student-athlete who successfully navigated the recruitment process and transitioned to Division I soccer.
-                  </p>
+                  <div className="flex-1" />
                   <Link 
                     href="/mentor/maxim-makar"
                     className="mt-auto inline-flex w-full items-center justify-center bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors"
