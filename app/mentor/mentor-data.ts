@@ -56,7 +56,7 @@ export const mentors: MentorProfile[] = [
     sport: 'Soccer',
     classYear: 'Class of 2026',
     university: 'UMass Lowell',
-    universityLogo: '/umassbostonlogo.jpg.png',
+    universityLogo: '/umasslowelllogo.png',
     image: '/george-nouaime.jpg',
     bio: 'Helps ambitious players understand the pathway from club soccer to earning minutes in the America East conference.',
     highlights: [
@@ -110,7 +110,7 @@ export const mentors: MentorProfile[] = [
     sport: 'Soccer',
     classYear: 'Class of 2026',
     university: 'UMass Lowell',
-    universityLogo: '/umassbostonlogo.jpg.png',
+    universityLogo: '/umasslowelllogo.png',
     image: '/maxim-makar.jpg.png',
     bio: 'Provides an international perspective on adapting to life in the NCAA, from housing to travel to strength programs.',
     highlights: [
