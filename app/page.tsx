@@ -1262,20 +1262,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Quiz Section */}
-      <section className="py-16 text-center text-white" style={{background: '#0f172a'}}>
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-black mb-5">
-            Find Your Perfect College Mentor in 45 Seconds
-          </h2>
-          <p className="text-lg md:text-xl mb-10 opacity-90">
-            Answer 6 quick questions → get matched + 20% off your package
-          </p>
-          
-          <div id="quizApp" className="max-w-2xl mx-auto"></div>
-        </div>
-      </section>
-
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
