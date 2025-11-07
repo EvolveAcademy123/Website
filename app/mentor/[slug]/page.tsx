@@ -48,7 +48,7 @@ export default function MentorPage({ params }: MentorPageProps) {
 
           <div className="mt-10 bg-white rounded-3xl shadow-lg border border-gray-100 p-8 md:p-12 flex flex-col lg:flex-row items-start gap-8">
             <div className="flex flex-col items-center text-center lg:text-left lg:items-start gap-4 flex-shrink-0">
-              <div className="w-40 h-40 rounded-full overflow-hidden bg-gray-100">
+              <div className="w-32 h-32 rounded-full overflow-hidden bg-gray-100 flex items-center justify-center">
                 {mentor.image ? (
                   // eslint-disable-next-line @next/next/no-img-element
                   <img src={mentor.image} alt={mentor.name} className="w-full h-full object-contain" />
