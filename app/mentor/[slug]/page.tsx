@@ -51,7 +51,7 @@ export default function MentorPage({ params }: MentorPageProps) {
               <div className="w-40 h-40 rounded-full overflow-hidden bg-gray-100 flex items-center justify-center">
                 {mentor.image ? (
                   // eslint-disable-next-line @next/next/no-img-element
-                  <img src={mentor.image} alt={mentor.name} className="w-full h-full object-cover" />
+                  <img src={mentor.image} alt={mentor.name} className="w-full h-full object-contain" />
                 ) : (
                   <div className="w-full h-full flex items-center justify-center text-gray-400 text-sm font-medium">
                     Headshot coming soon
