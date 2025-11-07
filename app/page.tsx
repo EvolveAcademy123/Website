@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState, useEffect } from 'react'
+import Link from 'next/link'
 import Script from 'next/script'
 import { 
   User, 
@@ -870,16 +871,12 @@ export default function Home() {
                   <p className="text-gray-700 text-sm mb-4 flex-1">
                     Physics and Mathematics major. Current student-athlete who successfully navigated the recruitment process.
                   </p>
-                  <a 
-                    href="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform?usp=pp_url&entry.XXXXX=Ricky%20Rollo" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="w-full mt-auto"
+                  <Link 
+                    href="/mentor/ricky-rollo"
+                    className="mt-auto inline-flex w-full items-center justify-center bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors"
                   >
-                    <button className="w-full bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors">
-                      Match me with this mentor
-                    </button>
-                  </a>
+                    Match me with this mentor
+                  </Link>
                 </div>
               </div>
 
@@ -900,16 +897,12 @@ export default function Home() {
                   <p className="text-gray-700 text-sm mb-4 flex-1">
                     Current student-athlete who successfully navigated the recruitment process and transitioned to Division I soccer.
                   </p>
-                  <a 
-                    href="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform?usp=pp_url&entry.XXXXX=Amir%20Yahalom" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="w-full mt-auto"
+                  <Link 
+                    href="/mentor/amir-yahalom"
+                    className="mt-auto inline-flex w-full items-center justify-center bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors"
                   >
-                    <button className="w-full bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors">
-                      Match me with this mentor
-                    </button>
-                  </a>
+                    Match me with this mentor
+                  </Link>
                 </div>
               </div>
 
@@ -930,16 +923,12 @@ export default function Home() {
                   <p className="text-gray-700 text-sm mb-4 flex-1">
                     Current student-athlete who successfully navigated the recruitment process and transitioned to Division I soccer.
                   </p>
-                  <a 
-                    href="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform?usp=pp_url&entry.XXXXX=George%20Nouaime" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="w-full mt-auto"
+                  <Link 
+                    href="/mentor/george-nouaime"
+                    className="mt-auto inline-flex w-full items-center justify-center bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors"
                   >
-                    <button className="w-full bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors">
-                      Match me with this mentor
-                    </button>
-                  </a>
+                    Match me with this mentor
+                  </Link>
                 </div>
               </div>
 
@@ -960,16 +949,12 @@ export default function Home() {
                   <p className="text-gray-700 text-sm mb-4 flex-1">
                     Current student-athlete who successfully navigated the recruitment process and transitioned to Division I soccer.
                   </p>
-                  <a 
-                    href="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform?usp=pp_url&entry.XXXXX=Nick%20Mesquita" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="w-full mt-auto"
+                  <Link 
+                    href="/mentor/nick-mesquita"
+                    className="mt-auto inline-flex w-full items-center justify-center bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors"
                   >
-                    <button className="w-full bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors">
-                      Match me with this mentor
-                    </button>
-                  </a>
+                    Match me with this mentor
+                  </Link>
                 </div>
               </div>
 
@@ -990,16 +975,12 @@ export default function Home() {
                   <p className="text-gray-700 text-sm mb-4 flex-1">
                     Current student-athlete who successfully navigated the recruitment process and transitioned to Division I soccer.
                   </p>
-                  <a 
-                    href="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform?usp=pp_url&entry.XXXXX=Zach%20Miles" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="w-full mt-auto"
+                  <Link 
+                    href="/mentor/zach-miles"
+                    className="mt-auto inline-flex w-full items-center justify-center bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors"
                   >
-                    <button className="w-full bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors">
-                      Match me with this mentor
-                    </button>
-                  </a>
+                    Match me with this mentor
+                  </Link>
                 </div>
               </div>
 
@@ -1020,16 +1001,12 @@ export default function Home() {
                   <p className="text-gray-700 text-sm mb-4 flex-1">
                     Current student-athlete who successfully navigated the recruitment process and transitioned to Division I soccer.
                   </p>
-                  <a 
-                    href="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform?usp=pp_url&entry.XXXXX=Maxim%20Makar" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="w-full mt-auto"
+                  <Link 
+                    href="/mentor/maxim-makar"
+                    className="mt-auto inline-flex w-full items-center justify-center bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors"
                   >
-                    <button className="w-full bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors">
-                      Match me with this mentor
-                    </button>
-                  </a>
+                    Match me with this mentor
+                  </Link>
                 </div>
               </div>
 
@@ -1049,16 +1026,12 @@ export default function Home() {
                   <p className="text-gray-700 text-sm mb-4 flex-1">
                     Current student-athlete who successfully navigated the recruitment process and transitioned to Division III soccer.
                   </p>
-                  <a 
-                    href="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform?usp=pp_url&entry.XXXXX=MIT%20Mentor" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="w-full mt-auto"
+                  <Link 
+                    href="/mentor/mit-mentor"
+                    className="mt-auto inline-flex w-full items-center justify-center bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors"
                   >
-                    <button className="w-full bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors">
-                      Match me with this mentor
-                    </button>
-                  </a>
+                    Match me with this mentor
+                  </Link>
                 </div>
               </div>
 
@@ -1078,16 +1051,12 @@ export default function Home() {
                   <p className="text-gray-700 text-sm mb-4 flex-1">
                     Current student-athlete who successfully navigated the recruitment process and transitioned to Division I soccer.
                   </p>
-                  <a 
-                    href="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform?usp=pp_url&entry.XXXXX=Duke%20Mentor" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="w-full mt-auto"
+                  <Link 
+                    href="/mentor/duke-mentor"
+                    className="mt-auto inline-flex w-full items-center justify-center bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors"
                   >
-                    <button className="w-full bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors">
-                      Match me with this mentor
-                    </button>
-                  </a>
+                    Match me with this mentor
+                  </Link>
                 </div>
               </div>
             </div>
@@ -1134,37 +1103,19 @@ export default function Home() {
               Fill out the form below to register your interest in our programs.
             </p>
           </div>
-          
-          {/* Google Form Embed */}
-          <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
-            <iframe 
-              src="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform?embedded=true" 
-              width="100%" 
-              height={1450} 
-              frameBorder="0" 
-              marginHeight={0} 
-              marginWidth={0}
-              className="rounded-lg"
-              title="Register Your Interest Form"
-            >
-              Loading…
-            </iframe>
-          </div>
-          
-          {/* Fallback for iframe issues */}
-          <div className="mt-6 text-center">
-            <p className="text-sm text-gray-500 mb-4">
-              Having trouble viewing the form?
-            </p>
-            <a 
-              href="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary-600 hover:bg-primary-700 transition-colors"
-            >
-              Open Form in New Tab
-            </a>
-          </div>
+        <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8 text-center">
+          <p className="text-gray-700 text-lg mb-6">
+            Ready to take the next step? Complete our short interest form and we’ll get in touch with next steps.
+          </p>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center px-8 py-3 bg-primary-600 text-white font-semibold rounded-xl hover:bg-primary-700 transition-colors"
+          >
+            Open Interest Form
+          </a>
+        </div>
         </div>
       </section>
 
