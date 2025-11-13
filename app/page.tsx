@@ -132,8 +132,13 @@ export default function Home() {
             </nav>
 
             <div className="hidden md:flex items-center space-x-4">
+              <Link href="/subscribe">
+                <button className="bg-primary-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-primary-700 transition-colors">
+                  Subscribe Now
+                </button>
+              </Link>
               <a href="#register-interest">
-              <button className="bg-primary-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-primary-700 transition-colors">
+              <button className="bg-gray-100 text-gray-700 px-6 py-2 rounded-lg font-medium hover:bg-gray-200 transition-colors">
                   Get Started
               </button>
               </a>
@@ -168,9 +173,14 @@ export default function Home() {
               <a href="#faq" className="block px-3 py-2 text-gray-700 hover:text-primary-600">
                 FAQ
               </a>
-              <div className="px-3 py-2">
+              <div className="px-3 py-2 space-y-2">
+                <Link href="/subscribe">
+                  <button className="w-full bg-primary-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-primary-700 transition-colors">
+                    Subscribe Now
+                  </button>
+                </Link>
                 <a href="#register-interest">
-                <button className="w-full bg-primary-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-primary-700 transition-colors">
+                <button className="w-full bg-gray-100 text-gray-700 px-6 py-2 rounded-lg font-medium hover:bg-gray-200 transition-colors">
                     Get Started
                 </button>
                 </a>
