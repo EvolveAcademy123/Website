@@ -132,15 +132,17 @@ export default function Home() {
             </nav>
 
             <div className="hidden md:flex items-center space-x-4">
-              <Link href="/subscribe">
-                <button className="bg-primary-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-primary-700 transition-colors">
-                  Subscribe Now
-                </button>
+              <Link
+                href="/subscribe"
+                className="bg-primary-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-primary-700 transition-colors"
+              >
+                Subscribe Now
               </Link>
-              <a href="#register-interest">
-              <button className="bg-gray-100 text-gray-700 px-6 py-2 rounded-lg font-medium hover:bg-gray-200 transition-colors">
-                  Get Started
-              </button>
+              <a
+                href="#register-interest"
+                className="bg-gray-100 text-gray-700 px-6 py-2 rounded-lg font-medium hover:bg-gray-200 transition-colors"
+              >
+                Get Started
               </a>
             </div>
 
@@ -148,6 +150,9 @@ export default function Home() {
             <button 
               className="md:hidden p-2"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              aria-label={mobileMenuOpen ? 'Close navigation menu' : 'Open navigation menu'}
+              aria-expanded={mobileMenuOpen}
+              aria-controls="mobile-nav"
             >
               {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -156,7 +161,7 @@ export default function Home() {
 
         {/* Mobile Navigation */}
         {mobileMenuOpen && (
-          <div className="md:hidden bg-white border-t border-gray-200">
+          <div id="mobile-nav" className="md:hidden bg-white border-t border-gray-200">
             <div className="px-2 pt-2 pb-3 space-y-1">
               <a href="#programs" className="block px-3 py-2 text-gray-700 hover:text-primary-600">
                 Programs
@@ -174,15 +179,17 @@ export default function Home() {
                 FAQ
               </a>
               <div className="px-3 py-2 space-y-2">
-                <Link href="/subscribe">
-                  <button className="w-full bg-primary-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-primary-700 transition-colors">
-                    Subscribe Now
-                  </button>
+                <Link
+                  href="/subscribe"
+                  className="block w-full text-center bg-primary-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-primary-700 transition-colors"
+                >
+                  Subscribe Now
                 </Link>
-                <a href="#register-interest">
-                <button className="w-full bg-gray-100 text-gray-700 px-6 py-2 rounded-lg font-medium hover:bg-gray-200 transition-colors">
-                    Get Started
-                </button>
+                <a
+                  href="#register-interest"
+                  className="block w-full text-center bg-gray-100 text-gray-700 px-6 py-2 rounded-lg font-medium hover:bg-gray-200 transition-colors"
+                >
+                  Get Started
                 </a>
               </div>
             </div>
@@ -209,10 +216,11 @@ export default function Home() {
               At Evolve Academy, we empower young athletes to reach their full potential — by building not just their game, but their mindset, confidence, and growth for the future.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="#register-interest">
-              <button className="bg-primary-600 text-white px-8 py-4 rounded-lg font-medium text-lg hover:bg-primary-700 transition-colors">
+              <a
+                href="#register-interest"
+                className="bg-primary-600 text-white px-8 py-4 rounded-lg font-medium text-lg hover:bg-primary-700 transition-colors"
+              >
                 Start Your Journey
-              </button>
               </a>
             </div>
           </div>
@@ -285,10 +293,11 @@ export default function Home() {
                 strengthen your mindset, and accelerate your development. With undivided attention 
                 and a tailored plan, this is all about you.
               </p>
-              <a href="#evolve-one-details">
-              <button className="w-full bg-primary-600 text-white py-3 rounded-lg font-medium hover:bg-primary-700 transition-colors">
+              <a
+                href="#evolve-one-details"
+                className="block w-full text-center bg-primary-600 text-white py-3 rounded-lg font-medium hover:bg-primary-700 transition-colors"
+              >
                 Learn More
-              </button>
               </a>
             </div>
 
@@ -307,10 +316,11 @@ export default function Home() {
                 A small-group experience that combines personal growth with the power of a supportive team. 
                 Learn, challenge, and inspire each other while developing the skills and mindset you need to succeed — together.
               </p>
-              <a href="#evolve-squad-details">
-              <button className="w-full bg-primary-600 text-white py-3 rounded-lg font-medium hover:bg-primary-700 transition-colors">
+              <a
+                href="#evolve-squad-details"
+                className="block w-full text-center bg-primary-600 text-white py-3 rounded-lg font-medium hover:bg-primary-700 transition-colors"
+              >
                 Learn More
-              </button>
               </a>
             </div>
 
@@ -330,10 +340,11 @@ export default function Home() {
                 elite-level mentorship and training to help you refine your edge, master your mindset, 
                 and perform at the highest level.
               </p>
-              <a href="#evolve-pro-details">
-              <button className="w-full bg-primary-600 text-white py-3 rounded-lg font-medium hover:bg-primary-700 transition-colors">
+              <a
+                href="#evolve-pro-details"
+                className="block w-full text-center bg-primary-600 text-white py-3 rounded-lg font-medium hover:bg-primary-700 transition-colors"
+              >
                 Learn More
-              </button>
               </a>
             </div>
 
@@ -353,10 +364,11 @@ export default function Home() {
                 Get real insights, guidance, and mentorship from student-athletes who've successfully 
                 navigated the path you're on.
               </p>
-              <a href="#evolve-athlete-details">
-              <button className="w-full bg-primary-600 text-white py-3 rounded-lg font-medium hover:bg-primary-700 transition-colors">
+              <a
+                href="#evolve-athlete-details"
+                className="block w-full text-center bg-primary-600 text-white py-3 rounded-lg font-medium hover:bg-primary-700 transition-colors"
+              >
                 Learn More
-              </button>
               </a>
             </div>
           </div>
@@ -505,9 +517,11 @@ export default function Home() {
 
           <div className="grid md:grid-cols-3 gap-12">
             {/* Video Testimonial 1 */}
-            <div 
-              className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 cursor-pointer transition-all duration-300 hover:shadow-lg hover:scale-105"
+            <button
+              type="button"
+              className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 cursor-pointer transition-all duration-300 hover:shadow-lg hover:scale-105 text-left"
               onClick={() => openVideoModal(videoMapping['Cristiano Oliveira'])}
+              aria-label="Play Cristiano Oliveira testimonial video"
             >
               <div className="aspect-video bg-gray-200 rounded-lg mb-6 relative overflow-hidden group">
                 <img 
@@ -530,12 +544,14 @@ export default function Home() {
                 <p className="font-semibold text-gray-900 mb-1">Cristiano Oliveira</p>
                 <p className="text-gray-600 text-sm">New England Revolution</p>
               </div>
-            </div>
+            </button>
 
             {/* Video Testimonial 2 */}
-            <div 
-              className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 cursor-pointer transition-all duration-300 hover:shadow-lg hover:scale-105"
+            <button
+              type="button"
+              className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 cursor-pointer transition-all duration-300 hover:shadow-lg hover:scale-105 text-left"
               onClick={() => openVideoModal(videoMapping['Logan Moniz'])}
+              aria-label="Play Logan Moniz testimonial video"
             >
               <div className="aspect-video bg-gray-200 rounded-lg mb-6 relative overflow-hidden group">
                 <img 
@@ -558,12 +574,14 @@ export default function Home() {
                 <p className="font-semibold text-gray-900 mb-1">Logan Moniz</p>
                 <p className="text-gray-600 text-sm">Duke University Commit</p>
               </div>
-            </div>
+            </button>
 
             {/* Video Testimonial 3 */}
-            <div 
-              className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 cursor-pointer transition-all duration-300 hover:shadow-lg hover:scale-105"
+            <button
+              type="button"
+              className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 cursor-pointer transition-all duration-300 hover:shadow-lg hover:scale-105 text-left"
               onClick={() => openVideoModal(videoMapping['Julian Martinez'])}
+              aria-label="Play Julian Martinez testimonial video"
             >
               <div className="aspect-video bg-gray-200 rounded-lg mb-6 relative overflow-hidden group">
                 <img 
@@ -586,7 +604,7 @@ export default function Home() {
                 <p className="font-semibold text-gray-900 mb-1">Julian Martinez</p>
                 <p className="text-gray-600 text-sm">Boston Bolts</p>
               </div>
-            </div>
+            </button>
           </div>
         </div>
       </section>
@@ -635,11 +653,9 @@ export default function Home() {
                     href="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform?usp=pp_url&entry.XXXXX=Alan%20Nixon" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="w-full mt-auto"
+                    className="w-full mt-auto bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors text-center"
                   >
-                    <button className="w-full bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors">
-                      Match me with this mentor
-                    </button>
+                    Match me with this mentor
                   </a>
               </div>
             </div>
@@ -657,11 +673,9 @@ export default function Home() {
                     href="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform?usp=pp_url&entry.XXXXX=Kurtis%20Millan" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="w-full mt-auto"
+                    className="w-full mt-auto bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors text-center"
                   >
-                    <button className="w-full bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors">
-                      Match me with this mentor
-                    </button>
+                    Match me with this mentor
                   </a>
               </div>
               </div>
@@ -679,11 +693,9 @@ export default function Home() {
                     href="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform?usp=pp_url&entry.XXXXX=Colin%20Nixon" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="w-full mt-auto"
+                    className="w-full mt-auto bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors text-center"
                   >
-                    <button className="w-full bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors">
-                      Match me with this mentor
-                    </button>
+                    Match me with this mentor
                   </a>
               </div>
             </div>
@@ -701,11 +713,9 @@ export default function Home() {
                     href="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform?usp=pp_url&entry.XXXXX=Mario%20Pruul" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="w-full mt-auto"
+                    className="w-full mt-auto bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors text-center"
                   >
-                    <button className="w-full bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors">
-                      Match me with this mentor
-                    </button>
+                    Match me with this mentor
                   </a>
               </div>
               </div>
@@ -723,11 +733,9 @@ export default function Home() {
                     href="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform?usp=pp_url&entry.XXXXX=Justin%20Sheppard" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="w-full mt-auto"
+                    className="w-full mt-auto bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors text-center"
                   >
-                    <button className="w-full bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors">
-                      Match me with this mentor
-                    </button>
+                    Match me with this mentor
                   </a>
               </div>
             </div>
@@ -745,11 +753,9 @@ export default function Home() {
                     href="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform?usp=pp_url&entry.XXXXX=Christopher%20Ricardi" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="w-full mt-auto"
+                    className="w-full mt-auto bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors text-center"
                   >
-                    <button className="w-full bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors">
-                      Match me with this mentor
-                    </button>
+                    Match me with this mentor
                   </a>
           </div>
         </div>
@@ -767,11 +773,9 @@ export default function Home() {
                     href="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform?usp=pp_url&entry.XXXXX=Jonny%20Tuffey" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="w-full mt-auto"
+                    className="w-full mt-auto bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors text-center"
                   >
-                    <button className="w-full bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors">
-                      Match me with this mentor
-                    </button>
+                    Match me with this mentor
                   </a>
                 </div>
               </div>
@@ -789,11 +793,9 @@ export default function Home() {
                     href="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform?usp=pp_url&entry.XXXXX=Kevin%20Keegan" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="w-full mt-auto"
+                    className="w-full mt-auto bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors text-center"
                   >
-                    <button className="w-full bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors">
-                      Match me with this mentor
-                    </button>
+                    Match me with this mentor
                   </a>
                 </div>
               </div>
@@ -811,11 +813,9 @@ export default function Home() {
                     href="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform?usp=pp_url&entry.XXXXX=Mark%20Austin" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="w-full mt-auto"
+                    className="w-full mt-auto bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors text-center"
                   >
-                    <button className="w-full bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors">
-                      Match me with this mentor
-                    </button>
+                    Match me with this mentor
                   </a>
                 </div>
               </div>
@@ -833,11 +833,9 @@ export default function Home() {
                     href="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform?usp=pp_url&entry.XXXXX=Piotr%20Paprocki" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="w-full mt-auto"
+                    className="w-full mt-auto bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors text-center"
                   >
-                    <button className="w-full bg-primary-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors">
-                      Match me with this mentor
-                    </button>
+                    Match me with this mentor
                   </a>
                 </div>
               </div>
@@ -1105,6 +1103,10 @@ export default function Home() {
           <p className="text-gray-700 text-lg mb-6">
             Ready to take the next step? Complete our short interest form and we’ll get in touch with next steps.
           </p>
+          <div id="quizApp" className="min-h-[600px] w-full" />
+          <p className="text-sm text-gray-500 mt-4 mb-6">
+            If the form does not load, use the link below.
+          </p>
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLScyX3eVDqT0OnYoQSFufyGYhdG9Y5-3PdkP7BDJ8_k4yhV1aQ/viewform"
             target="_blank"
@@ -1191,13 +1193,15 @@ export default function Home() {
           <div className="mb-6">
             <h3 className="text-xl font-bold text-gray-900 mb-2">Who is the program for?</h3>
             <ul className="list-disc pl-6 text-gray-700">
-              <li>Young male soccer athletes aged 16-21 who have:</li>
-              <ul className="list-disc pl-8">
-                <li>Represented their country at Youth National level</li>
-                <li>Committed to a Div 1 or Ivy League school</li>
-                <li>MLS contracted</li>
-                <li>Experienced a trial with an elite European club</li>
-              </ul>
+              <li>
+                Young male soccer athletes aged 16-21 who have:
+                <ul className="list-disc pl-8 mt-2">
+                  <li>Represented their country at Youth National level</li>
+                  <li>Committed to a Div 1 or Ivy League school</li>
+                  <li>MLS contracted</li>
+                  <li>Experienced a trial with an elite European club</li>
+                </ul>
+              </li>
             </ul>
           </div>
           <div className="mb-6">

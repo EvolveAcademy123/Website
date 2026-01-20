@@ -1,3 +1,5 @@
+const lastUpdated = 'January 20, 2026'
+
 export default function Privacy() {
   return (
     <div className="min-h-screen bg-gray-50">
@@ -142,7 +144,7 @@ export default function Privacy() {
 
           <div className="border-t pt-6">
             <p className="text-sm text-gray-500">
-              Last updated: {new Date().toLocaleDateString()}
+              Last updated: {lastUpdated}
             </p>
           </div>
         </div>
